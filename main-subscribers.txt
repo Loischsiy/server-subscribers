@@ -1,6 +1,5 @@
 vless://55cf665b-24be-4da6-9129-a514d2277e1d@lva.tunnelguard.ru:443?security=reality&sni=www.apple.com&fp=chrome&pbk=emb-AdmW-AE8NW57UUcv3aXg6H0nUhHYdo79qiMR4EI&sid=10f8d18d6a7b5ef5&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%B1%F0%9F%87%BB%20PREMIUM%20Latvia
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMTMyNjc3MzY2WlRFbnhJWWZPVHc=@lt1.outline-vpn.top:443#%F0%9F%87%B1%F0%9F%87%BB%20PREMIUM%20Latvia
-ss://2022-blake3-aes-256-gcm:dGVzdHRlc3R0ZXN0dGVzdHRlc3R0ZXN0dGVzdHRlc3Q%3D%3Aq2KySgAdR6S2b5Pzy2ZzsJjZyPSJEkM3tWTTBiOudjg%3D@ss.po.0.w0nderful.ru:5555#%F0%9F%87%B5%F0%9F%87%B1%20PREMIUM%20POLAND
 vless://68473018-b7be-11ef-ae70-0242ac110004@fi1.cyphervpn.pro:433?security=reality&sni=google.com&fp=firefox&pbk=PNrOMJqbd5esxIZCTBEazmtk_lsyz0dUyxdbHXc8Xj0&sid=5ee0&spx=/&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%AB%F0%9F%87%AE%20PREMIUM%20FINLAND%20
 vless://8d34e096-53ad-43c3-a74b-5956837a4f21@cluster4.vpn-online.ru:8443?security=reality&sni=apple.com&allowInsecure=1&fp=chrome&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%AB%F0%9F%87%AE%20PREMIUM%20FINLAND%20
 vless://131479ebb3b3479e94df7f1c9f8bad0b@46.246.97.140:443?security=reality&sni=universityadmissions.se&alpn=h2&allowInsecure=1&fp=chrome&pbk=PpefnHIkJc873GMX6DITee6BjTDsOOh4T0Yqvf1QRjU&sid=aabbccdd&type=tcp&flow=xtls-rprx-vision&encryption=none#%F0%9F%87%B8%F0%9F%87%AA%20PREMIUM%20SWEDEN
@@ -31,7 +30,6 @@ vless://6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1@89.187.169.72:8443?security=tls&sni
 vless://6ff213b8-ccc7-4b5a-b4aa-37f7b792a1f1@89.187.169.71:8443?security=tls&alpn=h2&allowInsecure=1&fp=chrome&type=tcp&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany
 vless://a35017af-d228-44bd-885c-e5951ce09df6@5.75.202.205:80?security=&fp=chrome&type=ws&path=Mmdv2rayng-V2rayngmmd-telegram-mmd_v2rayng?ed%3D80&host=dl6.heykakenakhshanemvaberanakhshanemkhadijeomanigakobraoaminfatema.com&encryption=none#%F0%9F%87%A9%F0%9F%87%AA%20Germany
 vless://7f776039-e7ff-4968-863f-aa9aafc71e35@104.21.31.174:443?security=tls&sni=38940296643182637469275879707431.v2line.net&alpn=http/1.1&allowInsecure=1&fp=randomized&type=ws&path=/v2line-luxembourg-vl-ws-tls&host=38940296643182637469275879707431.v2line.net&encryption=none#%F0%9F%87%B1%F0%9F%87%BA%20%20Luxembourg
-vless://b642e82c-b721-43bc-8602-0241cc4a3933@45.15.157.21:7777?security=&fp=chrome&type=ws&path=/&host=wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc&encryption=none#%F0%9F%87%AB%F0%9F%87%B7%20France%20
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDTHBoeUVNUVQ4bmJHOEVJbVgwQTJE@5.35.47.122:45635#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1UVM1bnRWcUMwMHNTS2tlTnpVaUQz@89.23.103.125:42090#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB@193.29.139.251:8080#%F0%9F%87%B3%F0%9F%87%B1%20Netherlands
