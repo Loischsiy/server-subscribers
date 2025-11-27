@@ -2,7 +2,7 @@ mixed-port: 7890
 socks-port: 7891
 redir-port: 7892
 allow-lan: true
-mode: rule        # Рекомендую rule, но если нужно всё проксировать - можно оставить global
+mode: rule    
 log-level: info
 external-controller: 127.0.0.1:9090
 
@@ -51,73 +51,994 @@ dns:
     - speedtest.cros.wr.pvp.net
 
 proxies:
-  - name: "🇩🇪 Германия #3"
+  - name: "🌎 PREMIUM Случайная (Random) (1)"
     type: vless
-    server: de-nc.geodema.network
-    port: 443
+    server: 94.131.125.18
+    port: 16652
+    uuid: e19d4f1c-a023-4159-9a0d-5d98f0abca32
     network: tcp
-    udp: true
-    tls: true
-    servername: de-nc.geodema.network
-    reality-opts:
-      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-      short-id: 1ed136481e0ede74
-      client-fingerprint: qq
-    uuid: 73bec071-8d42-4294-a453-de168627649b
-    packet-encoding: xudp
-    flow: xtls-rprx-vision
+    tls: false
+    udp: false
+    servername: deep-route.ru
+    client-fingerprint: chrome
 
-  - name: "🇦🇹 Австрия"
-    type: vless
-    server: austria-nc.geodema.network
-    port: 443
-    network: tcp
+  - name: "🌎 PREMIUM Случайная (Random) (2)"
+    type: vmess
+    server: 94.131.125.18
+    port: 16086
+    uuid: e19d4f1c-a023-4159-9a0d-5d98f0abca32
+    alterId: 0
+    cipher: auto
     udp: true
     tls: true
-    servername: austria-nc.geodema.network
-    reality-opts:
-      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
-      short-id: 1ed136481e0ede74
-      client-fingerprint: edge
-    uuid: 73bec071-8d42-4294-a453-de168627649b
-    packet-encoding: xudp
-    flow: xtls-rprx-vision
+    network: tcp
+    servername: deep-route.ru
 
-  - name: "🇰🇿Казахстан ✅"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
     type: vless
-    server: 91.217.10.166
-    port: 8443
-    uuid: 50424fdc-dde0-499a-9c1e-ca4cbb60615c
+    server: h.onefrostcloud.com
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: telegavpn.com
+    servername: h.onefrostcloud.com
     client-fingerprint: chrome
     reality-opts:
-      public-key: AGy4uD5aFDrGtPY5Ok9cjYCGIcA2epC3_k5wpPqzj3Q
-      short-id: b811ccb43e8fad38
+      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
+      short-id: 7edebbe2d9d880fe
 
+  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
+    type: vless
+    server: 31.184.192.164
+    port: 4096
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇦🇲 PREMIUM Армения (Armenia)"
+    type: vless
+    server: amaed5.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: amaed5.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: lpqUVB3l0FJ18PpgL9U0KK1TLgYXD-DGFlqD4vjsu3k
+      short-id: a3333512a67df161
+
+  - name: "🇱🇹 PREMIUM Литва (LITVA) (1)"
+    type: vless
+    server: 45.12.136.230
+    port: 4110
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇱🇹 PREMIUM Литва (LITVA) (2)"
+    type: vless
+    server: ltd693.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ltd693.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: HemDuRaIW0s1Z13nGv_0O1l-1u4qtWOPR8lb3R8Yfkc
+      short-id: c5b83d8288caa342
+
+  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
+    type: vless
+    server: 176.120.67.175
+    port: 4109
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇪🇪 PREMIUM Эстония (Estonia)"
+    type: vless
+    server: ee.pixvpn.app
+    port: 8443
+    uuid: f98003cd-7211-41da-980f-407b3023d438
+    network: grpc
+    tls: true
+    udp: true
+    servername: bilibili.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: d3a1b4c7e9f08234
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+    type: vless
+    server: b.onefrostcloud.com
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: b.onefrostcloud.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
+      short-id: 577a94c45a351518
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
+    type: vless
+    server: plee32.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: plee32.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: JFTe6rovsvqxZ7jEdEY7oQseYrtH0J9h1RUsQtdK2ks
+      short-id: c113dc50780d71b4
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
+    type: vless
+    server: 212.233.121.39
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: sun6-21.userapi.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: DM-i0xYypamcOWDoLJtUqbL1m-rAZDvzTNDnImwib24
+      short-id: 5faf84a2083a3d67
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
+    type: vless
+    server: 212.233.121.39
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: eh.vk.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: iAiYHa8iuZvsE5MSOG2MZElvxS8Jyy1xy2XB4zxfJmU
+      short-id: 1576ba091b67d3d8
+
+  - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
+    type: vless
+    server: cza352.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cza352.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: 7n-qrXBnUcdrowH4pyBwbLT2rNO2WtG6jm0S2QLdGxQ
+      short-id: 727e11165f6f981f
+
+  - name: "🇭🇷 PREMIUM Хорватия (Croatia)"
+    type: vless
+    server: 185.156.110.247
+    port: 4099
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇷🇸 PREMIUM Сербия (Serbia)"
+    type: vless
+    server: sb.miltu.mikuvpn.com
+    port: 443
+    uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
+    network: tcp
+    tls: false
+    udp: true
+    flow: xtls-rprx-vision
+    servername: sb.miltu.mikuvpn.com
+    client-fingerprint: chrome
+
+  - name: "🇸🇰 PREMIUM Словакия (Slovakia)"
+    type: vless
+    server: 5.252.23.223
+    port: 4113
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇸🇮 PREMIUM Словения (Slovenia)"
+    type: vless
+    server: 45.83.131.135
+    port: 4114
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇧🇬 PREMIUM Болгария (Bulgaria)"
+    type: vless
+    server: 95.164.21.18
+    port: 4103
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+    type: vless
+    server: fin1class.mikuvpn.com
+    port: 443
+    uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
+    network: tcp
+    tls: false
+    udp: true
+    flow: xtls-rprx-vision
+    servername: fin1class.mikuvpn.com
+    client-fingerprint: chrome
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+    type: vless
+    server: fic154.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: fic154.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: Xzl7qCf_vE0is4qyN969TwwAuTTtSsbo8VkP7jAOhjY
+      short-id: fd0f6a8e58acfed5
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
+    type: vless
+    server: fi.mirolit.ru
+    port: 443
+    uuid: d8ef5e2a-d506-4cb6-b320-e2cc6510c1d0
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: fi.mirolit.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: rhWG0KJfuzgL4XXH_PCKvh21twr5uxpFU_5yxQij7Rg
+      short-id: 1c0b3b481635dbb7
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
+    type: ss
+    server: 1fnsk.mikuvpn.com
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: ccunXMLBMQhG7YSszM_AaHS4_6CF00zM
+    udp: true
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
+    type: ss
+    server: fn4class.mikuvpn.com
+    port: 443
+    cipher: chacha20-ietf-poly1305
+    password: ccunXMLBMQhG7YSszM_AaHS4_6CF00zM
+    udp: true
+
+  - name: "🇳🇴 PREMIUM Норвегия (Norway)"
+    type: vless
+    server: 82.25.34.179
+    port: 4089
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇩🇰 PREMIUM Дания (Denmark)"
+    type: vless
+    server: 38.180.20.24
+    port: 443
+    uuid: 4a7f52c9-179e-4de6-8a0d-a0f73bab46cd
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: cdnjs.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 5yJBj2vkKSaFAf7pNVJkFz6KJGqRY_fC0ejsn0ou3iM
+      short-id: 3db26222a4db41b9
+
+  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
+    type: vless
+    server: 95.164.69.53
+    port: 4121
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇮🇪 PREMIUM Ирландия (Ireland)"
+    type: vless
+    server: 185.231.207.25
+    port: 4108
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇧🇪 PREMIUM Бельгия (Belgium)"
+    type: vless
+    server: 45.83.20.3
+    port: 4102
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇱🇺 PREMIUM Люксембург (Luxembourg)"
+    type: vless
+    server: 45.128.72.43
+    port: 4111
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
+    type: vless
+    server: cha1d2.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cha1d2.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: Kl4VQj6QqBrcQ-cEfZoeF5oH03IgEUyOD5_wDZBEf1E
+      short-id: 9adda36a864befe8
+
+  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (2)"
+    type: vless
+    server: 141.11.164.129
+    port: 4087
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇫🇷 PREMIUM Франция (France) (1)"
+    type: vless
+    server: 45.12.133.52
+    port: 4120
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇫🇷 PREMIUM Франция (France) (2)"
+    type: vless
+    server: fr.pixvpn.app
+    port: 8443
+    uuid: f98003cd-7211-41da-980f-407b3023d438
+    network: grpc
+    tls: true
+    udp: true
+    servername: bilibili.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: d3a1b4c7e9f08234
+
+  - name: "🇫🇷 PREMIUM Франция (France) (3)"
+    type: vless
+    server: fr.multi.mikuvpn.com
+    port: 443
+    uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
+    network: tcp
+    tls: false
+    udp: true
+    flow: xtls-rprx-vision
+    servername: fr.multi.mikuvpn.com
+    client-fingerprint: chrome
+
+  - name: "🇦🇹 PREMIUM Австрия (Austria)"
+    type: vless
+    server: at.pixvpn.app
+    port: 8443
+    uuid: f98003cd-7211-41da-980f-407b3023d438
+    network: grpc
+    tls: true
+    udp: true
+    servername: bilibili.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: d3a1b4c7e9f08234
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
+    type: vless
+    server: de.mirolit.ru
+    port: 443
+    uuid: d8ef5e2a-d506-4cb6-b320-e2cc6510c1d0
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: de.mirolit.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: h6Cfxf_OaxW9-K-3-MM2Dp_kX9xyAbv3Ul88GAFOV0U
+      short-id: 0cdea27c989bce3e
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
+    type: vless
+    server: 82.22.184.87
+    port: 9696
+    uuid: 7de2959e-d9f2-4ca0-9777-553f6a9a3d7e
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: club.spicycheeze.ru
+    client-fingerprint: safari
+    reality-opts:
+      public-key: RaXcilSPMrmfTF0b0khB7rg2zeP8nTBk2An9arUWWwU
+      short-id: 71c9ca1e7ba50840
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+    type: vless
+    server: 212.113.109.63
+    port: 443
+    uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: yahoo.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
+      short-id: fc74fe7479dfd8f2
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+    type: vless
+    server: 82.22.184.87
+    port: 9797
+    uuid: 7de2959e-d9f2-4ca0-9777-553f6a9a3d7e
+    network: xhttp
+    tls: true
+    udp: false
+    servername: club.spicycheeze.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: RaXcilSPMrmfTF0b0khB7rg2zeP8nTBk2An9arUWWwU
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+    type: vless
+    server: beta.de.anticheburnet.xyz
+    port: 443
+    uuid: bbb483f9-fc26-4f23-b300-e304fe011a8e
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: www.gnm.de
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: OWU5dxo39AFoqPpkexm2m8oCOSReXxjLpcJcyxLt4GI
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+    type: vless
+    server: alpha.de.anticheburnet.xyz
+    port: 8443
+    uuid: bbb483f9-fc26-4f23-b300-e304fe011a8e
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: www.bundesumweltministerium.de
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: OWU5dxo39AFoqPpkexm2m8oCOSReXxjLpcJcyxLt4GI
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+    type: vless
+    server: de1class.mikuvpn.com
+    port: 443
+    uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
+    network: tcp
+    tls: false
+    udp: true
+    flow: xtls-rprx-vision
+    servername: de1class.mikuvpn.com
+    client-fingerprint: chrome
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+    type: vless
+    server: nl.mirolit.ru
+    port: 443
+    uuid: d8ef5e2a-d506-4cb6-b320-e2cc6510c1d0
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: nl.mirolit.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: q00THBp4dHVXS8jEAoY5LG53UHN2V0SNxK0GvAvxXT0
+      short-id: 8fa58d13db0ba66e
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+    type: vless
+    server: nd1class.mikuvpn.com
+    port: 443
+    uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
+    network: tcp
+    tls: false
+    udp: true
+    flow: xtls-rprx-vision
+    servername: nd1class.mikuvpn.com
+    client-fingerprint: chrome
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+    type: vless
+    server: nla853.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: nla853.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: 4bpgtKOo5HKWsFI3w73Xbe7s-Rhu1WLWgK4xRUX6_3c
+      short-id: 46e5a1cffeb83370
+
+  - name: "🇬🇷 PREMIUM Греция (Greece)"
+    type: vless
+    server: 185.242.84.132
+    port: 4107
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇵🇹 PREMIUM Португалия (Portugal)"
+    type: vless
+    server: 45.12.131.164
+    port: 4112
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
+    type: vless
+    server: trea9f.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: trea9f.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: soNdA-82yZ4FPg4ulsGtuUylE_P3r337fAb3fv71H1I
+      short-id: 20b7e8a8d7bb51a2
+
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
+    type: vless
+    server: 2.56.127.91
+    port: 4077
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
+    type: vless
+    server: tr.multi.mikuvpn.com
+    port: 443
+    uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
+    network: tcp
+    tls: false
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tr.multi.mikuvpn.com
+    client-fingerprint: chrome
+
+  - name: "🇮🇱 PREMIUM Израиль (Israel)"
+    type: vless
+    server: ile714.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ile714.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: csDzdYKdfG-4jJTz3jKzMbhUEIhi21Q-hOSoC962IAA
+      short-id: f81b4070cbad0819
+
+  - name: "🇦🇪 PREMIUM ОАЭ (UAE)"
+    type: vless
+    server: aeda42.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: aeda42.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: ftAei4Xhz52uGKCOoQrWm60iaiuOcLIGOwz58WwWLgY
+      short-id: e071dd3369eb203d
+
+  - name: "🇺🇸 PREMIUM Америка (USA)"
+    type: vless
+    server: d.notorgate.top
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: d.notorgate.top
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
+      short-id: 0af721e0f009d1fb
+
+  - name: "🇰🇷 PREMIUM Южная Корея (South Korea) (1)"
+    type: vless
+    server: 45.82.246.185
+    port: 4115
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇰🇷 PREMIUM Южная Корея (South Korea) (2)"
+    type: vless
+    server: kra523.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: kra523.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: 3jJZtvUI4MSHGQEykvbWwMNHQ6aOKuRNqHhcnKNiMTM
+      short-id: fffdce188a8e3444
+
+  - name: "🇯🇵 PREMIUM Япония (Japan)"
+    type: vless
+    server: jpe556.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: jpe556.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: 6RGK7mOPWxVHQDF4slEK4TX0mlIENdqzM6QaEIaXO1Q
+      short-id: 2ccb8779a201d758
+
+  - name: "🇭🇰 PREMIUM Гонконг (Hong Kong)"
+    type: vless
+    server: hka86e.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: hka86e.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: nsm8ckoWFei7Sk9LYWfzx8ee5-6IIZkmh595H0VutWI
+      short-id: 55c7bf9433ca9cfa
+
+  - name: "🇲🇾 PREMIUM Малайзия (Malaysia)"
+    type: vless
+    server: myf1f1.dropplite.com
+    port: 443
+    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    network: raw
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: myf1f1.dropplite.com
+    client-fingerprint: random
+    reality-opts:
+      public-key: rLbJ7Jtjxn_5Gfp7AZ-TP92OeyjuUOWv90YgTxANQSg
+      short-id: cd32ba6b069600e2
+
+  - name: "🇵🇱 Польша (Poland)"
+    type: vmess
+    server: 188.114.96.3
+    port: 443
+    uuid: 5f726fe3-d82e-4da5-a711-8af0cbb2b682
+    alterId: 0
+    cipher: auto
+    udp: true
+    tls: true
+    network: ws
+    servername: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
+    ws-opts:
+      path: /azumase.ren
+      headers:
+        Host: b62a948c-faa2-4e8a-bf8a-3ff3121c875a.asoul-ava.top
+
+  - name: "🇬🇧 Великобритания (United Kingdom) (1)"
+    type: trojan
+    server: 81.168.83.89
+    port: 2053
+    password: YwuvGJk36B
+    udp: true
+    sni: kotlet.arshiacomplus.dpdns.org
+    skip-cert-verify: true
+
+  - name: "🇬🇧 Великобритания (United Kingdom) (2)"
+    type: vless
+    server: gb.geodema.network
+    port: 443
+    uuid: 73bec071-8d42-4294-a453-de168627649b
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: gb.geodema.network
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+      short-id: 1ed136481e0ede74
+
+  - name: "🇳🇱 Нидерланды (Netherlands) (1)"
+    type: vless
+    server: 192.142.18.117
+    port: 4085
+    uuid: d7fe73fc-bf35-4c46-a341-ed1e776e5094
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇳🇱 Нидерланды (Netherlands) (2)"
+    type: ss
+    server: 193.29.139.251
+    port: 8080
+    cipher: chacha20-ietf-poly1305
+    password: oZIoA69Q8yhcQV8ka3Pa3A
+    udp: true
+
+  - name: "🇳🇱 Нидерланды (Netherlands) (3)"
+    type: vless
+    server: netherlands.geodema.network
+    port: 443
+    uuid: 73bec071-8d42-4294-a453-de168627649b
+    network: tcp
+    tls: true
+    udp: false
+    flow: xtls-rprx-vision
+    servername: netherlands.geodema.network
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+      short-id: 1ed136481e0ede74
+
+  - name: "🇺🇸 Америка (USA)"
+    type: vless
+    server: 159.246.55.253
+    port: 2096
+    uuid: f61a4285-7264-4d07-9408-7b9ba1922c26
+    network: ws
+    tls: false
+    udp: true
+    servername: gaosir.unfeeling.sbs
+    client-fingerprint: chrome
+
+  - name: "🇯🇵 Япония (Japan)"
+    type: trojan
+    server: 160.16.124.55
+    port: 5553
+    password: 2274c52572e721086f8bd8f88984643c
+    udp: true
+    sni: www.nintendogames.net
+    skip-cert-verify: true
 
 proxy-groups:
-  # 1. Наша созданная цепочка (Relay)
-  # Трафик пойдет: Германия -> Австрия -> Интернет
-  - name: "MyChain"
-    type: relay
-    proxies:
-      - "🇩🇪 Германия #3"
-      - "🇦🇹 Австрия"
-
-  # 2. Главная группа выбора (Selector)
-  # СЮДА мы добавляем MyChain, чтобы его можно было выбрать в меню
-  - name: "→ Geodema.net"
+  - name: "Dimon-subscribers"
     type: select
     proxies:
-      - "MyChain"            # <--- ВОТ ЧТО Я ДОБАВИЛ (теперь цепочка будет первой в списке)
-      - "🇩🇪 Германия #3"
-      - "🇦🇹 Австрия"
-      - "🇰🇿Казахстан ✅"
-
+      - "🌎 PREMIUM Случайная (Random) (1)"
+      - "🌎 PREMIUM Случайная (Random) (2)"
+      - "🇷🇺 PREMIUM Россия (Russian) (1)"
+      - "🇷🇺 PREMIUM Россия (Russian) (2)"
+      - "🇦🇲 PREMIUM Армения (Armenia)"
+      - "🇱🇹 PREMIUM Литва (LITVA) (1)"
+      - "🇱🇹 PREMIUM Литва (LITVA) (2)"
+      - "🇱🇻 PREMIUM Латвия (Latvia)"
+      - "🇪🇪 PREMIUM Эстония (Estonia)"
+      - "🇵🇱 PREMIUM Польша (Poland) (1)"
+      - "🇵🇱 PREMIUM Польша (Poland) (2)"
+      - "🇵🇱 PREMIUM Польша (Poland) (3)"
+      - "🇵🇱 PREMIUM Польша (Poland) (4)"
+      - "🇨🇿 PREMIUM Чехия (Czech Republic)"
+      - "🇭🇷 PREMIUM Хорватия (Croatia)"
+      - "🇷🇸 PREMIUM Сербия (Serbia)"
+      - "🇸🇰 PREMIUM Словакия (Slovakia)"
+      - "🇸🇮 PREMIUM Словения (Slovenia)"
+      - "🇧🇬 PREMIUM Болгария (Bulgaria)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
+      - "🇳🇴 PREMIUM Норвегия (Norway)"
+      - "🇩🇰 PREMIUM Дания (Denmark)"
+      - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
+      - "🇮🇪 PREMIUM Ирландия (Ireland)"
+      - "🇧🇪 PREMIUM Бельгия (Belgium)"
+      - "🇱🇺 PREMIUM Люксембург (Luxembourg)"
+      - "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
+      - "🇨🇭 PREMIUM Швейцария (Switzerland) (2)"
+      - "🇫🇷 PREMIUM Франция (France) (1)"
+      - "🇫🇷 PREMIUM Франция (France) (2)"
+      - "🇫🇷 PREMIUM Франция (France) (3)"
+      - "🇦🇹 PREMIUM Австрия (Austria)"
+      - "🇩🇪 PREMIUM Германия (Germany) (1)"
+      - "🇩🇪 PREMIUM Германия (Germany) (2)"
+      - "🇩🇪 PREMIUM Германия (Germany) (3)"
+      - "🇩🇪 PREMIUM Германия (Germany) (4)"
+      - "🇩🇪 PREMIUM Германия (Germany) (5)"
+      - "🇩🇪 PREMIUM Германия (Germany) (6)"
+      - "🇩🇪 PREMIUM Германия (Germany) (7)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+      - "🇬🇷 PREMIUM Греция (Greece)"
+      - "🇵🇹 PREMIUM Португалия (Portugal)"
+      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
+      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
+      - "🇹🇷 PREMIUM Турция (Turkey) (3)"
+      - "🇮🇱 PREMIUM Израиль (Israel)"
+      - "🇦🇪 PREMIUM ОАЭ (UAE)"
+      - "🇺🇸 PREMIUM Америка (USA)"
+      - "🇰🇷 PREMIUM Южная Корея (South Korea) (1)"
+      - "🇰🇷 PREMIUM Южная Корея (South Korea) (2)"
+      - "🇯🇵 PREMIUM Япония (Japan)"
+      - "🇭🇰 PREMIUM Гонконг (Hong Kong)"
+      - "🇲🇾 PREMIUM Малайзия (Malaysia)"
+      - "🇵🇱 Польша (Poland)"
+      - "🇬🇧 Великобритания (United Kingdom) (1)"
+      - "🇬🇧 Великобритания (United Kingdom) (2)"
+      - "🇳🇱 Нидерланды (Netherlands) (1)"
+      - "🇳🇱 Нидерланды (Netherlands) (2)"
+      - "🇳🇱 Нидерланды (Netherlands) (3)"
+      - "🇺🇸 Америка (USA)"
+      - "🇯🇵 Япония (Japan)"
 rules:
-  # Весь трафик идет в группу "→ Geodema.net"
-  - MATCH,→ Geodema.net
+  - MATCH,Dimon-subscribers
