@@ -1,0 +1,123 @@
+mixed-port: 7890
+socks-port: 7891
+redir-port: 7892
+allow-lan: true
+mode: rule        # Рекомендую rule, но если нужно всё проксировать - можно оставить global
+log-level: info
+external-controller: 127.0.0.1:9090
+
+dns:
+  enable: true
+  use-hosts: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  nameserver:
+    - 1.1.1.1
+    - 8.8.8.8
+  fake-ip-filter:
+    - "*.lan"
+    - stun.*.*.*
+    - stun.*.*
+    - time.windows.com
+    - time.nist.gov
+    - time.apple.com
+    - time.asia.apple.com
+    - "*.openwrt.pool.ntp.org"
+    - pool.ntp.org
+    - ntp.ubuntu.com
+    - time1.apple.com
+    - time2.apple.com
+    - time3.apple.com
+    - time4.apple.com
+    - time5.apple.com
+    - time6.apple.com
+    - time7.apple.com
+    - time1.google.com
+    - time2.google.com
+    - time3.google.com
+    - time4.google.com
+    - api.joox.com
+    - joox.com
+    - "*.xiami.com"
+    - "*.msftconnecttest.com"
+    - "*.msftncsi.com"
+    - +.xboxlive.com
+    - "*.*.stun.playstation.net"
+    - xbox.*.*.microsoft.com
+    - "*.ipv6.microsoft.com"
+    - speedtest.cros.wr.pvp.net
+
+proxies:
+  - name: "🇩🇪 Германия #3"
+    type: vless
+    server: de-nc.geodema.network
+    port: 443
+    network: tcp
+    udp: true
+    tls: true
+    servername: de-nc.geodema.network
+    reality-opts:
+      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+      short-id: 1ed136481e0ede74
+      client-fingerprint: qq
+    uuid: 73bec071-8d42-4294-a453-de168627649b
+    packet-encoding: xudp
+    flow: xtls-rprx-vision
+
+  - name: "🇦🇹 Австрия"
+    type: vless
+    server: austria-nc.geodema.network
+    port: 443
+    network: tcp
+    udp: true
+    tls: true
+    servername: austria-nc.geodema.network
+    reality-opts:
+      public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
+      short-id: 1ed136481e0ede74
+      client-fingerprint: edge
+    uuid: 73bec071-8d42-4294-a453-de168627649b
+    packet-encoding: xudp
+    flow: xtls-rprx-vision
+
+  - name: "🇰🇿Казахстан ✅"
+    type: vless
+    server: 91.217.10.166
+    port: 8443
+    uuid: 50424fdc-dde0-499a-9c1e-ca4cbb60615c
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: telegavpn.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: AGy4uD5aFDrGtPY5Ok9cjYCGIcA2epC3_k5wpPqzj3Q
+      short-id: b811ccb43e8fad38
+
+
+proxy-groups:
+  # 1. Наша созданная цепочка (Relay)
+  # Трафик пойдет: Германия -> Австрия -> Интернет
+  - name: "MyChain"
+    type: relay
+    proxies:
+      - "🇩🇪 Германия #3"
+      - "🇦🇹 Австрия"
+
+  # 2. Главная группа выбора (Selector)
+  # СЮДА мы добавляем MyChain, чтобы его можно было выбрать в меню
+  - name: "→ Geodema.net"
+    type: select
+    proxies:
+      - "MyChain"            # <--- ВОТ ЧТО Я ДОБАВИЛ (теперь цепочка будет первой в списке)
+      - "🇩🇪 Германия #3"
+      - "🇦🇹 Австрия"
+      - "🇰🇿Казахстан ✅"
+
+rules:
+  # Весь трафик идет в группу "→ Geodema.net"
+  - MATCH,→ Geodema.net
