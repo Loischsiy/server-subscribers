@@ -430,21 +430,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
     type: vless
-    server: fi.mirolit.ru
-    port: 443
-    uuid: d8ef5e2a-d506-4cb6-b320-e2cc6510c1d0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fi.mirolit.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: rhWG0KJfuzgL4XXH_PCKvh21twr5uxpFU_5yxQij7Rg
-      short-id: 1c0b3b481635dbb7
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
-    type: vless
     server: fin1class.mikuvpn.com
     port: 443
     uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
@@ -459,7 +444,7 @@ proxies:
       public-key: cmFywV-19GIFQR_FOZuEktQ0A6rgm-YUADDg9x2VJEk
       short-id: 0933ac95ace91081
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (6)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
     type: vless
     server: 79.137.248.166
     port: 443
@@ -475,7 +460,7 @@ proxies:
       public-key: Xzl7qCf_vE0is4qyN969TwwAuTTtSsbo8VkP7jAOhjY
       short-id: fd0f6a8e58acfed5
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (7)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (6)"
     type: vless
     server: 85.192.49.142
     port: 443
@@ -492,7 +477,7 @@ proxies:
       public-key: LXfwAbiLt2Wmo_AxmEADJ7ljH1auhxSnaKz6Ox4VGxE
       short-id: 245236deb3c0194b
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (7)"
     type: vless
     server: 62.60.236.71
     port: 4134
@@ -507,22 +492,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇩🇰 PREMIUM Дания (Denmark) (1)"
-    type: vless
-    server: 38.180.20.24
-    port: 443
-    uuid: 4a7f52c9-179e-4de6-8a0d-a0f73bab46cd
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5yJBj2vkKSaFAf7pNVJkFz6KJGqRY_fC0ejsn0ou3iM
-      short-id: 3db26222a4db41b9
-
-  - name: "🇩🇰 PREMIUM Дания (Denmark) (2)"
+  - name: "🇩🇰 PREMIUM Дания (Denmark)"
     type: vless
     server: 45.128.50.82
     port: 4137
@@ -693,61 +663,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
-    server: de.mirolit.ru
-    port: 443
-    uuid: d8ef5e2a-d506-4cb6-b320-e2cc6510c1d0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de.mirolit.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: h6Cfxf_OaxW9-K-3-MM2Dp_kX9xyAbv3Ul88GAFOV0U
-      short-id: 0cdea27c989bce3e
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
-    type: vless
-    server: 82.22.184.87
-    port: 9797
-    uuid: 7de2959e-d9f2-4ca0-9777-553f6a9a3d7e
-    network: xhttp
-    tls: true
-    udp: true
-    servername: club.spicycheeze.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: club.spicycheeze.ru
-      path: /path
-      mode: auto
-      extra: |-
-        {
-          "noGRPCHeader" : false,
-          "scMaxConcurrentPosts" : 100,
-          "scMaxEachPostBytes" : 1000000,
-          "scMinPostsIntervalMs" : 30,
-          "xPaddingBytes" : "100-1000"
-        }
-    reality-opts:
-      public-key: RaXcilSPMrmfTF0b0khB7rg2zeP8nTBk2An9arUWWwU
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
-    type: vless
-    server: 82.22.184.87
-    port: 9696
-    uuid: 7de2959e-d9f2-4ca0-9777-553f6a9a3d7e
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: club.spicycheeze.ru
-    client-fingerprint: safari
-    reality-opts:
-      public-key: RaXcilSPMrmfTF0b0khB7rg2zeP8nTBk2An9arUWWwU
-      short-id: 71c9ca1e7ba50840
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
-    type: vless
     server: de1class.mikuvpn.com
     port: 443
     uuid: a0816aee-95ac-44cb-b7ed-7d9a09bb25e6
@@ -793,21 +708,6 @@ proxies:
     reality-opts:
       public-key: xXQU3htB0H3c-IF7VkWPS0i0bCXEmAB8f5U_VW9ls1A
       short-id: 1cd29e22da545041
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-    type: vless
-    server: nl.mirolit.ru
-    port: 443
-    uuid: d8ef5e2a-d506-4cb6-b320-e2cc6510c1d0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl.mirolit.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: q00THBp4dHVXS8jEAoY5LG53UHN2V0SNxK0GvAvxXT0
-      short-id: 8fa58d13db0ba66e
 
   - name: "🇬🇷 PREMIUM Греция (Greece)"
     type: vless
@@ -1099,9 +999,7 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (7)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (8)"
-      - "🇩🇰 PREMIUM Дания (Denmark) (1)"
-      - "🇩🇰 PREMIUM Дания (Denmark) (2)"
+      - "🇩🇰 PREMIUM Дания (Denmark)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇧🇪 PREMIUM Бельгия (Belgium)"
       - "🇱🇺 PREMIUM Люксембург (Luxembourg)"
@@ -1113,12 +1011,8 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
-      - "🇩🇪 PREMIUM Германия (Germany) (4)"
-      - "🇩🇪 PREMIUM Германия (Germany) (5)"
-      - "🇩🇪 PREMIUM Германия (Germany) (6)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
       - "🇬🇷 PREMIUM Греция (Greece)"
       - "🇮🇹 PREMIUM Italy (Италия)"
       - "🇪🇸 PREMIUM Испания (Spain)"
