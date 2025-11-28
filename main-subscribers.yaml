@@ -56,6 +56,17 @@ dns:
     - "*.ipv6.microsoft.com"
     - speedtest.cros.wr.pvp.net
 
+proxy-providers:
+  Subs:
+    type: http
+    url: "https://gitlab.com/Loischsiy/server-subscribers/-/raw/main/main-subscribers.yaml"
+    path: ./main-subscribers.yaml
+    interval: 3600
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 300
+
 proxies:
   - name: "WARP (через USA)"
     type: wireguard
@@ -1405,9 +1416,18 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 proxy-groups:
+  - name: "🚀 Auto-Best"
+    type: url-test
+    use:
+      - Subs
+    url: 'http://www.gstatic.com/generate_204'
+    hidden: true
+    interval: 300
+    tolerance: 50
   - name: "Dimon-subscribers"
     type: select
     proxies:
+      - "🚀 Auto-Best"
       - "WARP (через USA)"
       - "🇫🇲 PREMIUM Обход белого списка (1)"
       - "🇫🇲 PREMIUM Обход белого списка (2)"
