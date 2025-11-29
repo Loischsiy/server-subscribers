@@ -929,20 +929,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
-    server: beta.de.anticheburnet.xyz
-    port: 443
-    uuid: bbb483f9-fc26-4f23-b300-e304fe011a8e
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.gnm.de
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: OWU5dxo39AFoqPpkexm2m8oCOSReXxjLpcJcyxLt4GI
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
-    type: vless
     server: cdn.de.edgehimft.su
     port: 443
     uuid: 07a5f60f-bf42-4937-97b6-e7650484ee75
@@ -955,7 +941,7 @@ proxies:
       path: /
       mode: auto
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: de1class.mikuvpn.com
     port: 443
@@ -971,7 +957,7 @@ proxies:
       public-key: 0qWBFZMWTop5mXv9IXgYdhC8WlynOyq2Vhjddtw0mSk
       short-id: 13c2f187033234af
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -987,7 +973,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: vless
     server: de.hexvpn.site
     port: 8443
@@ -1489,7 +1475,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇩🇪 PREMIUM Германия (Germany) (5)"
-      - "🇩🇪 PREMIUM Германия (Germany) (6)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
