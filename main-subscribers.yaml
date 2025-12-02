@@ -1971,17 +1971,28 @@ proxy-groups:
       - "🇯🇵 Япония (Japan)"
       - "🇭🇰 Гонконг (Hong Kong) (1)"
       - "🇭🇰 Гонконг (Hong Kong) (2)"
+rule-providers:
+  torrents:
+    type: http
+    behavior: domain
+    url: https://raw.githubusercontent.com/Loischsiy/rules_torrent/refs/heads/main/torrents%2Banime.yaml
+    path: ./ruleset/torrents.yaml
+    interval: 86400
+
 rules:
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT
-  # Для торрент прогррам самый популярных в виндовс мак и линукс
+  # Для торрент программ из ruleset
+  - RULE-SET,torrents,DIRECT
+  # Для торрент программ самый популярных в виндовс мак и линукс
   - PROCESS-NAME,qBittorrent.exe,DIRECT
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - PROCESS-NAME,qbittorrent,DIRECT
   - PROCESS-NAME,qBittorrent,DIRECT
   - PROCESS-NAME,Shiru,DIRECT
+  - PROCESS-NAME,Shiru Helper,DIRECT
   - PROCESS-NAME,Shiru.exe,DIRECT
-  # Для торрент прогррам самый популярных на андроид
+  # Для торрент программ самый популярных на андроид
   - PROCESS-NAME,org.qbittorrent.client,DIRECT
   - PROCESS-NAME,com.utorrent.client,DIRECT
   - PROCESS-NAME,com.bittorrent.client,DIRECT
