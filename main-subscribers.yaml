@@ -1983,15 +1983,13 @@ rules:
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT
   # Для торрент программ из ruleset
+  - DOMAIN-KEYWORD,torrent,DIRECT
   - RULE-SET,torrents,DIRECT
   # Для торрент программ самый популярных в виндовс мак и линукс
   - PROCESS-NAME,qBittorrent.exe,DIRECT
   - PROCESS-NAME,uTorrent.exe,DIRECT
   - PROCESS-NAME,qbittorrent,DIRECT
   - PROCESS-NAME,qBittorrent,DIRECT
-  - PROCESS-NAME,Shiru,DIRECT
-  - PROCESS-NAME,Shiru Helper,DIRECT
-  - PROCESS-NAME,Shiru.exe,DIRECT
   # Для торрент программ самый популярных на андроид
   - PROCESS-NAME,org.qbittorrent.client,DIRECT
   - PROCESS-NAME,com.utorrent.client,DIRECT
