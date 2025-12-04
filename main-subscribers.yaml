@@ -1953,6 +1953,7 @@ rule-providers:
 rules:
   - GEOSITE,private,DIRECT
   - GEOIP,private,DIRECT
+  - DOMAIN-KEYWORD,flydigi,DIRECT
   # Для торрент программ из ruleset
   - DOMAIN-KEYWORD,torrent,DIRECT
   - RULE-SET,torrents,DIRECT
