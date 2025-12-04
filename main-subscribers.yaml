@@ -593,6 +593,19 @@ proxies:
       public-key: iAiYHa8iuZvsE5MSOG2MZElvxS8Jyy1xy2XB4zxfJmU
       short-id: 1576ba091b67d3d8
 
+  - name: "🇵🇱 PREMIUM Польша (Poland) (10)"
+    type: vless
+    server: 151.244.111.239.sslip.io
+    port: 443
+    uuid: 13bf7cbf-4320-4c47-a030-5372b03c2f04
+    network: grpc
+    tls: true
+    udp: true
+    servername: 151.244.111.239.sslip.io
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: BWTqcSMF1imEp7KNccnqGUbc
+
   - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
     type: vless
     server: cza352.dropplite.com
@@ -1700,6 +1713,7 @@ proxy-groups:
       - "🇵🇱 PREMIUM Польша (Poland) (7)"
       - "🇵🇱 PREMIUM Польша (Poland) (8)"
       - "🇵🇱 PREMIUM Польша (Poland) (9)"
+      - "🇵🇱 PREMIUM Польша (Poland) (10)"
       - "🇨🇿 PREMIUM Чехия (Czech Republic)"
       - "🇷🇸 PREMIUM Сербия (Serbia)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
