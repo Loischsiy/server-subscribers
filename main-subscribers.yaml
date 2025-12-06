@@ -292,22 +292,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
-    server: ru.vpnone.ru
-    port: 8443
-    uuid: 17799938-31fb-4ddb-9430-8c0fb5d3eafe
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ya.ru
-    client-fingerprint: ios
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 4xAY2kj5wsFfJ2qgaQc2LuzSzJJl6CPMJOC4-H6SKio
-      short-id: 1f2c7290aa5d8fb1
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
     server: h.onefrostcloud.com
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -322,7 +306,7 @@ proxies:
       public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
       short-id: 7edebbe2d9d880fe
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
     server: ru.node.securize.online
     port: 8443
@@ -336,23 +320,7 @@ proxies:
     reality-opts:
       public-key: 4OWaPHodauYW7IcA5ngqwUWa-QwpFid2zclote4i2Ew
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
-    type: vless
-    server: 217.16.24.102
-    port: 1080
-    uuid: ba582902-2519-44ea-8dc5-ef8b0fa2607f
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sun6-21.userapi.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0
-      short-id: 4326
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
     type: vless
     server: 109.122.199.101
     port: 443
@@ -479,23 +447,7 @@ proxies:
     ws-opts:
       path: "/upload"
 
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (1)"
-    type: vless
-    server: est.vpnone.ru
-    port: 443
-    uuid: 17799938-31fb-4ddb-9430-8c0fb5d3eafe
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: ios
-    packet-encoding: xudp
-    reality-opts:
-      public-key: NQdDglnZQAkfI1WhWyRyv52L4v6vkoNn4qIAGAhpfHA
-      short-id: 6d00faac
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (2)"
+  - name: "🇪🇪 PREMIUM Эстония (Estonia)"
     type: vless
     server: est.hastyvpn.pw
     port: 444
@@ -1113,22 +1065,6 @@ proxies:
     reality-opts:
       public-key: 4OWaPHodauYW7IcA5ngqwUWa-QwpFid2zclote4i2Ew
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
-    type: vless
-    server: de.vpnone.ru
-    port: 8443
-    uuid: 17799938-31fb-4ddb-9430-8c0fb5d3eafe
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.ya.ru
-    client-fingerprint: ios
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 8BSugjs_0LbTnu52i0iBrzCwnt8SZV_PgndPJiv0GCk
-      short-id: af16d8
-
   - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
     type: vless
     server: 156.67.63.224
@@ -1197,22 +1133,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
-    server: newusa.vpnone.ru
-    port: 8443
-    uuid: 17799938-31fb-4ddb-9430-8c0fb5d3eafe
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.ya.ru
-    client-fingerprint: ios
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 5su1MZdPjeVikWMZTwfDDHGd0p8peEVGZnAdmSmZgiU
-      short-id: 6c2e2dc2e7
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
-    type: vless
     server: 77.73.66.83
     port: 443
     uuid: 70df9cf9-6bcf-4e67-be6b-02b88b26da7e
@@ -1226,7 +1146,7 @@ proxies:
       public-key: LsesLwq7kI3X91a5oygEXLOyWQwEDSSHltrCppMWCH4
       short-id: 3ee5bf27b15a6384
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: vless
     server: d.notorgate.top
     port: 443
@@ -1242,7 +1162,7 @@ proxies:
       public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
       short-id: 0af721e0f009d1fb
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: d.notorgate.top
     port: 443
@@ -1305,22 +1225,6 @@ proxies:
     reality-opts:
       public-key: nsm8ckoWFei7Sk9LYWfzx8ee5-6IIZkmh595H0VutWI
       short-id: 55c7bf9433ca9cfa
-
-  - name: "🇦🇺 PREMIUM Австралия (Austria)"
-    type: vless
-    server: usa.vpnone.ru
-    port: 443
-    uuid: 17799938-31fb-4ddb-9430-8c0fb5d3eafe
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.google.com
-    client-fingerprint: ios
-    packet-encoding: xudp
-    reality-opts:
-      public-key: HMGMTyNqMISeYoFttmb5UAREn4RLkMWQvtkpb-6E2Eg
-      short-id: 9437e1bf
 
   - name: "🇲🇾 PREMIUM Малайзия (Malaysia)"
     type: vless
@@ -1720,8 +1624,6 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
       - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇷🇺 PREMIUM Россия (Russian) (5)"
-      - "🇷🇺 PREMIUM Россия (Russian) (6)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
       - "🇦🇲 PREMIUM Армения (Armenia) (1)"
@@ -1730,8 +1632,7 @@ proxy-groups:
       - "🇦🇲 PREMIUM Армения (Armenia) (4)"
       - "🇱🇹 PREMIUM Литва (LITVA)"
       - "🇱🇻 PREMIUM Латвия (Latvia)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (1)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (2)"
+      - "🇪🇪 PREMIUM Эстония (Estonia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
@@ -1774,7 +1675,6 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
       - "🇹🇷 PREMIUM Турция (Turkey) (1)"
       - "🇹🇷 PREMIUM Турция (Turkey) (2)"
       - "🇮🇱 PREMIUM Израиль (Israel) (1)"
@@ -1783,11 +1683,9 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
-      - "🇺🇸 PREMIUM Америка (USA) (4)"
       - "🇰🇷 PREMIUM Южная Корея (South Korea)"
       - "🇯🇵 PREMIUM Япония (Japan)"
       - "🇭🇰 PREMIUM Гонконг (Hong Kong)"
-      - "🇦🇺 PREMIUM Австралия (Austria)"
       - "🇲🇾 PREMIUM Малайзия (Malaysia)"
       - "🇫🇲 Обход белого списка (1)"
       - "🇫🇲 Обход белого списка (2)"
