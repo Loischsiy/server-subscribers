@@ -946,22 +946,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
-    server: pupsenvupsenvpn.space
-    port: 8443
-    uuid: 0218c267-c3f5-4f26-a67e-a1f9a54deee0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1VjkdVDhSW0h_CGgZXp1vAs1jE8BgGX1FDE4tME3BHk
-      short-id: ba
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-    type: vless
     server: nl1.nfnpx.online
     port: 443
     uuid: 70df9cf9-6bcf-4e67-be6b-02b88b26da7e
@@ -1568,7 +1552,6 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
       - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇮🇱 PREMIUM Израиль (Israel) (1)"
       - "🇮🇱 PREMIUM Израиль (Israel) (2)"
