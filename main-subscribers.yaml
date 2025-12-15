@@ -370,23 +370,7 @@ proxies:
       public-key: TvWJyoXLia5sOkNEQFXyOBquJJZ3MR06vi_9y9LT5Rw
       short-id: bc44e63d1d7a2337
 
-  - name: "🇦🇲 PREMIUM Армения (Armenia)"
-    type: vless
-    server: amaed5.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: amaed5.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: lpqUVB3l0FJ18PpgL9U0KK1TLgYXD-DGFlqD4vjsu3k
-      short-id: a3333512a67df161
-
-  - name: "🇱🇹 PREMIUM Литва (LITVA) (1)"
+  - name: "🇱🇹 PREMIUM Литва (LITVA)"
     type: vless
     server: 217.60.3.24
     port: 443
@@ -402,52 +386,21 @@ proxies:
       public-key: ca5sfJNcjkh3oNt51hRexXbGWgITAqCprGSU-YKCJBA
       short-id: 6a59ae0dc685b1c2
 
-  - name: "🇱🇹 PREMIUM Литва (LITVA) (2)"
-    type: vless
-    server: ltd693.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ltd693.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: HemDuRaIW0s1Z13nGv_0O1l-1u4qtWOPR8lb3R8Yfkc
-      short-id: c5b83d8288caa342
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
-    type: vless
-    server: 31.170.22.209
-    port: 47276
-    uuid: 8435c03a-94ee-4c05-9846-ecbd986c3c58
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: qq
-    reality-opts:
-      public-key: GsdcC9oMoLwl0Nqp24TqgeaolHD5wgKvfpzTayWwA0Q
-      short-id: 94f53a6df0d4a23f
-
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
-    server: 212.233.121.39
+    server: b.onefrostcloud.com
     port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: sun6-21.userapi.com
-    client-fingerprint: random
+    servername: b.onefrostcloud.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: DM-i0xYypamcOWDoLJtUqbL1m-rAZDvzTNDnImwib24
-      short-id: 5faf84a2083a3d67
+      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
+      short-id: 577a94c45a351518
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
     type: vless
@@ -467,66 +420,6 @@ proxies:
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
     type: vless
-    server: b.onefrostcloud.com
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: b.onefrostcloud.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
-      short-id: 577a94c45a351518
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
-    type: vless
-    server: 144.31.0.246
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: ws
-    tls: true
-    udp: true
-    servername: stream.serveless.ru
-    client-fingerprint: random
-    packet-encoding: xudp
-    ws-opts:
-      path: "/api/ws"
-      headers:
-        Host: stream.serveless.ru
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
-    type: vless
-    server: 144.31.0.246
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: grpc
-    tls: true
-    udp: true
-    servername: api.serveless.ru
-    client-fingerprint: random
-    packet-encoding: xudp
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
-    type: vless
-    server: plee32.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: plee32.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: JFTe6rovsvqxZ7jEdEY7oQseYrtH0J9h1RUsQtdK2ks
-      short-id: c113dc50780d71b4
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (7)"
-    type: vless
     server: pl.jojack.ru
     port: 443
     uuid: 0dc9211f-1d78-43d0-884e-3cba2ffa9fd6
@@ -541,7 +434,7 @@ proxies:
       public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
       short-id: 4fd82e77480140e3
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (8)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
     type: vless
     server: pl.jojack.ru
     port: 2096
@@ -557,23 +450,7 @@ proxies:
       public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
       short-id: 06493d73f37c8a90
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (9)"
-    type: vless
-    server: 212.233.121.39
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: eh.vk.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: iAiYHa8iuZvsE5MSOG2MZElvxS8Jyy1xy2XB4zxfJmU
-      short-id: 1576ba091b67d3d8
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (10)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
     type: vless
     server: 144.31.3.104
     port: 11011
@@ -604,22 +481,6 @@ proxies:
     reality-opts:
       public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
       short-id: 17802e8ff84f12df
-
-  - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
-    type: vless
-    server: cza352.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cza352.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 7n-qrXBnUcdrowH4pyBwbLT2rNO2WtG6jm0S2QLdGxQ
-      short-id: 727e11165f6f981f
 
   - name: "🇦🇱 PREMIUM Албания (Albania) (1)"
     type: ss
@@ -678,21 +539,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
     type: vless
-    server: 85.192.49.142
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: grpc
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: LXfwAbiLt2Wmo_AxmEADJ7ljH1auhxSnaKz6Ox4VGxE
-      short-id: 245236deb3c0194b
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-    type: vless
     server: fi.cdn.stun.su
     port: 2096
     uuid: 0dc9211f-1d78-43d0-884e-3cba2ffa9fd6
@@ -707,7 +553,7 @@ proxies:
       public-key: u26A516I3BCfUMPOo6rw0-XYt0C2sCWaPNP2pNdtxzw
       short-id: 39de181f871163e1
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
     type: vless
     server: 158.160.197.118
     port: 443
@@ -722,39 +568,7 @@ proxies:
       public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
       short-id: ccb740da793de558
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (6)"
-    type: vless
-    server: 79.137.248.166
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fic154.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: Xzl7qCf_vE0is4qyN969TwwAuTTtSsbo8VkP7jAOhjY
-      short-id: fd0f6a8e58acfed5
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (7)"
-    type: vless
-    server: fic154.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fic154.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: Xzl7qCf_vE0is4qyN969TwwAuTTtSsbo8VkP7jAOhjY
-      short-id: fd0f6a8e58acfed5
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
     type: vless
     server: fin1.nfnpx.online
     port: 443
@@ -784,22 +598,6 @@ proxies:
     reality-opts:
       public-key: 0ebq2jNFPvHs8HvOoCViKBLnUdhSDd1bG9Jeb7f_82k
       short-id: 2eed64bf86710dc0
-
-  - name: "🇨🇭 PREMIUM Швейцария (Switzerland)"
-    type: vless
-    server: cha1d2.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cha1d2.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: Kl4VQj6QqBrcQ-cEfZoeF5oH03IgEUyOD5_wDZBEf1E
-      short-id: 9adda36a864befe8
 
   - name: "🇫🇷 PREMIUM Франция (France) (1)"
     type: vless
@@ -912,22 +710,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: vless
-    server: nla853.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nla853.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 4bpgtKOo5HKWsFI3w73Xbe7s-Rhu1WLWgK4xRUX6_3c
-      short-id: 46e5a1cffeb83370
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-    type: vless
     server: nl.cdn.stun.su
     port: 443
     uuid: 0dc9211f-1d78-43d0-884e-3cba2ffa9fd6
@@ -942,7 +724,7 @@ proxies:
       public-key: sxyxV0_y1o09gKJBL9AJJyRSEg6MiYK0j-kb5unzHh4
       short-id: 246590999428b977
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
     server: nl1.nfnpx.online
     port: 443
@@ -981,7 +763,7 @@ proxies:
       public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
       short-id: 4b523a98e1bbd15b
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey)"
     type: vless
     server: tr.cdn.stun.su
     port: 443
@@ -997,61 +779,13 @@ proxies:
       public-key: hSTtlpXKAYVVu5ybX3hQfq8dfsUrO_HoFVgfGGoCHVw
       short-id: 0aca3ba84615eda9
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
-    server: trea9f.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: trea9f.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: soNdA-82yZ4FPg4ulsGtuUylE_P3r337fAb3fv71H1I
-      short-id: 20b7e8a8d7bb51a2
-
-  - name: "🇮🇱 PREMIUM Израиль (Israel) (1)"
-    type: vless
-    server: ile714.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ile714.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: csDzdYKdfG-4jJTz3jKzMbhUEIhi21Q-hOSoC962IAA
-      short-id: f81b4070cbad0819
-
-  - name: "🇮🇱 PREMIUM Израиль (Israel) (2)"
+  - name: "🇮🇱 PREMIUM Израиль (Israel)"
     type: ss
     server: 89.221.225.15
     port: 443
     cipher: chacha20-ietf-poly1305
     password: yCbQ4bry4otfifK7oel71NaXpPL9pYJb
     udp: true
-
-  - name: "🇦🇪 PREMIUM ОАЭ (UAE)"
-    type: vless
-    server: aeda42.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: aeda42.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ftAei4Xhz52uGKCOoQrWm60iaiuOcLIGOwz58WwWLgY
-      short-id: e071dd3369eb203d
 
   - name: "🇦🇪 PREMIUM ОАЭ (United Arab Emirates)"
     type: vless
@@ -1164,23 +898,7 @@ proxies:
       public-key: su3dq3BDLDkX-jIjq3GyVUXwqzD7CNVYzKtOcO4HQ24
       short-id: b9adf1215551a2f3
 
-  - name: "🇰🇷 PREMIUM Южная Корея (South Korea)"
-    type: vless
-    server: kra523.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kra523.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 3jJZtvUI4MSHGQEykvbWwMNHQ6aOKuRNqHhcnKNiMTM
-      short-id: fffdce188a8e3444
-
-  - name: "🇯🇵 PREMIUM Япония (Japan) (1)"
+  - name: "🇯🇵 PREMIUM Япония (Japan)"
     type: vless
     server: jp.cdn.stun.su
     port: 443
@@ -1195,54 +913,6 @@ proxies:
     reality-opts:
       public-key: 2Q0J_OPL73qhEIYf3YBLCuY4RIBurgz5QDVchQ8e9ks
       short-id: 1b45225e6233b79b
-
-  - name: "🇯🇵 PREMIUM Япония (Japan) (2)"
-    type: vless
-    server: jpe556.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: jpe556.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 6RGK7mOPWxVHQDF4slEK4TX0mlIENdqzM6QaEIaXO1Q
-      short-id: 2ccb8779a201d758
-
-  - name: "🇭🇰 PREMIUM Гонконг (Hong Kong)"
-    type: vless
-    server: hka86e.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: hka86e.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: nsm8ckoWFei7Sk9LYWfzx8ee5-6IIZkmh595H0VutWI
-      short-id: 55c7bf9433ca9cfa
-
-  - name: "🇲🇾 PREMIUM Малайзия (Malaysia)"
-    type: vless
-    server: myf1f1.dropplite.com
-    port: 443
-    uuid: 0f51cfc9-73c4-4f22-87c7-c465adf64ed9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: myf1f1.dropplite.com
-    client-fingerprint: random
-    packet-encoding: xudp
-    reality-opts:
-      public-key: rLbJ7Jtjxn_5Gfp7AZ-TP92OeyjuUOWv90YgTxANQSg
-      short-id: cd32ba6b069600e2
 
   - name: "🇫🇲 Обход белого списка (1)"
     type: vless
@@ -1631,22 +1301,13 @@ proxy-groups:
       - "🇧🇾 PREMIUM Беларусь (Belarus)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-      - "🇦🇲 PREMIUM Армения (Armenia)"
-      - "🇱🇹 PREMIUM Литва (LITVA) (1)"
-      - "🇱🇹 PREMIUM Литва (LITVA) (2)"
-      - "🇱🇻 PREMIUM Латвия (Latvia)"
+      - "🇱🇹 PREMIUM Литва (LITVA)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
       - "🇵🇱 PREMIUM Польша (Poland) (4)"
       - "🇵🇱 PREMIUM Польша (Poland) (5)"
-      - "🇵🇱 PREMIUM Польша (Poland) (6)"
-      - "🇵🇱 PREMIUM Польша (Poland) (7)"
-      - "🇵🇱 PREMIUM Польша (Poland) (8)"
-      - "🇵🇱 PREMIUM Польша (Poland) (9)"
-      - "🇵🇱 PREMIUM Польша (Poland) (10)"
       - "🇭🇺 PREMIUM Венгрия (Hungary)"
-      - "🇨🇿 PREMIUM Чехия (Czech Republic)"
       - "🇦🇱 PREMIUM Албания (Albania) (1)"
       - "🇦🇱 PREMIUM Албания (Albania) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
@@ -1654,11 +1315,7 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (7)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (8)"
       - "🇮🇪 PREMIUM Ирландия (Ireland)"
-      - "🇨🇭 PREMIUM Швейцария (Switzerland)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
@@ -1668,14 +1325,10 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
       - "🇮🇹 PREMIUM Italy (Италия) (1)"
       - "🇮🇹 PREMIUM Italy (Италия) (2)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
-      - "🇮🇱 PREMIUM Израиль (Israel) (1)"
-      - "🇮🇱 PREMIUM Израиль (Israel) (2)"
-      - "🇦🇪 PREMIUM ОАЭ (UAE)"
+      - "🇹🇷 PREMIUM Турция (Turkey)"
+      - "🇮🇱 PREMIUM Израиль (Israel)"
       - "🇦🇪 PREMIUM ОАЭ (United Arab Emirates)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
@@ -1683,11 +1336,7 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (4)"
       - "🇺🇸 PREMIUM Америка (USA) (5)"
       - "🇧🇷 PREMIUM Бразилия (Brazil)"
-      - "🇰🇷 PREMIUM Южная Корея (South Korea)"
-      - "🇯🇵 PREMIUM Япония (Japan) (1)"
-      - "🇯🇵 PREMIUM Япония (Japan) (2)"
-      - "🇭🇰 PREMIUM Гонконг (Hong Kong)"
-      - "🇲🇾 PREMIUM Малайзия (Malaysia)"
+      - "🇯🇵 PREMIUM Япония (Japan)"
       - "🇫🇲 Обход белого списка (1)"
       - "🇫🇲 Обход белого списка (2)"
       - "🇷🇺 Россия (Russian) (1)"
