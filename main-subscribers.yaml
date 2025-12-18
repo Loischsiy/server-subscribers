@@ -268,38 +268,6 @@ proxies:
       public-key: ya_6BTYfxYBuyN0dbZPC-jjubeFQr5VmKgIcySxEpyg
       short-id: 5b7bfb8a6f60b433
 
-  - name: "🚀 YouTube (Russia - белый список) #🇫🇲 PREMIUM Обход белого списка (1)"
-    type: vless
-    server: wh3.matevps.ru
-    port: 443
-    uuid: e84d3372-c23c-40bd-ac0a-0f185a5c4782
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 9wfsGBdHj4v57u3U-YDUrqyHcBzZP_43xYXw0aT_UHE
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🚀 YouTube (Russia - белый список) #🇫🇲 PREMIUM Обход белого списка (2)"
-    type: vless
-    server: wh2.matevps.ru
-    port: 443
-    uuid: e84d3372-c23c-40bd-ac0a-0f185a5c4782
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 9wfsGBdHj4v57u3U-YDUrqyHcBzZP_43xYXw0aT_UHE
-      short-id: 6ba85179e30d4fc2
-
   - name: "🌎 PREMIUM Случайная (Random) (1)"
     type: vmess
     server: 94.131.125.18
@@ -324,36 +292,6 @@ proxies:
     client-fingerprint: chrome
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
-    type: vless
-    server: api-maps-3.ignorelist.online
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.ozon.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: RU4-9UcEhfkOeR8_FXBc7uyLrr3uCwK9m9l5YM2CBWU
-      short-id: 909090
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
-    type: vless
-    server: api-maps-2.ignorelist.online
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MArxdmQT8-xgUXRgRF4VZUd8iG_17X65z66nV9weWAQ
-      short-id: 44bf
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: ss
     server: ru1bit.ru
     port: 1234
@@ -361,55 +299,39 @@ proxies:
     password: cwdX7fqNQDwcmo4oCTdBm-Lh_AQo5P-Z
     udp: true
 
+  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
+    type: vless
+    server: h.onefrostcloud.com
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: h.onefrostcloud.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
+      short-id: 7edebbe2d9d880fe
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
+    type: vless
+    server: h.onefrostcloud.com
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: h.onefrostcloud.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
+      short-id: 7edebbe2d9d880fe
+
   - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
-    server: h.onefrostcloud.com
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: h.onefrostcloud.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
-      short-id: 7edebbe2d9d880fe
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
-    type: vless
-    server: ru.matevps.ru
-    port: 443
-    uuid: e84d3372-c23c-40bd-ac0a-0f185a5c4782
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 9wfsGBdHj4v57u3U-YDUrqyHcBzZP_43xYXw0aT_UHE
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
-    type: vless
-    server: h.onefrostcloud.com
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: h.onefrostcloud.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
-      short-id: 7edebbe2d9d880fe
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
     type: vless
     server: 109.122.199.101
     port: 443
@@ -426,49 +348,7 @@ proxies:
       public-key: mlOxmdLG0sJSoI_DNzZQ_ozBDTXyY2fG7GATwe8zlDo
       short-id: 40ac834c0e89bd62
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
-    type: vless
-    server: api-maps.ignorelist.online
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MArxdmQT8-xgUXRgRF4VZUd8iG_17X65z66nV9weWAQ
-
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
-    type: vless
-    server: kz.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: CguSH6UedutGOaPqw53tF-vwHP_R7701aSqZlCE26DU
-
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-    type: vless
-    server: cdn-video-151-236-93.shadow-net.site
-    port: 443
-    uuid: 64160796-9b52-44ad-8efe-faeb2c31e438
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
-
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
     type: vless
     server: kazahstan.shadow-net.site
     port: 443
@@ -482,7 +362,7 @@ proxies:
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (4)"
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
     type: vless
     server: 77.73.66.83
     port: 443
@@ -525,7 +405,7 @@ proxies:
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (1)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
     type: vless
     server: latvia.shadow-net.site
     port: 443
@@ -538,22 +418,6 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (2)"
-    type: vless
-    server: lv.matevps.ru
-    port: 443
-    uuid: e84d3372-c23c-40bd-ac0a-0f185a5c4782
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 9wfsGBdHj4v57u3U-YDUrqyHcBzZP_43xYXw0aT_UHE
-      short-id: 6ba85179e30d4fc2
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
@@ -617,20 +481,6 @@ proxies:
       public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
       short-id: 577a94c45a351518
 
-  - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
-    type: vless
-    server: cdn-video-praga.shadow-net.site
-    port: 443
-    uuid: 64160796-9b52-44ad-8efe-faeb2c31e438
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
-
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
     type: vless
     server: fi1bit.ru
@@ -650,20 +500,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
     type: vless
-    server: fl.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: CguSH6UedutGOaPqw53tF-vwHP_R7701aSqZlCE26DU
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-    type: vless
     server: finka.shadow-net.site
     port: 443
     uuid: 64160796-9b52-44ad-8efe-faeb2c31e438
@@ -676,7 +512,7 @@ proxies:
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
     type: vless
     server: fin1.nfnpx.online
     port: 443
@@ -691,7 +527,7 @@ proxies:
       v2ray-http-upgrade: true
       v2ray-http-upgrade-fast-open: true
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
     type: vless
     server: 158.160.197.118
     port: 443
@@ -706,7 +542,7 @@ proxies:
       public-key: TrAxIFIhSCc4C5IWnGvvAs2cSD_mVag1MlTCJPeLkGg
       short-id: ccb740da793de558
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (6)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
     type: vless
     server: 158.160.191.241
     port: 443
@@ -766,22 +602,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
-    server: de.matevps.ru
-    port: 443
-    uuid: e84d3372-c23c-40bd-ac0a-0f185a5c4782
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 9wfsGBdHj4v57u3U-YDUrqyHcBzZP_43xYXw0aT_UHE
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
-    type: vless
     server: 212.113.109.63
     port: 443
     uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
@@ -796,7 +616,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: 193.233.134.181
     port: 11011
@@ -811,7 +631,7 @@ proxies:
       public-key: ZKhdCZyKSfSS3bFycUzSmYiVldVzJKqT-yDnvxNpzg8
       short-id: be034c908eabdd26
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: g1.notorgate.top
     port: 443
@@ -827,7 +647,7 @@ proxies:
       public-key: N1RsA59DgmnbeitClKXLyCUrG7uWccNpTeXWzFTlPVc
       short-id: 0af721e0f009d1fb
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: ger4.nfnpx.online
     port: 443
@@ -842,7 +662,7 @@ proxies:
       v2ray-http-upgrade: true
       v2ray-http-upgrade-fast-open: true
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: vless
     server: de1.shadow-net.site
     port: 443
@@ -856,77 +676,7 @@ proxies:
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
-    type: vless
-    server: yandex-178.shadow-net.site
-    port: 8443
-    uuid: 64160796-9b52-44ad-8efe-faeb2c31e438
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: edge
-    reality-opts:
-      public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
-    type: vless
-    server: yandex-158.shadow-net.site
-    port: 8443
-    uuid: 64160796-9b52-44ad-8efe-faeb2c31e438
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: eh.vk.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
-    type: vless
-    server: de.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: CguSH6UedutGOaPqw53tF-vwHP_R7701aSqZlCE26DU
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
-    type: vless
-    server: yandex-84.shadow-net.site
-    port: 8443
-    uuid: 64160796-9b52-44ad-8efe-faeb2c31e438
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (11)"
-    type: vless
-    server: yandex-51.shadow-net.site
-    port: 8443
-    uuid: 64160796-9b52-44ad-8efe-faeb2c31e438
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: drY21DHNOr6ezJLA2B10mzTExeJ9-gVBfTBNLwVBtWI
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (12)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
     type: vless
     server: ee1bit.ru
     port: 443
@@ -943,37 +693,7 @@ proxies:
       public-key: Wv4nwVc-vEi7l49hkzD1kk15W6ro3pFgsFQobBtL4Gw
       short-id: b7adcf6ab5068c90
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
-    type: vless
-    server: nl.matevps.ru
-    port: 443
-    uuid: e84d3372-c23c-40bd-ac0a-0f185a5c4782
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 9wfsGBdHj4v57u3U-YDUrqyHcBzZP_43xYXw0aT_UHE
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-    type: vless
-    server: nl.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: CguSH6UedutGOaPqw53tF-vwHP_R7701aSqZlCE26DU
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands)"
     type: vless
     server: nl1.nfnpx.online
     port: 443
@@ -1002,23 +722,7 @@ proxies:
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
-    type: vless
-    server: tr.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: grpc
-    tls: true
-    udp: true
-    servername: google.com
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc
-    reality-opts:
-      public-key: bKa5OgRaIrDqk9kDGZx-e_cTVqmDOZtmsdqqrACT8U0
-      short-id: c4d38c2d3660d4
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey)"
     type: vless
     server: tur1.shadow-net.site
     port: 443
@@ -1072,20 +776,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
-    server: us.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: CguSH6UedutGOaPqw53tF-vwHP_R7701aSqZlCE26DU
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
-    type: vless
     server: d.notorgate.top
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -1100,7 +790,7 @@ proxies:
       public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
       short-id: 0af721e0f009d1fb
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: 77.73.66.83
     port: 443
@@ -1115,7 +805,7 @@ proxies:
       public-key: LsesLwq7kI3X91a5oygEXLOyWQwEDSSHltrCppMWCH4
       short-id: 3ee5bf27b15a6384
 
-  - name: "🇰🇷 PREMIUM Южная Корея (South Korea) (1)"
+  - name: "🇰🇷 PREMIUM Южная Корея (South Korea)"
     type: vless
     server: koreya.shadow-net.site
     port: 443
@@ -1129,21 +819,7 @@ proxies:
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
 
-  - name: "🇰🇷 PREMIUM Южная Корея (South Korea) (2)"
-    type: vless
-    server: kr.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: qq
-    reality-opts:
-      public-key: CguSH6UedutGOaPqw53tF-vwHP_R7701aSqZlCE26DU
-
-  - name: "🇯🇵 PREMIUM Япония (Japan) (1)"
+  - name: "🇯🇵 PREMIUM Япония (Japan)"
     type: vless
     server: japan.shadow-net.site
     port: 443
@@ -1156,22 +832,6 @@ proxies:
     client-fingerprint: chrome
     reality-opts:
       public-key: 9_hF9aSsvotczTOiPowhHEw46HDJnZNait77Zvtt9ww
-
-  - name: "🇯🇵 PREMIUM Япония (Japan) (2)"
-    type: vless
-    server: jp.zenxnet.com
-    port: 443
-    uuid: be56b0c2-a249-4183-bfbe-74b6557a28c7
-    network: grpc
-    tls: true
-    udp: true
-    servername: google.com
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc
-    reality-opts:
-      public-key: bKa5OgRaIrDqk9kDGZx-e_cTVqmDOZtmsdqqrACT8U0
-      short-id: 15
 
   - name: "🇨🇳 PREMIUM Китай (China)"
     type: vless
@@ -1414,37 +1074,26 @@ proxy-groups:
       - "🇫🇲 PREMIUM Обход белого списка МТС"
       - "🇫🇲 PREMIUM Обход белого списка РТК"
       - "🇫🇲 PREMIUM Обход белого списка Т2"
-      - "🚀 YouTube (Russia - белый список) #🇫🇲 PREMIUM Обход белого списка (1)"
-      - "🚀 YouTube (Russia - белый список) #🇫🇲 PREMIUM Обход белого списка (2)"
       - "🌎 PREMIUM Случайная (Random) (1)"
       - "🌎 PREMIUM Случайная (Random) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
       - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇷🇺 PREMIUM Россия (Russian) (5)"
-      - "🇷🇺 PREMIUM Россия (Russian) (6)"
-      - "🇷🇺 PREMIUM Россия (Russian) (7)"
-      - "🇷🇺 PREMIUM Россия (Russian) (8)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (4)"
       - "🇦🇲 PREMIUM Армения (Armenia)"
       - "🇱🇹 PREMIUM Литва (LITVA)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (1)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (2)"
+      - "🇱🇻 PREMIUM Латвия (Latvia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
       - "🇵🇱 PREMIUM Польша (Poland) (4)"
-      - "🇨🇿 PREMIUM Чехия (Czech Republic)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
       - "🇳🇴 PREMIUM Норвегия (Norway)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France)"
@@ -1454,28 +1103,16 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇩🇪 PREMIUM Германия (Germany) (5)"
       - "🇩🇪 PREMIUM Германия (Germany) (6)"
-      - "🇩🇪 PREMIUM Германия (Germany) (7)"
-      - "🇩🇪 PREMIUM Германия (Germany) (8)"
-      - "🇩🇪 PREMIUM Германия (Germany) (9)"
-      - "🇩🇪 PREMIUM Германия (Germany) (10)"
-      - "🇩🇪 PREMIUM Германия (Germany) (11)"
-      - "🇩🇪 PREMIUM Германия (Germany) (12)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands)"
       - "🇬🇷 PREMIUM Греция (Greece)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
+      - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇮🇱 PREMIUM Израиль (Israel)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
-      - "🇺🇸 PREMIUM Америка (USA) (5)"
-      - "🇰🇷 PREMIUM Южная Корея (South Korea) (1)"
-      - "🇰🇷 PREMIUM Южная Корея (South Korea) (2)"
-      - "🇯🇵 PREMIUM Япония (Japan) (1)"
-      - "🇯🇵 PREMIUM Япония (Japan) (2)"
+      - "🇰🇷 PREMIUM Южная Корея (South Korea)"
+      - "🇯🇵 PREMIUM Япония (Japan)"
       - "🇨🇳 PREMIUM Китай (China)"
       - "🇫🇲 Обход белого списка (1)"
       - "🇫🇲 Обход белого списка (2)"
