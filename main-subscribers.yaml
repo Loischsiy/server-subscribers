@@ -316,29 +316,6 @@ proxies:
 
   - name: "🌎 PREMIUM Случайная (Random) (2)"
     type: vless
-    server: 94.131.125.18
-    port: 16652
-    uuid: e19d4f1c-a023-4159-9a0d-5d98f0abca32
-    network: tcp
-    tls: true
-    udp: true
-    servername: deep-route.ru
-    client-fingerprint: chrome
-
-  - name: "🌎 PREMIUM Случайная (Random) (3)"
-    type: vmess
-    server: 94.131.125.18
-    port: 16086
-    uuid: e19d4f1c-a023-4159-9a0d-5d98f0abca32
-    alterId: 0
-    cipher: auto
-    udp: true
-    tls: true
-    network: tcp
-    servername: deep-route.ru
-
-  - name: "🌎 PREMIUM Случайная (Random) (4)"
-    type: vless
     server: 162.141.92.133
     port: 443
     uuid: b47a2ac1-5c81-42a7-90c3-a4063e601596
@@ -371,21 +348,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
-    server: 45.8.251.191
-    port: 443
-    uuid: cc0deb1c-0b36-49b1-a2d9-4939cd80fc44
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: yandex.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Q8jJFwhDkUl52BmBt_Zo0jniXz7kKce_HQn_jRoRNVs
-      short-id: D1aaddff2dff4f
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
     server: h.onefrostcloud.com
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -400,7 +362,7 @@ proxies:
       public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
       short-id: 7edebbe2d9d880fe
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
     server: ru.fasti.win
     port: 443
@@ -416,7 +378,7 @@ proxies:
       public-key: iAI3AU1ymQksBudcPndvOpV-mFWn-ECQKF0K42qb12k
       short-id: 5e93929f12f446fe
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
     type: vless
     server: newyt.connect-opengate.ru
     port: 8443
@@ -432,7 +394,7 @@ proxies:
       public-key: xvvrurW0HVr8EtgNTG-alZweqKnO-PNtpl8n-sGUGCo
       short-id: 5b53a1a319f9c803
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
     type: vless
     server: 185.154.193.225
     port: 443
@@ -448,7 +410,7 @@ proxies:
       public-key: 9vV8MOvj1UAEXRcvy7BOFCeYSlsC9RJtNBm7Oun0tic
       short-id: 1b43ebb5f53581ec
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
     type: vless
     server: 109.122.199.101
     port: 443
@@ -465,7 +427,7 @@ proxies:
       public-key: mlOxmdLG0sJSoI_DNzZQ_ozBDTXyY2fG7GATwe8zlDo
       short-id: 40ac834c0e89bd62
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
     type: vless
     server: balanced-rus.velvetvpn.xyz
     port: 7443
@@ -481,7 +443,7 @@ proxies:
       public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
       short-id: 505c94b8c65afb0a
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (9)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
     type: vless
     server: h.onefrostcloud.com
     port: 443
@@ -497,7 +459,7 @@ proxies:
       public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
       short-id: 7edebbe2d9d880fe
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (10)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (9)"
     type: vless
     server: 89.169.145.64
     port: 443
@@ -592,30 +554,6 @@ proxies:
       public-key: oudoaW_d0OpRTxVsWEJJf1BVZ5_R9Y9SCSl8pwRx5yE
       short-id: 30531914bddc70c8
 
-  - name: "🇱🇹 PREMIUM Литва (LITVA) (1)"
-    type: vless
-    server: cl3-lit.privetnet.ru
-    port: 443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cl3-lit.privetnet.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-      short-id: f483136d65134916
-
-  - name: "🇱🇹 PREMIUM Литва (LITVA) (2)"
-    type: ss
-    server: cl3-lit.privetnet.ru
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: vTzFateojfBmB9LjMdtWTYL_ezN8WzDF
-    udp: true
-
   - name: "🇱🇻 PREMIUM Латвия (Latvia)"
     type: vless
     server: lv.opengate.wiki
@@ -682,22 +620,6 @@ proxies:
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
     type: vless
-    server: cl3-pol.privetnet.ru
-    port: 443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cl3-pol.privetnet.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-      short-id: 937e4327521f20ad
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
-    type: vless
     server: uniovh.connect-opengate.ru
     port: 443
     uuid: b9ca42a5-98c8-4823-a4e2-d03f3105c04d
@@ -712,7 +634,7 @@ proxies:
       public-key: cHuH-eNMb_ek9yJVLCEk_AXkookFCUxzWt0V_xvmnWs
       short-id: de77159b9540444e
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
     type: vless
     server: b.onefrostcloud.com
     port: 443
@@ -728,7 +650,7 @@ proxies:
       public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
       short-id: 577a94c45a351518
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
     type: vless
     server: 144.31.5.137
     port: 443
@@ -744,7 +666,7 @@ proxies:
       public-key: 4iK5i-mkNx7-AIR11Y7lQTSaxzMUcfPfdjC-4sAQVg4
       short-id: 7316179b
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (7)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
     type: vless
     server: 144.31.5.138
     port: 443
@@ -760,7 +682,7 @@ proxies:
       public-key: uV4LVa44mwD0LrAHqMISw9atVGRyBo-R80IbGVeH0G8
       short-id: 0d18f751
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (8)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (7)"
     type: vless
     server: 144.31.3.104
     port: 11011
@@ -776,7 +698,7 @@ proxies:
       public-key: rI9VYuHyu0t0bKzVyNekh_DYgeV4nBI2AFVb910DY2g
       short-id: be034c908eabdd26
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (9)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (8)"
     type: vless
     server: pl.connect-opengate.ru
     port: 8443
@@ -792,7 +714,7 @@ proxies:
       public-key: oudoaW_d0OpRTxVsWEJJf1BVZ5_R9Y9SCSl8pwRx5yE
       short-id: 30531914bddc70c8
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (10)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (9)"
     type: vless
     server: uniovh.connect-opengate.ru
     port: 443
@@ -917,21 +839,6 @@ proxies:
       public-key: M7wkwiwOGcTVgwnC7P8NcdcTFwD171haZllYZtaqBUA
       short-id: 65da259952693dce
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
-    type: vless
-    server: 144.31.27.211
-    port: 8443
-    uuid: cc0deb1c-0b36-49b1-a2d9-4939cd80fc44
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: nV4k55CN-aATpTH9YjqW7_uJRBrarjPWEeiLPBf95Gs
-      short-id: a2aa33
-
   - name: "🇸🇪 PREMIUM Швеция (Sweden)"
     type: vless
     server: se-balancer.velvetvpn.xyz
@@ -1010,38 +917,6 @@ proxies:
     reality-opts:
       public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
       short-id: 505c94b8c65afb0a
-
-  - name: "🇫🇷 PREMIUM Франция (France) (4)"
-    type: vless
-    server: cl3-fr.privetnet.ru
-    port: 443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cl3-fr.privetnet.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-      short-id: 2d3aaae113a22d90
-
-  - name: "🇦🇹 PREMIUM Австрия (Austria)"
-    type: vless
-    server: cl3-aus.privetnet.ru
-    port: 443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cl3-aus.privetnet.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-      short-id: a486554fedc39f1c
 
   - name: "🇩🇪  #🇩🇪 PREMIUM Германия (Germany)"
     type: vless
@@ -1427,22 +1302,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (17)"
     type: vless
-    server: cl3-de.privetnet.ru
-    port: 443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cl3-de.privetnet.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-      short-id: 937e4327521f20ad
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (18)"
-    type: vless
     server: wl-n2.connect-opengate.ru
     port: 8443
     uuid: b9ca42a5-98c8-4823-a4e2-d03f3105c04d
@@ -1456,7 +1315,7 @@ proxies:
       public-key: xe1eISCxu6F6KEBmW7tIeYnebGhau9HszGeBXmys2HM
       short-id: 3467f24dddccac7c
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (19)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (18)"
     type: vless
     server: newatge.connect-opengate.ru
     port: 8443
@@ -1472,7 +1331,7 @@ proxies:
       public-key: muLYnqGdHhl_0kk555yqwJym0yMNS6yXNUYzlvhidF4
       short-id: c912b13091f9e50d
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (20)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (19)"
     type: vless
     server: de-balancer.velvetvpn.xyz
     port: 40443
@@ -1654,22 +1513,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
     type: vless
-    server: cl3-ndl.privetnet.ru
-    port: 443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cl3-ndl.privetnet.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-      short-id: 91373c2c10e1924b
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
-    type: vless
     server: balancer-alpha.velvetvpn.xyz
     port: 8443
     uuid: 31a1a5a9-eea4-44c2-a30e-d2256e23d5df
@@ -1684,7 +1527,7 @@ proxies:
       public-key: wKPAR2t-xoUMbBqRHV7SLvGuR9dwrcH6bTSknyBO0T8
       short-id: a1b2c3d4e5f6789a
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
     type: vless
     server: nl1.nfnpx.online
     port: 443
@@ -1699,7 +1542,7 @@ proxies:
       v2ray-http-upgrade: true
       v2ray-http-upgrade-fast-open: true
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
     type: vless
     server: balanced-rus-bridge.velvetvpn.xyz
     port: 7443
@@ -1715,27 +1558,7 @@ proxies:
       public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
       short-id: 505c94b8c65afb0a
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
-    type: vless
-    server: cl3-ndl.privetnet.ru
-    port: 7443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: ws
-    tls: false
-    udp: true
-    packet-encoding: xudp
-    ws-opts:
-      path: "/vless"
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (12)"
-    type: ss
-    server: cl3-ndl.privetnet.ru
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: vTzFateojfBmB9LjMdtWTYL_ezN8WzDF
-    udp: true
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (13)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
     type: vless
     server: 162.141.92.133
     port: 443
@@ -1751,7 +1574,7 @@ proxies:
       public-key: FZsrTpssuJY5KZR7z90ygaiQoaImAu7fVJQJ2xuuZHE
       short-id: a57c09e4
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (14)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
     type: vless
     server: 92.112.125.80
     port: 443
@@ -1767,7 +1590,7 @@ proxies:
       public-key: TJsmj5wZX1KfqWdNLmC-4Q7mtMATzQ8cOzsKvSRe7lc
       short-id: ca1031b5
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (15)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (12)"
     type: vless
     server: 92.112.125.46
     port: 443
@@ -1783,7 +1606,7 @@ proxies:
       public-key: C70zCpQtCtnj24qOastdaGKkTRjBXJm6czJCqYic82Q
       short-id: cc4e467f
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (16)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (13)"
     type: vless
     server: 92.112.125.86
     port: 443
@@ -1799,7 +1622,7 @@ proxies:
       public-key: K962ua4TepNTR8OOg1k07UXvraThzgVj5To5pxXdpnM
       short-id: 6b6a2bb9
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (17)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (14)"
     type: vless
     server: 92.112.125.3
     port: 443
@@ -1815,7 +1638,7 @@ proxies:
       public-key: LgaFPjepBqZRnNn-cO4kAuD-TJX_erUjs5BSH1LP8x0
       short-id: d7b06939
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (18)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (15)"
     type: vless
     server: nl.connect-opengate.ru
     port: 443
@@ -1862,22 +1685,6 @@ proxies:
     reality-opts:
       public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
       short-id: 505c94b8c65afb0a
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
-    type: vless
-    server: cl3-tur.privetnet.ru
-    port: 443
-    uuid: 2eb3256c-7d94-4071-a4c1-fe178d715e94
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cl3-tur.privetnet.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA
-      short-id: f483136d65134916
 
   - name: "🇮🇱 PREMIUM Израиль (Israel)"
     type: ss
@@ -2407,8 +2214,6 @@ proxy-groups:
       - "🇫🇲 PREMIUM Обход белого списка Т2"
       - "🌎 PREMIUM Случайная (Random) (1)"
       - "🌎 PREMIUM Случайная (Random) (2)"
-      - "🌎 PREMIUM Случайная (Random) (3)"
-      - "🌎 PREMIUM Случайная (Random) (4)"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
@@ -2418,14 +2223,11 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (7)"
       - "🇷🇺 PREMIUM Россия (Russian) (8)"
       - "🇷🇺 PREMIUM Россия (Russian) (9)"
-      - "🇷🇺 PREMIUM Россия (Russian) (10)"
       - "🇰🇿 #🇰🇿 PREMIUM Казахстан (Kazakhstan)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
       - "🇦🇲 PREMIUM Армения (Armenia)"
-      - "🇱🇹 PREMIUM Литва (LITVA) (1)"
-      - "🇱🇹 PREMIUM Литва (LITVA) (2)"
       - "🇱🇻 PREMIUM Латвия (Latvia)"
       - "🇪🇪 PREMIUM Эстония (Estonia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
@@ -2437,7 +2239,6 @@ proxy-groups:
       - "🇵🇱 PREMIUM Польша (Poland) (7)"
       - "🇵🇱 PREMIUM Польша (Poland) (8)"
       - "🇵🇱 PREMIUM Польша (Poland) (9)"
-      - "🇵🇱 PREMIUM Польша (Poland) (10)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
@@ -2445,14 +2246,11 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (7)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (8)"
       - "🇸🇪 PREMIUM Швеция (Sweden)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇫🇷 PREMIUM Франция (France) (3)"
-      - "🇫🇷 PREMIUM Франция (France) (4)"
-      - "🇦🇹 PREMIUM Австрия (Austria)"
       - "🇩🇪  #🇩🇪 PREMIUM Германия (Germany)"
       - "🇩🇪 #🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 #🇩🇪 PREMIUM Германия (Germany) (2)"
@@ -2480,7 +2278,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (17)"
       - "🇩🇪 PREMIUM Германия (Germany) (18)"
       - "🇩🇪 PREMIUM Германия (Germany) (19)"
-      - "🇩🇪 PREMIUM Германия (Germany) (20)"
       - "🇳🇱 #🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 #🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 #🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -2500,12 +2297,8 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (13)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (14)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (15)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (16)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (17)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (18)"
       - "🇹🇷 PREMIUM Турция (Turkey) (1)"
       - "🇹🇷 PREMIUM Турция (Turkey) (2)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (3)"
       - "🇮🇱 PREMIUM Израиль (Israel)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇨🇦 PREMIUM Канада (Canada)"
