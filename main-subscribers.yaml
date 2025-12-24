@@ -746,6 +746,18 @@ proxies:
       public-key: _u-6IhXt7uYnQJmgM-kK40q8zZrwZg-CFp31MWzhJTA
       short-id: c8912b093deff56f
 
+  - name: "🇵🇱 PREMIUM Польша (Poland) (10)"
+    type: vless
+    server: plcdn6.suio.me
+    port: 443
+    uuid: 4d55a207-089f-4006-900a-629ec2b3ed9c
+    network: tcp
+    tls: true
+    udp: true
+    servername: plcdn6.suio.me
+    client-fingerprint: chrome
+    packet-encoding: xudp
+
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
     type: vless
     server: 158.160.197.118
@@ -854,6 +866,18 @@ proxies:
     reality-opts:
       public-key: M7wkwiwOGcTVgwnC7P8NcdcTFwD171haZllYZtaqBUA
       short-id: 65da259952693dce
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
+    type: vless
+    server: ficdn6.suio.me
+    port: 443
+    uuid: 4d55a207-089f-4006-900a-629ec2b3ed9c
+    network: tcp
+    tls: true
+    udp: true
+    servername: ficdn6.suio.me
+    client-fingerprint: chrome
+    packet-encoding: xudp
 
   - name: "🇸🇪 PREMIUM Швеция (Sweden)"
     type: vless
@@ -2240,6 +2264,7 @@ proxy-groups:
       - "🇵🇱 PREMIUM Польша (Poland) (7)"
       - "🇵🇱 PREMIUM Польша (Poland) (8)"
       - "🇵🇱 PREMIUM Польша (Poland) (9)"
+      - "🇵🇱 PREMIUM Польша (Poland) (10)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
@@ -2247,6 +2272,7 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (7)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (8)"
       - "🇸🇪 PREMIUM Швеция (Sweden)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
