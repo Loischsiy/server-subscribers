@@ -57,7 +57,7 @@ dns:
     - speedtest.cros.wr.pvp.net
 
 proxy-providers:
-  Subs:
+  Subs-main:
     type: http
     url: "https://gitlab.com/Loischsiy/server-subscribers/-/raw/main/main-subscribers.yaml"
     path: ./main-subscribers.yaml
@@ -66,6 +66,19 @@ proxy-providers:
       enable: true
       url: http://captive.apple.com/hotspot-detect.html
       interval: 300
+  Subs-wh:
+    type: http
+    url: "https://etoneya.a9fm.site/whitelist"
+    path: ./proxy_providers/sub.yml
+    override:
+      udp: true
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 300
+      timeout: 5000
+      lazy: true
+      expected-status: 204
 
 proxies:
   - name: "☁️ WARP (1)"
@@ -688,306 +701,6 @@ proxies:
     reality-opts:
       public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
 
-  - name: "🇫🇲 Обход белого списка (1)"
-    type: vless
-    server: 51.250.86.102
-    port: 443
-    uuid: a8077bc1-7abe-4c7d-97b8-f239d74c7d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: 17802e8ff84f12df
-
-  - name: "🇫🇲 Обход белого списка (2)"
-    type: vless
-    server: 51.250.87.167
-    port: 443
-    uuid: 95fffeb4-c143-4f2c-abe9-8dfeff2c33d7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: d17bd238f23fba92
-
-  - name: "🇫🇲 Обход белого списка (3)"
-    type: vless
-    server: 51.250.83.255
-    port: 443
-    uuid: 1e7c1b91-7573-4755-b44b-55160b5aa957
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: 6354585c37827955
-
-  - name: "🇫🇲 Обход белого списка (4)"
-    type: vless
-    server: 51.250.73.31
-    port: 443
-    uuid: 27d48580-8328-4c64-9d8f-7a03f469e6ad
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: 2476f063981ffd92
-
-  - name: "🇫🇲 Обход белого списка (5)"
-    type: vless
-    server: 37.18.15.139
-    port: 443
-    uuid: 27d48580-8328-4c64-9d8f-7a03f469e6ad
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: c8597fb67d55d9c4
-
-  - name: "🇫🇲 Обход белого списка (6)"
-    type: vless
-    server: 95.163.215.93
-    port: 8443
-    uuid: 37faad56-0c6e-46d3-8218-f6fa3cce5a25
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sun6-22.userapi.com
-    client-fingerprint: qq
-    skip-cert-verify: true
-    packet-encoding: xudp
-    reality-opts:
-      public-key: YLMwM-5UbvqEgVWpg3z9Q3W5nCXscRdKV285z_Vmr0Y
-      short-id: a4fae7ee08c43ade
-
-  - name: "🇫🇲 Обход белого списка (7)"
-    type: vless
-    server: 51.250.25.172
-    port: 4248
-    uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇲 Обход белого списка (8)"
-    type: vless
-    server: 95.163.249.115
-    port: 5443
-    uuid: 70598164-7e47-4bd2-99f0-84a6456fa75c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
-  - name: "🇫🇲 Обход белого списка (9)"
-    type: vless
-    server: 84.201.181.34
-    port: 443
-    uuid: f86dd881-00d4-447e-b445-0d31f235dcbe
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: download.max.ru
-    client-fingerprint: firefox
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 3uWYzm65qryajVsnj0Uanu8be-RhDBd6Ofy2EhQTZjw
-
-  - name: "🇫🇲 Обход белого списка (10)"
-    type: vless
-    server: 51.250.83.255
-    port: 443
-    uuid: 27d48580-8328-4c64-9d8f-7a03f469e6ad
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: cd57a927f6b72d81
-
-  - name: "🇫🇲 Обход белого списка (11)"
-    type: vless
-    server: 51.250.106.64
-    port: 4248
-    uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇲 Обход белого списка (12)"
-    type: vless
-    server: 95.163.215.93
-    port: 8443
-    uuid: 37faad56-0c6e-46d3-8218-f6fa3cce5a25
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sun6-22.userapi.com
-    packet-encoding: xudp
-    reality-opts:
-      public-key: YLMwM-5UbvqEgVWpg3z9Q3W5nCXscRdKV285z_Vmr0Y
-      short-id: a4fae7ee08c43ade
-
-  - name: "🇫🇲 Обход белого списка (13)"
-    type: vless
-    server: 95.163.249.239
-    port: 443
-    uuid: 95fffeb4-c143-4f2c-abe9-8dfeff2c33d7
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: 17f0f0e38f01af5a
-
-  - name: "🇫🇲 Обход белого списка (14)"
-    type: vless
-    server: 37.18.15.139
-    port: 443
-    uuid: 1e7c1b91-7573-4755-b44b-55160b5aa957
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: c8597fb67d55d9c4
-
-  - name: "🇫🇲 Обход белого списка (15)"
-    type: vless
-    server: 51.250.87.167
-    port: 443
-    uuid: a8077bc1-7abe-4c7d-97b8-f239d74c7d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: api-maps.yandex.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FkmYFobwxLMLEktYXywmjthuEYCZggITsxwPNasTKUg
-      short-id: 7426b0c03ef009dc
-
-  - name: "🇫🇲 Обход белого списка (16)"
-    type: vless
-    server: 84.201.181.34
-    port: 8443
-    uuid: f86dd881-00d4-447e-b445-0d31f235dcbe
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sun6-21.userapi.com
-    client-fingerprint: firefox
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 3uWYzm65qryajVsnj0Uanu8be-RhDBd6Ofy2EhQTZjw
-
-  - name: "🇫🇲 Обход белого списка (17)"
-    type: vless
-    server: 51.250.28.39
-    port: 4248
-    uuid: 5ba2e48a-d36c-40a5-a4a1-2819ed6efce5
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇲 Обход белого списка KZ (1)"
-    type: vless
-    server: 151.236.93.44
-    port: 3443
-    uuid: dfd30304-9c58-4ff4-8ba0-b70af154fbc9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ir-2.ozone.ru
-    client-fingerprint: chrome
-    skip-cert-verify: true
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇲 Обход белого списка KZ (2)"
-    type: vless
-    server: 151.236.93.44
-    port: 3443
-    uuid: 8fbee9ac-818d-42e7-a31e-0632c76d75ef
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
   - name: "🇷🇺 Россия (Russian)"
     type: ss
     server: 45.138.157.162
@@ -1158,12 +871,24 @@ proxy-groups:
   - name: "🚀 Auto-Best"
     type: url-test
     use:
-      - Subs
+      - Subs-main
     url: 'http://captive.apple.com/hotspot-detect.html'
     hidden: true
     interval: 300
     tolerance: 50
+
+  - name: "🇫🇲 Обход белого списка"
+    use:
+      - Subs-wh
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    expected-status: 204
+    interval: 300
+    tolerance: 150
+    lazy: true
+
   - name: "Dimon-subscribers"
+    icon: https://drive.usercontent.google.com/u/0/uc?id=1XVTiYnMQgKttigplwIj0HxptEN_zBbuU&export=download
     type: select
     proxies:
       - "🚀 Auto-Best"
@@ -1172,6 +897,7 @@ proxy-groups:
       - "☁️ WARP 🇺🇸"
       - "☁️ WARP 🇫🇮"
       - "🇫🇮 Финляндия через обход БЛ 🇫🇲"
+      - "🇫🇲 Обход белого списка авто"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
@@ -1208,25 +934,6 @@ proxy-groups:
       - "🇵🇰 PREMIUM Пакистан (Pakistan)"
       - "🇰🇷 PREMIUM Южная Корея (South Korea)"
       - "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
-      - "🇫🇲 Обход белого списка (1)"
-      - "🇫🇲 Обход белого списка (2)"
-      - "🇫🇲 Обход белого списка (3)"
-      - "🇫🇲 Обход белого списка (4)"
-      - "🇫🇲 Обход белого списка (5)"
-      - "🇫🇲 Обход белого списка (6)"
-      - "🇫🇲 Обход белого списка (7)"
-      - "🇫🇲 Обход белого списка (8)"
-      - "🇫🇲 Обход белого списка (9)"
-      - "🇫🇲 Обход белого списка (10)"
-      - "🇫🇲 Обход белого списка (11)"
-      - "🇫🇲 Обход белого списка (12)"
-      - "🇫🇲 Обход белого списка (13)"
-      - "🇫🇲 Обход белого списка (14)"
-      - "🇫🇲 Обход белого списка (15)"
-      - "🇫🇲 Обход белого списка (16)"
-      - "🇫🇲 Обход белого списка (17)"
-      - "🇫🇲 Обход белого списка KZ (1)"
-      - "🇫🇲 Обход белого списка KZ (2)"
       - "🇷🇺 Россия (Russian)"
       - "🇺🇦 Украина (Ukraine)"
       - "🇦🇲 Армения (Armenia)"
@@ -1244,12 +951,19 @@ proxy-groups:
       - "🇺🇸 Америка (USA) (2)"
       - "🇯🇵 Япония (Japan)"
 rule-providers:
-  torrents:
+  torrent-clients:
+    type: http
+    url: 'https://raw.githubusercontent.com/legiz-ru/mihomo-rule-sets/refs/heads/main/other/torrent-clients.yaml'
+    interval: 86400
+    proxy: DIRECT
+    behavior: classical
+    format: yaml
+  torrent-trackers:
     type: http
     behavior: domain
-    format: yaml
-    url: https://raw.githubusercontent.com/Loischsiy/rules_torrent/refs/heads/main/torrents%2Banime.yaml
-    path: ./ruleset/torrents.yaml
+    format: mrs
+    url: https://github.com/legiz-ru/mihomo-rule-sets/raw/main/other/torrent-trackers.mrs
+    path: ./rule-sets/torrent-trackers.mrs
     interval: 86400
 
 rules:
@@ -1259,7 +973,8 @@ rules:
   - DOMAIN-KEYWORD,flydigi,DIRECT
   # Для торрент программ из ruleset
   - DOMAIN-KEYWORD,torrent,DIRECT
-  - RULE-SET,torrents,DIRECT
+  - RULE-SET,torrent-clients,DIRECT
+  - RULE-SET,torrent-trackers,DIRECT
   # Для торрент программ самый популярных в виндовс мак и линукс
   - PROCESS-NAME,qBittorrent.exe,DIRECT
   - PROCESS-NAME,uTorrent.exe,DIRECT
