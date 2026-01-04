@@ -859,6 +859,17 @@ proxies:
     password: XLOrvLWkCBBBxLqSEe9S8lnC5PLsNfRh
     udp: true
 proxy-groups:
+  - name: "🇫🇲 Обход белого списка авто"
+    use:
+      - Subs-wh
+    type: url-test
+    url: http://cp.cloudflare.com/generate_204
+    hidden: true
+    expected-status: 204
+    interval: 300
+    tolerance: 150
+    lazy: true
+
   - name: "Dimon-subscribers"
     icon: https://drive.usercontent.google.com/u/0/uc?id=1XVTiYnMQgKttigplwIj0HxptEN_zBbuU&export=download
     type: select
@@ -869,7 +880,6 @@ proxy-groups:
       - "☁️ WARP 🇫🇮"
       - "🇵🇱 Польша через обход БЛ 🇫🇲"
       - "🇫🇲 Обход белого списка авто"
-      - "name: \"🇫🇲 Обход белого списка авто\""
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
@@ -922,15 +932,6 @@ proxy-groups:
       - "🇺🇸 Америка (USA) (1)"
       - "🇺🇸 Америка (USA) (2)"
       - "🇯🇵 Япония (Japan)"
-    use:
-      - Subs-wh
-    type: url-test
-    url: http://cp.cloudflare.com/generate_204
-    expected-status: 204
-    interval: 300
-    tolerance: 150
-    lazy: true
-
 rule-providers:
   torrent-clients:
     type: http
