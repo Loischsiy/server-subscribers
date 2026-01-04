@@ -151,21 +151,21 @@ proxies:
     udp: true
     dialer-proxy: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
   
-  - name: "🇫🇮 Финляндия через обход БЛ 🇫🇲"
+  - name: "🇵🇱 Польша через обход БЛ 🇫🇲"
     type: vless
-    server: fin.intfreed.ru
+    server: 166.1.131.3
     port: 443
-    uuid: cb95e0ad-9d5c-435d-a4f6-976ba578d06b
+    uuid: a93c2e3b-c907-17f2-c51a-ab65869a1346
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: video.intfreed.ru
-    client-fingerprint: qq
+    servername: speed.cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
     reality-opts:
-      public-key: JxwG7rAbNCd_C82p9K69AZDWh51fri2nm3wLHHrfyiw
-      short-id: 7755e972daf8eec8
-    dialer-proxy: "🇫🇲 Обход белого списка"
+      public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
+    dialer-proxy: "🇫🇲 Обход белого списка авто"
 
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
@@ -877,7 +877,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
 
-  - name: "🇫🇲 Обход белого списка"
+  - name: "🇫🇲 Обход белого списка авто"
     use:
       - Subs-wh
     type: url-test
@@ -896,7 +896,7 @@ proxy-groups:
       - "☁️ WARP (2)"
       - "☁️ WARP 🇺🇸"
       - "☁️ WARP 🇫🇮"
-      - "🇫🇮 Финляндия через обход БЛ 🇫🇲"
+      - "🇵🇱 Польша через обход БЛ 🇫🇲"
       - "🇫🇲 Обход белого списка авто"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
