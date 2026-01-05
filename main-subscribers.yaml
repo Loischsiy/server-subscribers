@@ -700,22 +700,6 @@ proxies:
     password: qFAJdBEqsI71jaSML67nHoPBCGhX94uk
     udp: true
 
-  - name: "🇺🇦 Украина (Ukraine)"
-    type: vless
-    server: ua2.vpnjantit.com
-    port: 443
-    uuid: d9bd7f38-e457-11f0-b442-b3736bdc785a
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: QVJxKYU44JvF8TxCXQj_SsWSkJ-3akD2YMZ_3EQsu38
-      short-id: 54b53e33697c25d7
-
   - name: "🇦🇲 Армения (Armenia)"
     type: ss
     server: 213.159.76.21
@@ -756,38 +740,6 @@ proxies:
     password: ixPymFma6P7U41wk9MNP7znPnvax3mjd
     udp: true
 
-  - name: "🇫🇮 Финляндия (Finland)"
-    type: vless
-    server: fi2.vpnjantit.com
-    port: 443
-    uuid: f3d028f2-e458-11f0-85b7-3fa87753936a
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ZN7mHv9E8sE_D1CCdeb-QSuOoJSpycOgRQXlt_oyexk
-      short-id: 3dd9e429c1f6e9e7
-
-  - name: "🇩🇰 Дания (Denmark)"
-    type: vless
-    server: dk1.vpnjantit.com
-    port: 443
-    uuid: 9bfad504-e459-11f0-8af7-5f6d972cbcd9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 4P8djjmaoyLbVgqxWoQoeFe7MliGfXV546bnMra9llk
-      short-id: cfbc49c14b3eb530
-
   - name: "🇳🇱 Нидерланды (Netherlands) (1)"
     type: vless
     server: lvn.externet.org
@@ -827,23 +779,7 @@ proxies:
     password: uo7EbtqIwgZXXHmMv5LbLcOxptyPlNkh
     udp: true
 
-  - name: "🇺🇸 Америка (USA) (1)"
-    type: vless
-    server: md1.vpnjantit.com
-    port: 443
-    uuid: 34d3a93e-e457-11f0-8bf9-f7327d042dca
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: PvT6d_f5IuOGp0cjiCAsMU69jfrOl80eNuqAAj4-RkM
-      short-id: 025c07e0d252b745
-
-  - name: "🇺🇸 Америка (USA) (2)"
+  - name: "🇺🇸 Америка (USA)"
     type: ss
     server: 95.164.116.33
     port: 443
@@ -917,20 +853,16 @@ proxy-groups:
       - "🇰🇷 PREMIUM Южная Корея (South Korea)"
       - "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
       - "🇷🇺 Россия (Russian)"
-      - "🇺🇦 Украина (Ukraine)"
       - "🇦🇲 Армения (Armenia)"
       - "🇱🇹 Литва (LITVA)"
       - "🇱🇻 Латвия (Latvia)"
       - "🇭🇷 Хорватия (Croatia)"
       - "🇷🇸 Сербия (Serbia)"
-      - "🇫🇮 Финляндия (Finland)"
-      - "🇩🇰 Дания (Denmark)"
       - "🇳🇱 Нидерланды (Netherlands) (1)"
       - "🇳🇱 Нидерланды (Netherlands) (2)"
       - "🇳🇱 Нидерланды (Netherlands) (3)"
       - "🇳🇱 Нидерланды (Netherlands) (4)"
-      - "🇺🇸 Америка (USA) (1)"
-      - "🇺🇸 Америка (USA) (2)"
+      - "🇺🇸 Америка (USA)"
       - "🇯🇵 Япония (Japan)"
 rule-providers:
   torrent-clients:
