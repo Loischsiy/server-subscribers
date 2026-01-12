@@ -130,7 +130,7 @@ proxies:
     udp: true
     dialer-proxy: "🇺🇸 PREMIUM Америка (USA) (1)"
   
-  - name: "☁️ WARP 🇫🇮"
+  - name: "☁️ WARP 🇲🇩"
     type: wireguard
     server: engage.cloudflareclient.com
     port: 1701
@@ -140,7 +140,7 @@ proxies:
     public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
     mtu: 1280                 
     udp: true
-    dialer-proxy: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+    dialer-proxy: "🇲🇩 PREMIUM Молдова (Moldova)"
   
   - name: "🇵🇱 Польша через обход БЛ 🇫🇲"
     type: vless
@@ -204,20 +204,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
-    server: ru-node.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
 
   - name: "🇺🇦 PREMIUM Украина (Ukraine) (1)"
     type: vless
@@ -294,29 +280,7 @@ proxies:
     reality-opts:
       public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
-    type: vless
-    server: kz.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
-    type: ss
-    server: lv.skytunnel.pw
-    port: 2030
-    cipher: chacha20-ietf-poly1305
-    password: BMuT1vkV_6yrnMk-wb4qxPRA5rJwnadh
-    udp: true
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (1)"
+  - name: "🇪🇪 PREMIUM Эстония (Estonia)"
     type: vless
     server: ee1.vpnjantit.com
     port: 8443
@@ -330,34 +294,6 @@ proxies:
     reality-opts:
       public-key: 8ae_Dk46wR2SJHKktgajmGWAvILE0INtqPE86ou_e1w
       short-id: 9dd53f158d203af7
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (2)"
-    type: vless
-    server: 144.31.170.239
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (3)"
-    type: vless
-    server: ee.skytunnel.pw
-    port: 443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: CNkAFTW9giSVXiW68A9OqlSKy9HJ0pLmgEL4X4PzrHQ
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
@@ -377,20 +313,6 @@ proxies:
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
     type: vless
-    server: pl.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
-    type: vless
     server: b.onefrostcloud.com
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -405,7 +327,7 @@ proxies:
       public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
       short-id: 577a94c45a351518
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
     type: vless
     server: 166.1.131.3
     port: 443
@@ -419,48 +341,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland)"
-    type: vless
-    server: fi.skytunnel.pw
-    port: 443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: QGlJtT7TdXFaIctNpsvykWqAgTR3VCq3Z0H94-QKHDc
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-    type: vless
-    server: swe.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-    type: vless
-    server: swe2.skytunnel.pw
-    port: 443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: QGlJtT7TdXFaIctNpsvykWqAgTR3VCq3Z0H94-QKHDc
 
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
@@ -525,62 +405,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
-    server: de2.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
-    type: vless
-    server: de3.skytunnel.pw
-    port: 443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: QGlJtT7TdXFaIctNpsvykWqAgTR3VCq3Z0H94-QKHDc
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
-    type: vless
-    server: de.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
-    type: vless
-    server: de4.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
-    type: vless
     server: 77.81.65.10
     port: 443
     uuid: a93c2e3b-c907-17f2-c51a-ab65869a1346
@@ -594,7 +418,7 @@ proxies:
     reality-opts:
       public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: g1.notorgate.top
     port: 443
@@ -612,20 +436,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: vless
-    server: 31.58.134.97
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-    type: vless
     server: 45.148.233.10
     port: 443
     uuid: a93c2e3b-c907-17f2-c51a-ab65869a1346
@@ -639,21 +449,7 @@ proxies:
     reality-opts:
       public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-    type: vless
-    server: nl.skytunnel.pw
-    port: 443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: QGlJtT7TdXFaIctNpsvykWqAgTR3VCq3Z0H94-QKHDc
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
     server: 155.212.37.10
     port: 443
@@ -683,7 +479,7 @@ proxies:
     reality-opts:
       public-key: _KiM4lu8Em0mJFmY8t2XRYGL-H2jbCtfKaFB0Io6JCE
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey)"
     type: vless
     server: 166.1.131.7
     port: 443
@@ -697,20 +493,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: 6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
-    server: tr.skytunnel.pw
-    port: 443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: QGlJtT7TdXFaIctNpsvykWqAgTR3VCq3Z0H94-QKHDc
 
   - name: "🇮🇱 PREMIUM Израиль (Israel)"
     type: ss
@@ -796,20 +578,6 @@ proxies:
     reality-opts:
       public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
       short-id: 0af721e0f009d1fb
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
-    type: vless
-    server: usa1.skytunnel.pw
-    port: 8443
-    uuid: 1c6c9039-34dc-42e0-bc27-09ea41dd7696
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bunny.net
-    client-fingerprint: qq
-    reality-opts:
-      public-key: 92bt1gYq9EAz3SSOtKDrmqnbetNcaStEDicwrFg0_Rc
 
   - name: "🇮🇳 PREMIUM Индия (India) (1)"
     type: vless
@@ -1059,54 +827,37 @@ proxy-groups:
       - "☁️ WARP (1)"
       - "☁️ WARP (2)"
       - "☁️ WARP 🇺🇸"
-      - "☁️ WARP 🇫🇮"
+      - "☁️ WARP 🇲🇩"
       - "🇵🇱 Польша через обход БЛ 🇫🇲"
       - "🇫🇲 Обход белого списка авто"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
-      - "🇷🇺 PREMIUM Россия (Russian) (4)"
       - "🇺🇦 PREMIUM Украина (Ukraine) (1)"
       - "🇺🇦 PREMIUM Украина (Ukraine) (2)"
       - "🇲🇩 PREMIUM Молдова (Moldova)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
-      - "🇱🇻 PREMIUM Латвия (Latvia)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (1)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (2)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (3)"
+      - "🇪🇪 PREMIUM Эстония (Estonia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
-      - "🇵🇱 PREMIUM Польша (Poland) (4)"
-      - "🇫🇮 PREMIUM Финляндия (Finland)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
-      - "🇩🇪 PREMIUM Германия (Germany) (4)"
-      - "🇩🇪 PREMIUM Германия (Germany) (5)"
-      - "🇩🇪 PREMIUM Германия (Germany) (6)"
-      - "🇩🇪 PREMIUM Германия (Germany) (7)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
       - "🇪🇸 PREMIUM Испания (Spain)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
+      - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇮🇱 PREMIUM Израиль (Israel)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
-      - "🇺🇸 PREMIUM Америка (USA) (5)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
