@@ -334,6 +334,7 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: apple.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
@@ -440,6 +441,7 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: apple.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
@@ -605,6 +607,7 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: apple.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
@@ -717,18 +720,18 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
-    server: 77.81.65.10
-    port: 993
-    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    server: de.griffon-guard.com
+    port: 8443
+    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: speed.cloudflare.com
+    servername: apple.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
+      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
@@ -795,17 +798,18 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
     type: vless
-    server: de.griffon-guard.com
-    port: 8443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
+    server: 77.81.65.10
+    port: 993
+    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: apple.com
+    servername: speed.cloudflare.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+      public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: vless
@@ -869,20 +873,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
-    server: nl.griffon-guard.com
-    port: 8443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-    type: vless
     server: kz.oncloudvpn.com
     port: 443
     uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
@@ -897,7 +887,7 @@ proxies:
       public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
       short-id: f106
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
     type: vless
     server: nl.prod.n7.homes
     port: 8443
@@ -912,7 +902,7 @@ proxies:
       public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
       short-id: 3ca620a7ed5f3196
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
     type: vless
     server: de.oncloudvpn.com
     port: 443
@@ -927,6 +917,21 @@ proxies:
     reality-opts:
       public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
       short-id: f106
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+    type: vless
+    server: nl.griffon-guard.com
+    port: 8443
+    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: apple.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
 
   - name: "🇪🇸 PREMIUM Испания (Spain)"
     type: vless
@@ -1006,6 +1011,7 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: apple.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
@@ -1028,37 +1034,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: vless
-    server: us.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
-    type: vless
-    server: se.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
-    type: vless
     server: us.griffon-guard.com
     port: 443
     uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
@@ -1067,11 +1042,12 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: ebay.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: 193.202.12.10
     port: 993
@@ -1086,7 +1062,7 @@ proxies:
     reality-opts:
       public-key: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: 193.56.20.10
     port: 993
@@ -1100,6 +1076,37 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+    type: vless
+    server: us.prod.n7.homes
+    port: 8443
+    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
+    network: tcp
+    tls: true
+    udp: true
+    servername: sun6-21.userapi.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
+      short-id: 3ca620a7ed5f3196
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
+    type: vless
+    server: se.oncloudvpn.com
+    port: 443
+    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cdnjs.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
+      short-id: f106
 
   - name: "🇺🇸 PREMIUM Америка (USA) (7)"
     type: vless
@@ -1202,6 +1209,7 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: yahoo.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
@@ -1216,6 +1224,7 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: yahoo.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
@@ -1230,6 +1239,7 @@ proxies:
     udp: true
     flow: xtls-rprx-vision
     servername: apple.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
       public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
@@ -1299,6 +1309,20 @@ proxies:
 
   - name: "🇩🇪 Германия (Germany) (1)"
     type: vless
+    server: 185.176.94.22
+    port: 443
+    uuid: 5afcb217-dc70-43d4-8ece-e6455b41db30
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.teamdocs.su
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: psk3KYX-pz7gb7DjwdxPtMF9Y08AmaNWXanBTz3UswY
+      short-id: 997b94
+
+  - name: "🇩🇪 Германия (Germany) (2)"
+    type: vless
     server: nl3.oncloudvpn.com
     port: 443
     uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
@@ -1312,20 +1336,6 @@ proxies:
     reality-opts:
       public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
       short-id: f106
-
-  - name: "🇩🇪 Германия (Germany) (2)"
-    type: vless
-    server: 185.176.94.22
-    port: 443
-    uuid: 5afcb217-dc70-43d4-8ece-e6455b41db30
-    network: tcp
-    tls: true
-    udp: true
-    servername: www.teamdocs.su
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: psk3KYX-pz7gb7DjwdxPtMF9Y08AmaNWXanBTz3UswY
-      short-id: 997b94
 
   - name: "🇳🇱 Нидерланды (Netherlands) (1)"
     type: vless
