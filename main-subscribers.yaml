@@ -177,49 +177,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
-    server: con.32.confstage.com
-    port: 8443
-    uuid: 1dd26e75-6edd-46aa-ad76-449e950b9742
-    network: grpc
-    tls: true
-    udp: true
-    servername: eh4.vk.com
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: xyz
-    reality-opts:
-      public-key: K7S6efsW3ES8TXPHA0QP0DWFq279NHHmIteUMWFVOmw
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
-    server: con.3.confstage.com
-    port: 23334
-    uuid: 1dd26e75-6edd-46aa-ad76-449e950b9742
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: qq
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
-    server: con.4.confstage.com
-    port: 23334
-    uuid: 1dd26e75-6edd-46aa-ad76-449e950b9742
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: edge
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
-    type: vless
     server: 147.78.180.10
     port: 993
     uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
@@ -233,39 +190,7 @@ proxies:
     reality-opts:
       public-key: Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
-    type: vless
-    server: fi.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fi.oncloudvpn.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
-    type: vless
-    server: lv.oncloudvpn.com
-    port: 8443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
     server: 166.1.131.4
     port: 993
@@ -280,7 +205,7 @@ proxies:
     reality-opts:
       public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (9)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
     type: vless
     server: wl.savex.space
     port: 443
@@ -324,21 +249,6 @@ proxies:
     reality-opts:
       public-key: VxlbLM9ypmP8KyH65M6nPgArl19XOyREm9oNUlCN2yA
 
-  - name: "🇺🇦 PREMIUM Украина (Ukraine) (3)"
-    type: vless
-    server: ua.griffon-guard.com
-    port: 8443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
   - name: "🇲🇩 PREMIUM Молдова (Moldova)"
     type: vless
     server: md1.vpnjantit.com
@@ -354,7 +264,7 @@ proxies:
       public-key: PvT6d_f5IuOGp0cjiCAsMU69jfrOl80eNuqAAj4-RkM
       short-id: 025c07e0d252b745
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
     type: vless
     server: 166.1.131.2
     port: 8443
@@ -370,23 +280,7 @@ proxies:
     reality-opts:
       public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-    type: vless
-    server: 94.242.58.25
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (1)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
     type: vless
     server: lv.prod.n7.homes
     port: 8443
@@ -400,51 +294,6 @@ proxies:
     reality-opts:
       public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
       short-id: 3ca620a7ed5f3196
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (2)"
-    type: vless
-    server: nl2.oncloudvpn.com
-    port: 8443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (3)"
-    type: vless
-    server: con.2.confstage.com
-    port: 23334
-    uuid: 1dd26e75-6edd-46aa-ad76-449e950b9742
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: qq
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (4)"
-    type: vless
-    server: lv.griffon-guard.com
-    port: 8443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
 
   - name: "🇪🇪 PREMIUM Эстония (Estonia)"
     type: vless
@@ -463,20 +312,6 @@ proxies:
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
-    server: con.21.confstage.com
-    port: 23334
-    uuid: 1dd26e75-6edd-46aa-ad76-449e950b9742
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: edge
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
-    type: vless
     server: 166.1.131.3
     port: 993
     uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
@@ -489,6 +324,22 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
+    type: vless
+    server: b.onefrostcloud.com
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: b.onefrostcloud.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
+      short-id: 577a94c45a351518
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
     type: vless
@@ -507,37 +358,6 @@ proxies:
       short-id: 577a94c45a351518
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
-    type: vless
-    server: con.6.confstage.com
-    port: 8443
-    uuid: 1dd26e75-6edd-46aa-ad76-449e950b9742
-    network: grpc
-    tls: true
-    udp: true
-    servername: eh4.vk.com
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: xyz
-    reality-opts:
-      public-key: K7S6efsW3ES8TXPHA0QP0DWFq279NHHmIteUMWFVOmw
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
-    type: vless
-    server: b.onefrostcloud.com
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: b.onefrostcloud.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
-      short-id: 577a94c45a351518
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
     type: vless
     server: po.prod.n7.homes
     port: 8443
@@ -580,83 +400,6 @@ proxies:
     reality-opts:
       public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
       short-id: 3ca620a7ed5f3196
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-    type: vless
-    server: ru3.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ru3.oncloudvpn.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-    type: vless
-    server: fl.griffon-guard.com
-    port: 443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-    type: vless
-    server: usa.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: usa.oncloudvpn.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-    type: vless
-    server: con.1.confstage.com
-    port: 23334
-    uuid: 1dd26e75-6edd-46aa-ad76-449e950b9742
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: qq
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (3)"
-    type: vless
-    server: spb.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: spb.oncloudvpn.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
 
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
@@ -720,21 +463,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
-    server: de.griffon-guard.com
-    port: 8443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
-    type: vless
     server: g1.notorgate.top
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -749,7 +477,7 @@ proxies:
       public-key: N1RsA59DgmnbeitClKXLyCUrG7uWccNpTeXWzFTlPVc
       short-id: 0af721e0f009d1fb
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -765,7 +493,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: de.prod.n7.homes
     port: 8443
@@ -780,7 +508,7 @@ proxies:
       public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
       short-id: 3ca620a7ed5f3196
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: ge.savex.space
     port: 443
@@ -796,7 +524,7 @@ proxies:
       public-key: TO_4itPBY2pRAXRG1mHYqPC1WmmrGVrFfjKQ6_fk738
       short-id: af7d1b62aa2388e2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: vless
     server: 77.81.65.10
     port: 993
@@ -873,22 +601,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
-    server: kz.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kz.oncloudvpn.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-    type: vless
     server: nl.prod.n7.homes
     port: 8443
     uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
@@ -901,37 +613,6 @@ proxies:
     reality-opts:
       public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
       short-id: 3ca620a7ed5f3196
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
-    type: vless
-    server: de.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de.oncloudvpn.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
-    type: vless
-    server: nl.griffon-guard.com
-    port: 8443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
 
   - name: "🇪🇸 PREMIUM Испания (Spain)"
     type: vless
@@ -1001,21 +682,6 @@ proxies:
     reality-opts:
       public-key: Tv-cNH4ADnhrcIc_JIHdTCz2PJ3b4jkmLNAJ4OVKuzY
 
-  - name: "🇨🇦 PREMIUM Канада (Canada)"
-    type: vless
-    server: ca.griffon-guard.com
-    port: 8443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
     server: d.notorgate.top
@@ -1034,21 +700,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: vless
-    server: us.griffon-guard.com
-    port: 443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ebay.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
-    type: vless
     server: 193.202.12.10
     port: 993
     uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
@@ -1062,7 +713,7 @@ proxies:
     reality-opts:
       public-key: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: 193.56.20.10
     port: 993
@@ -1077,7 +728,7 @@ proxies:
     reality-opts:
       public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: us.prod.n7.homes
     port: 8443
@@ -1092,23 +743,7 @@ proxies:
       public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
       short-id: 3ca620a7ed5f3196
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
-    type: vless
-    server: se.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (7)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
     type: vless
     server: d.notorgate.top
     port: 443
@@ -1199,51 +834,6 @@ proxies:
       public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
       short-id: 3ca620a7ed5f3196
 
-  - name: "🇯🇵 PREMIUM Япония (Japan)"
-    type: vless
-    server: jp.griffon-guard.com
-    port: 443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: yahoo.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
-  - name: "🇭🇰 PREMIUM Гонконг (Hong Kong)"
-    type: vless
-    server: hk.griffon-guard.com
-    port: 443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: yahoo.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
-  - name: "🇸🇬 PREMIUM Сингапур (Singapore)"
-    type: vless
-    server: sg.griffon-guard.com
-    port: 443
-    uuid: 5edef76c-4fb0-4bf8-afc2-332029791458
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
-
   - name: "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
     type: vless
     server: 146.19.90.10
@@ -1307,7 +897,7 @@ proxies:
     password: ixPymFma6P7U41wk9MNP7znPnvax3mjd
     udp: true
 
-  - name: "🇩🇪 Германия (Germany) (1)"
+  - name: "🇩🇪 Германия (Germany)"
     type: vless
     server: 185.176.94.22
     port: 443
@@ -1320,22 +910,6 @@ proxies:
     reality-opts:
       public-key: psk3KYX-pz7gb7DjwdxPtMF9Y08AmaNWXanBTz3UswY
       short-id: 997b94
-
-  - name: "🇩🇪 Германия (Germany) (2)"
-    type: vless
-    server: nl3.oncloudvpn.com
-    port: 443
-    uuid: 24c72e32-615a-4d68-82a6-c0de1b878b41
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl3.oncloudvpn.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
-      short-id: f106
 
   - name: "🇳🇱 Нидерланды (Netherlands) (1)"
     type: vless
@@ -1417,35 +991,18 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
       - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇷🇺 PREMIUM Россия (Russian) (5)"
-      - "🇷🇺 PREMIUM Россия (Russian) (6)"
-      - "🇷🇺 PREMIUM Россия (Russian) (7)"
-      - "🇷🇺 PREMIUM Россия (Russian) (8)"
-      - "🇷🇺 PREMIUM Россия (Russian) (9)"
       - "🇺🇦 PREMIUM Украина (Ukraine) (1)"
       - "🇺🇦 PREMIUM Украина (Ukraine) (2)"
-      - "🇺🇦 PREMIUM Украина (Ukraine) (3)"
       - "🇲🇩 PREMIUM Молдова (Moldova)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (1)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (2)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (3)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (4)"
+      - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
+      - "🇱🇻 PREMIUM Латвия (Latvia)"
       - "🇪🇪 PREMIUM Эстония (Estonia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
       - "🇵🇱 PREMIUM Польша (Poland) (4)"
-      - "🇵🇱 PREMIUM Польша (Poland) (5)"
-      - "🇵🇱 PREMIUM Польша (Poland) (6)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
@@ -1455,36 +1012,26 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇩🇪 PREMIUM Германия (Germany) (5)"
-      - "🇩🇪 PREMIUM Германия (Germany) (6)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
       - "🇪🇸 PREMIUM Испания (Spain)"
       - "🇹🇷 PREMIUM Турция (Turkey) (1)"
       - "🇹🇷 PREMIUM Турция (Turkey) (2)"
       - "🇮🇱 PREMIUM Израиль (Israel)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
-      - "🇨🇦 PREMIUM Канада (Canada)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
       - "🇺🇸 PREMIUM Америка (USA) (5)"
-      - "🇺🇸 PREMIUM Америка (USA) (6)"
-      - "🇺🇸 PREMIUM Америка (USA) (7)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
       - "🇵🇰 PREMIUM Пакистан (Pakistan)"
       - "🇰🇷 PREMIUM Южная Корея (South Korea)"
-      - "🇯🇵 PREMIUM Япония (Japan)"
-      - "🇭🇰 PREMIUM Гонконг (Hong Kong)"
-      - "🇸🇬 PREMIUM Сингапур (Singapore)"
       - "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
       - "🇷🇺 Россия (Russian)"
       - "🇦🇲 Армения (Armenia)"
@@ -1492,8 +1039,7 @@ proxy-groups:
       - "🇱🇻 Латвия (Latvia)"
       - "🇭🇷 Хорватия (Croatia)"
       - "🇷🇸 Сербия (Serbia)"
-      - "🇩🇪 Германия (Germany) (1)"
-      - "🇩🇪 Германия (Germany) (2)"
+      - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands) (1)"
       - "🇳🇱 Нидерланды (Netherlands) (2)"
       - "🇳🇱 Нидерланды (Netherlands) (3)"
