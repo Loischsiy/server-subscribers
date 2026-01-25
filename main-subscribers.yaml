@@ -205,36 +205,7 @@ proxies:
     reality-opts:
       public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
-    server: wl.savex.space
-    port: 443
-    uuid: 78be84f8-8335-436a-920d-c5af8e63b605
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    packet-encoding: xudp
-    reality-opts:
-      public-key: JY6C6aD7-HXxNtpQRaboQR8TGoRtDx2F4Y5S8FGv2hY
-
-  - name: "🇺🇦 PREMIUM Украина (Ukraine) (1)"
-    type: vless
-    server: ua2.vpnjantit.com
-    port: 443
-    uuid: a624e480-f3f8-11f0-af89-6fee2d7bce55
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: QVJxKYU44JvF8TxCXQj_SsWSkJ-3akD2YMZ_3EQsu38
-      short-id: 54b53e33697c25d7
-
-  - name: "🇺🇦 PREMIUM Украина (Ukraine) (2)"
+  - name: "🇺🇦 PREMIUM Украина (Ukraine)"
     type: vless
     server: 91.218.122.10
     port: 993
@@ -248,21 +219,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: VxlbLM9ypmP8KyH65M6nPgArl19XOyREm9oNUlCN2yA
-
-  - name: "🇲🇩 PREMIUM Молдова (Moldova)"
-    type: vless
-    server: md1.vpnjantit.com
-    port: 443
-    uuid: e015b1e2-f3f8-11f0-8d9d-d3d1aa45995b
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: PvT6d_f5IuOGp0cjiCAsMU69jfrOl80eNuqAAj4-RkM
-      short-id: 025c07e0d252b745
 
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
     type: vless
@@ -279,36 +235,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
-    type: vless
-    server: lv.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia)"
-    type: vless
-    server: est.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
@@ -357,50 +283,6 @@ proxies:
       public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
       short-id: 577a94c45a351518
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
-    type: vless
-    server: po.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-    type: vless
-    server: fl.savex.space
-    port: 443
-    uuid: 78be84f8-8335-436a-920d-c5af8e63b605
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    packet-encoding: xudp
-    reality-opts:
-      public-key: JsNYAiyV0NubQ63WyBlVzrTH8HvoyiHgyvlIIkqRHA0
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
-    type: vless
-    server: fi.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
     server: 166.1.131.8
@@ -418,36 +300,6 @@ proxies:
 
   - name: "🇫🇷 PREMIUM Франция (France) (1)"
     type: vless
-    server: 155.212.110.2
-    port: 993
-    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: speed.cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
-
-  - name: "🇫🇷 PREMIUM Франция (France) (2)"
-    type: vless
-    server: fr.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-
-  - name: "🇫🇷 PREMIUM Франция (France) (3)"
-    type: vless
     server: 130.49.77.10
     port: 993
     uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
@@ -460,6 +312,21 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
+
+  - name: "🇫🇷 PREMIUM Франция (France) (2)"
+    type: vless
+    server: 155.212.110.2
+    port: 993
+    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: speed.cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
@@ -495,37 +362,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
-    server: de.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
-    type: vless
-    server: ge.savex.space
-    port: 443
-    uuid: 78be84f8-8335-436a-920d-c5af8e63b605
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ge.savex.space
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: TO_4itPBY2pRAXRG1mHYqPC1WmmrGVrFfjKQ6_fk738
-      short-id: af7d1b62aa2388e2
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
-    type: vless
     server: 77.81.65.10
     port: 993
     uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
@@ -541,6 +377,20 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: vless
+    server: 89.124.67.11
+    port: 443
+    uuid: YunusVPN_8372535
+    network: tcp
+    tls: true
+    udp: true
+    servername: apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: x-Oc_EA6XJfqtXIkkPRJXTjt7YKraG62Nou8x17Otzs
+      short-id: ffffffffff
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+    type: vless
     server: 155.212.37.10
     port: 993
     uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
@@ -554,7 +404,7 @@ proxies:
     reality-opts:
       public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: 45.148.233.10
     port: 993
@@ -568,51 +418,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-    type: vless
-    server: nl.savex.space
-    port: 443
-    uuid: 78be84f8-8335-436a-920d-c5af8e63b605
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl.savex.space
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1Hts2SjwUw9uk0vIXcQBtQBOX2AhE6N7IWhAvKHDWj8
-      short-id: 5bd0a142de6ac7f5
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-    type: vless
-    server: wl2.savex.space
-    port: 443
-    uuid: 78be84f8-8335-436a-920d-c5af8e63b605
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    packet-encoding: xudp
-    reality-opts:
-      public-key: qFit4YCmVIZpKF2rn6G2bvyrCnbU0GjezIKiHlFjXmw
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-    type: vless
-    server: nl.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
 
   - name: "🇪🇸 PREMIUM Испания (Spain)"
     type: vless
@@ -629,7 +434,7 @@ proxies:
     reality-opts:
       public-key: _KiM4lu8Em0mJFmY8t2XRYGL-H2jbCtfKaFB0Io6JCE
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey)"
     type: vless
     server: 166.1.131.7
     port: 993
@@ -643,21 +448,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: 6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
-    server: tr.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
 
   - name: "🇮🇱 PREMIUM Израиль (Israel)"
     type: ss
@@ -715,36 +505,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
-    server: 193.56.20.10
-    port: 993
-    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: speed.cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
-    type: vless
-    server: us.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
-    type: vless
     server: d.notorgate.top
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -758,6 +518,21 @@ proxies:
     reality-opts:
       public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
       short-id: 0af721e0f009d1fb
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+    type: vless
+    server: 193.56.20.10
+    port: 993
+    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: speed.cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
 
   - name: "🇮🇳 PREMIUM Индия (India) (1)"
     type: vless
@@ -818,21 +593,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
-
-  - name: "🇰🇷 PREMIUM Южная Корея (South Korea)"
-    type: vless
-    server: kor.prod.n7.homes
-    port: 8443
-    uuid: d85d8d84-09fb-4f94-add5-1cc6cb225608
-    network: tcp
-    tls: true
-    udp: true
-    servername: sun6-21.userapi.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: upDCW94g-pSYQrmXvOrTVYlwBUrSKhYFF9QwrqObdVo
-      short-id: 3ca620a7ed5f3196
 
   - name: "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
     type: vless
@@ -990,48 +750,32 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
-      - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇺🇦 PREMIUM Украина (Ukraine) (1)"
-      - "🇺🇦 PREMIUM Украина (Ukraine) (2)"
-      - "🇲🇩 PREMIUM Молдова (Moldova)"
+      - "🇺🇦 PREMIUM Украина (Ukraine)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
-      - "🇱🇻 PREMIUM Латвия (Latvia)"
-      - "🇪🇪 PREMIUM Эстония (Estonia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
-      - "🇵🇱 PREMIUM Польша (Poland) (4)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
-      - "🇫🇷 PREMIUM Франция (France) (3)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
-      - "🇩🇪 PREMIUM Германия (Germany) (4)"
-      - "🇩🇪 PREMIUM Германия (Germany) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
       - "🇪🇸 PREMIUM Испания (Spain)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
+      - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇮🇱 PREMIUM Израиль (Israel)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
-      - "🇺🇸 PREMIUM Америка (USA) (5)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
       - "🇵🇰 PREMIUM Пакистан (Pakistan)"
-      - "🇰🇷 PREMIUM Южная Корея (South Korea)"
       - "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
       - "🇷🇺 Россия (Russian)"
       - "🇦🇲 Армения (Armenia)"
