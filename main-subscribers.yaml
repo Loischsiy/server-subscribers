@@ -161,19 +161,19 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
     type: vless
-    server: h.onefrostcloud.com
+    server: ru.foxyrobot.ru
     port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: h.onefrostcloud.com
+    servername: ru.foxyrobot.ru
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
-      short-id: 7edebbe2d9d880fe
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
@@ -205,6 +205,22 @@ proxies:
     reality-opts:
       public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
 
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
+    type: vless
+    server: h.onefrostcloud.com
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: h.onefrostcloud.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
+      short-id: 7edebbe2d9d880fe
+
   - name: "🇺🇦 PREMIUM Украина (Ukraine)"
     type: vless
     server: 91.218.122.10
@@ -220,7 +236,23 @@ proxies:
     reality-opts:
       public-key: VxlbLM9ypmP8KyH65M6nPgArl19XOyREm9oNUlCN2yA
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
+    type: vless
+    server: 151.236.93.121
+    port: 8443
+    uuid: 61fdac4d-e0b7-4cdc-9368-be14f965cb90
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ir.ozone.ru
+    client-fingerprint: random
+    packet-encoding: xudp
+    reality-opts:
+      public-key: xqrzZiFiDMDSEGvrpTs9c7koap-ZiH97PZBFSu8hpUM
+      short-id: 09aebf34f833cc6d
+
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
     type: vless
     server: 166.1.131.2
     port: 8443
@@ -236,20 +268,37 @@ proxies:
     reality-opts:
       public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+  - name: "🇪🇪 PREMIUM Эстония (Estonia)"
     type: vless
-    server: 166.1.131.3
-    port: 993
-    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    server: 64.188.78.189
+    port: 8443
+    uuid: 61fdac4d-e0b7-4cdc-9368-be14f965cb90
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: speed.cloudflare.com
+    servername: vk.com
+    client-fingerprint: random
+    packet-encoding: xudp
+    reality-opts:
+      public-key: jfWufY49R4pa0FrLmcQ166K3wJo7ewhNh6fCmWT4FUs
+      short-id: fdeb0cf8170ba779
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+    type: vless
+    server: b.onefrostcloud.com
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: b.onefrostcloud.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
+      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
+      short-id: 577a94c45a351518
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
     type: vless
@@ -269,19 +318,93 @@ proxies:
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
     type: vless
-    server: b.onefrostcloud.com
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    server: 166.1.131.3
+    port: 993
+    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: b.onefrostcloud.com
+    servername: speed.cloudflare.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
-      short-id: 577a94c45a351518
+      public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
+    type: vless
+    server: ss.03030.sbs
+    port: 8443
+    uuid: 501db0af-6287-4ffe-85f1-e2e214a797f7
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: dropbox.com
+    client-fingerprint: safari
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
+    type: vless
+    server: horda-host-2.prox-dev.ru
+    port: 443
+    uuid: 48f2f232-1354-4d8d-86c6-2954c5fbf496
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 5RZ_4D1yVFFG8NLcbEndItEEFp2hBPMiIAnhIS-_dXU
+      short-id: 25
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+    type: vless
+    server: 109.172.95.2
+    port: 443
+    uuid: addead68-60ac-40dd-b81c-4787e477ee23
+    network: tcp
+    tls: true
+    udp: true
+    servername: web.max.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: O8ug0zbU76jIBDkPpK1RUO3WO8UzmkifKt01co309Wo
+      short-id: 7f5112a1
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+    type: vless
+    server: finland.foxyrobot.ru
+    port: 443
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: finland.foxyrobot.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
+
+  - name: "🇸🇪 PREMIUM Швеция (Sweden)"
+    type: vless
+    server: sweden1.foxyrobot.ru
+    port: 443
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: sweden1.foxyrobot.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
 
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
@@ -300,21 +423,6 @@ proxies:
 
   - name: "🇫🇷 PREMIUM Франция (France) (1)"
     type: vless
-    server: 130.49.77.10
-    port: 993
-    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: speed.cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
-
-  - name: "🇫🇷 PREMIUM Франция (France) (2)"
-    type: vless
     server: 155.212.110.2
     port: 993
     uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
@@ -328,23 +436,54 @@ proxies:
     reality-opts:
       public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
+  - name: "🇫🇷 PREMIUM Франция (France) (2)"
     type: vless
-    server: g1.notorgate.top
+    server: france2.foxyrobot.ru
     port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: g1.notorgate.top
+    servername: france2.foxyrobot.ru
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: N1RsA59DgmnbeitClKXLyCUrG7uWccNpTeXWzFTlPVc
-      short-id: 0af721e0f009d1fb
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
+  - name: "🇫🇷 PREMIUM Франция (France) (3)"
+    type: vless
+    server: france1.foxyrobot.ru
+    port: 443
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: france1.foxyrobot.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
+
+  - name: "🇫🇷 PREMIUM Франция (France) (4)"
+    type: vless
+    server: 130.49.77.10
+    port: 993
+    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: speed.cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -360,7 +499,39 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
+    type: vless
+    server: 213.165.55.40
+    port: 8443
+    uuid: 61fdac4d-e0b7-4cdc-9368-be14f965cb90
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: vk.com
+    client-fingerprint: random
+    packet-encoding: xudp
+    reality-opts:
+      public-key: jfWufY49R4pa0FrLmcQ166K3wJo7ewhNh6fCmWT4FUs
+      short-id: fdeb0cf8170ba779
+
   - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+    type: vless
+    server: senkogermany.foxyrobot.ru
+    port: 443
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: senkogermany.foxyrobot.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: 77.81.65.10
     port: 993
@@ -375,7 +546,37 @@ proxies:
     reality-opts:
       public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
 
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+    type: vless
+    server: g1.notorgate.top
+    port: 443
+    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: g1.notorgate.top
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: N1RsA59DgmnbeitClKXLyCUrG7uWccNpTeXWzFTlPVc
+      short-id: 0af721e0f009d1fb
+
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+    type: vless
+    server: 03030.sbs
+    port: 8443
+    uuid: 501db0af-6287-4ffe-85f1-e2e214a797f7
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: dropbox.com
+    client-fingerprint: safari
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
     server: 89.124.67.11
     port: 443
@@ -389,7 +590,7 @@ proxies:
       public-key: x-Oc_EA6XJfqtXIkkPRJXTjt7YKraG62Nou8x17Otzs
       short-id: ffffffffff
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: 155.212.37.10
     port: 993
@@ -404,7 +605,23 @@ proxies:
     reality-opts:
       public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+    type: vless
+    server: horda-host-1.prox-dev.ru
+    port: 443
+    uuid: 295081e4-618c-4e41-9955-102744198355
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: tradingview.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: p_Eqf1myCAZjMMCgbsf88mYvCvVSHNUHY3DhsxDQ1A4
+      short-id: 05db84d4fd3326
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
     server: 45.148.233.10
     port: 993
@@ -418,6 +635,22 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+    type: vless
+    server: senkonl.foxyrobot.ru
+    port: 443
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: senkonl.foxyrobot.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
 
   - name: "🇪🇸 PREMIUM Испания (Spain)"
     type: vless
@@ -474,6 +707,21 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
+    server: 193.56.20.10
+    port: 993
+    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: speed.cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
+    type: vless
     server: d.notorgate.top
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -488,7 +736,7 @@ proxies:
       public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
       short-id: 0af721e0f009d1fb
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: 193.202.12.10
     port: 993
@@ -503,7 +751,7 @@ proxies:
     reality-opts:
       public-key: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: d.notorgate.top
     port: 443
@@ -519,37 +767,23 @@ proxies:
       public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
       short-id: 0af721e0f009d1fb
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
     type: vless
-    server: 193.56.20.10
-    port: 993
-    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    server: usa5.foxyrobot.ru
+    port: 443
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: speed.cloudflare.com
+    servername: usa5.foxyrobot.ru
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
 
   - name: "🇮🇳 PREMIUM Индия (India) (1)"
-    type: vless
-    server: 213.232.123.10
-    port: 993
-    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: speed.cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SnjXP0GFBVxg3C7sbWUJ5JqKpnlg_BNMXuqoE78YhVE
-
-  - name: "🇮🇳 PREMIUM Индия (India) (2)"
     type: vless
     server: 155.212.110.3
     port: 993
@@ -564,7 +798,7 @@ proxies:
     reality-opts:
       public-key: DnnQOtWhilZ3rqlSip0spBkluYlPeydouSR3iklbPTs
 
-  - name: "🇮🇳 PREMIUM Индия (India) (3)"
+  - name: "🇮🇳 PREMIUM Индия (India) (2)"
     type: vless
     server: 5.181.171.10
     port: 993
@@ -578,6 +812,37 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: YNGotlyAx3ELUmi4lxOUjiEDmibqf1pPUTE9o3YYT2Y
+
+  - name: "🇮🇳 PREMIUM Индия (India) (3)"
+    type: vless
+    server: 213.232.123.10
+    port: 993
+    uuid: 930eb6a6-1496-5a4c-4166-4eeb38fbdcf0
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: speed.cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: SnjXP0GFBVxg3C7sbWUJ5JqKpnlg_BNMXuqoE78YhVE
+
+  - name: "🇮🇳 PREMIUM Индия (India) (4)"
+    type: vless
+    server: indiaufo.foxyrobot.ru
+    port: 443
+    uuid: 3c49e4d6-4f90-4eba-988d-b775f9cf4219
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: indiaufo.foxyrobot.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: wLGgwIBWOuyGMpAOr9Y4InrGvAtzO9L58F9J3hsqtFY
+      short-id: 47a936ef6a66aa41
 
   - name: "🇵🇰 PREMIUM Пакистан (Pakistan)"
     type: vless
@@ -750,20 +1015,35 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
+      - "🇷🇺 PREMIUM Россия (Russian) (4)"
       - "🇺🇦 PREMIUM Украина (Ukraine)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
+      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
+      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
+      - "🇪🇪 PREMIUM Эстония (Estonia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
+      - "🇵🇱 PREMIUM Польша (Poland) (4)"
+      - "🇵🇱 PREMIUM Польша (Poland) (5)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+      - "🇸🇪 PREMIUM Швеция (Sweden)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
+      - "🇫🇷 PREMIUM Франция (France) (3)"
+      - "🇫🇷 PREMIUM Франция (France) (4)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
+      - "🇩🇪 PREMIUM Германия (Germany) (4)"
+      - "🇩🇪 PREMIUM Германия (Germany) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
       - "🇪🇸 PREMIUM Испания (Spain)"
       - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇮🇱 PREMIUM Израиль (Israel)"
@@ -772,9 +1052,11 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
+      - "🇺🇸 PREMIUM Америка (USA) (5)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
+      - "🇮🇳 PREMIUM Индия (India) (4)"
       - "🇵🇰 PREMIUM Пакистан (Pakistan)"
       - "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
       - "🇷🇺 Россия (Russian)"
