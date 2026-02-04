@@ -251,7 +251,7 @@ proxies:
       public-key: PvT6d_f5IuOGp0cjiCAsMU69jfrOl80eNuqAAj4-RkM
       short-id: 025c07e0d252b745
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
     type: vless
     server: test.country-19.eu-ffast.com
     port: 443
@@ -267,37 +267,7 @@ proxies:
       public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
       short-id: 50
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-    type: vless
-    server: kz1.vpnjantit.com
-    port: 8443
-    uuid: 2383f1f6-fd49-11f0-ae14-63a698e18bad
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: omKx-z1NFMoJfAj4Ba0oDNH5-mPDFHVqXN6pnLEmuQc
-      short-id: c0557d4d35117771
-
   - name: "🇪🇪 PREMIUM Эстония (Estonia) (1)"
-    type: vless
-    server: ee1.vpnjantit.com
-    port: 8443
-    uuid: 6afbbb9a-fd49-11f0-9a6a-b7999bccfc02
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 8ae_Dk46wR2SJHKktgajmGWAvILE0INtqPE86ou_e1w
-      short-id: 9dd53f158d203af7
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (2)"
     type: vless
     server: test.country-16.eu-ffast.com
     port: 443
@@ -313,7 +283,7 @@ proxies:
       public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
       short-id: 50
 
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (3)"
+  - name: "🇪🇪 PREMIUM Эстония (Estonia) (2)"
     type: vless
     server: test.country-16.eu-ffast.com
     port: 443
@@ -901,11 +871,9 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (4)"
       - "🇺🇦 PREMIUM Украина (Ukraine)"
       - "🇲🇩 PREMIUM Молдова (Moldova)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
+      - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
       - "🇪🇪 PREMIUM Эстония (Estonia) (1)"
       - "🇪🇪 PREMIUM Эстония (Estonia) (2)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (3)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
