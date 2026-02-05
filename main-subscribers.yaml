@@ -265,8 +265,11 @@ proxies:
     server: verarussia1.uspn.io
     port: 2087
     password: 7W0syH7UQ0v3HH6uyY7WnB8G5HnUhGcu
+    client-fingerprint: qq
     udp: true
     sni: api-maps.yandex.ru
+    reality-opts:
+      public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
 
   - name: "🇺🇦 PREMIUM Украина (Ukraine) (1)"
     type: vless
@@ -777,16 +780,23 @@ proxies:
     server: ger1.uspn.io
     port: 2087
     password: 7W0syH7UQ0v3HH6uyY7WnB8G5HnUhGcu
+    client-fingerprint: qq
     udp: true
     sni: api-maps.yandex.ru
+    reality-opts:
+      public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
+      short-id: 6ba85179e30d4fc2
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
     type: trojan
     server: verager2.uspn.io
     port: 2087
     password: 7W0syH7UQ0v3HH6uyY7WnB8G5HnUhGcu
+    client-fingerprint: qq
     udp: true
     sni: api-maps.yandex.ru
+    reality-opts:
+      public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
     type: vless
@@ -843,8 +853,11 @@ proxies:
     server: veraams2.uspn.io
     port: 2087
     password: 7W0syH7UQ0v3HH6uyY7WnB8G5HnUhGcu
+    client-fingerprint: qq
     udp: true
     sni: api-maps.yandex.ru
+    reality-opts:
+      public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: ss
@@ -1083,8 +1096,12 @@ proxies:
     server: veraus1.uspn.io
     port: 2087
     password: 7W0syH7UQ0v3HH6uyY7WnB8G5HnUhGcu
+    client-fingerprint: qq
     udp: true
     sni: api-maps.yandex.ru
+    reality-opts:
+      public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
+      short-id: 6ba85179e30d4fc2
 
   - name: "🇺🇸 PREMIUM Америка (USA) (6)"
     type: vless
@@ -1192,8 +1209,12 @@ proxies:
     server: verahk1.uspn.io
     port: 2087
     password: 7W0syH7UQ0v3HH6uyY7WnB8G5HnUhGcu
+    client-fingerprint: qq
     udp: true
     sni: api-maps.yandex.ru
+    reality-opts:
+      public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
+      short-id: 6ba85179e30d4fc2
 
   - name: "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
     type: vless
