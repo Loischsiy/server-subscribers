@@ -175,22 +175,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
-    server: test.country-10.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ru.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
     server: h.onefrostcloud.com
     port: 443
     uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
@@ -205,7 +189,7 @@ proxies:
       public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
       short-id: 7edebbe2d9d880fe
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
     type: vless
     server: 147.78.180.10
     port: 993
@@ -220,7 +204,7 @@ proxies:
     reality-opts:
       public-key: Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
     type: vless
     server: 166.1.131.4
     port: 993
@@ -235,7 +219,7 @@ proxies:
     reality-opts:
       public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
     type: vless
     server: 85.209.135.25
     port: 2584
@@ -245,7 +229,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
     type: vless
     server: 85.209.135.54
     port: 443
@@ -260,7 +244,7 @@ proxies:
       public-key: HvwpnPkE1CWy3kzjZTC_JT0_7U_Tv_87iDxSp1Yu7RU
       short-id: fc484fca
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (9)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
     type: trojan
     server: verarussia1.uspn.io
     port: 2087
@@ -271,22 +255,7 @@ proxies:
     reality-opts:
       public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
 
-  - name: "🇺🇦 PREMIUM Украина (Ukraine) (1)"
-    type: vless
-    server: ua1.vpnjantit.com
-    port: 8443
-    uuid: 92d8957c-fd47-11f0-99cf-bfea038d3759
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: p1xovzVPNWqUNk_FdC3_wMCWz6whg7qvw1vDl4Ogmn0
-      short-id: b1e556e0148c0e14
-
-  - name: "🇺🇦 PREMIUM Украина (Ukraine) (2)"
+  - name: "🇺🇦 PREMIUM Украина (Ukraine)"
     type: vless
     server: 91.218.122.10
     port: 993
@@ -301,21 +270,6 @@ proxies:
     reality-opts:
       public-key: VxlbLM9ypmP8KyH65M6nPgArl19XOyREm9oNUlCN2yA
 
-  - name: "🇲🇩 PREMIUM Молдова (Moldova)"
-    type: vless
-    server: md1.vpnjantit.com
-    port: 443
-    uuid: e09ee5da-fd48-11f0-a5a9-df76a50fa422
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: PvT6d_f5IuOGp0cjiCAsMU69jfrOl80eNuqAAj4-RkM
-      short-id: 025c07e0d252b745
-
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
     type: ss
     server: 95.163.181.208
@@ -325,22 +279,6 @@ proxies:
     udp: true
 
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-    type: vless
-    server: test.country-19.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kz.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
     type: vless
     server: 166.1.131.2
     port: 443
@@ -354,38 +292,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (1)"
-    type: vless
-    server: test.country-16.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: est.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (2)"
-    type: vless
-    server: test.country-16.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: est.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
@@ -449,7 +355,7 @@ proxies:
     reality-opts:
       public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
 
-  - name: "🇨🇿 PREMIUM Чехия (Czech Republic) (1)"
+  - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -464,53 +370,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇨🇿 PREMIUM Чехия (Czech Republic) (2)"
-    type: vless
-    server: cz3.vpnjantit.com
-    port: 8443
-    uuid: 6466e616-fd48-11f0-a617-ffd3db7ed479
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: nY7RPV5coqR171JfLbDS3meAPQNF_cxp2islx_Lw-jk
-      short-id: f693c760cab44479
-
-  - name: "🇦🇱 PREMIUM Албания (Albania)"
-    type: vless
-    server: al1.vpnjantit.com
-    port: 443
-    uuid: bdaaf618-fd48-11f0-9977-03deb4e8f1f8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: kzdmYM7r88sakurrsWRpcL7wTEmo38lID5tfP5IKfHY
-      short-id: 9070bb516055d0fd
-
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-    type: vless
-    server: test.country-18.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fin.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
     type: vless
     server: fi.pool.sssrvpn.pro
     port: 443
@@ -525,7 +385,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -540,7 +400,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
     type: vless
     server: 150.241.88.23
     port: 2584
@@ -550,23 +410,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-    type: vless
-    server: test.country-7.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sto.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (2)"
+  - name: "🇸🇪 PREMIUM Швеция (Sweden)"
     type: vless
     server: 193.148.58.79
     port: 2584
@@ -576,39 +420,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (3)"
-    type: vless
-    server: game-sw2.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sto.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (4)"
-    type: vless
-    server: game-sw.eu-ffast.com
-    port: 8443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sto.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
+  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
     server: 166.1.131.8
     port: 993
@@ -623,39 +435,7 @@ proxies:
     reality-opts:
       public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
 
-  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
-    type: vless
-    server: test.country-4.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: lon.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
   - name: "🇫🇷 PREMIUM Франция (France) (1)"
-    type: vless
-    server: test.country-3.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: par.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇫🇷 PREMIUM Франция (France) (2)"
     type: vless
     server: 138.124.31.57
     port: 2584
@@ -665,7 +445,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇫🇷 PREMIUM Франция (France) (3)"
+  - name: "🇫🇷 PREMIUM Франция (France) (2)"
     type: vless
     server: 155.212.110.2
     port: 993
@@ -680,7 +460,7 @@ proxies:
     reality-opts:
       public-key: GfTzhy59k9CXlAdF819OUVeBdrqIILaDIWa1bddjGnA
 
-  - name: "🇫🇷 PREMIUM Франция (France) (4)"
+  - name: "🇫🇷 PREMIUM Франция (France) (3)"
     type: vless
     server: 130.49.77.10
     port: 993
@@ -695,7 +475,7 @@ proxies:
     reality-opts:
       public-key: pd7ujYvrLsVhoEia4dhxPqmpAuapnezqMilXBSDIfgk
 
-  - name: "🇫🇷 PREMIUM Франция (France) (5)"
+  - name: "🇫🇷 PREMIUM Франция (France) (4)"
     type: vless
     server: bridge2.pool.sssrvpn.pro
     port: 443
@@ -712,22 +492,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
-    server: testfast.country-1.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
-    type: vless
     server: 91.108.245.93
     port: 2584
     uuid: 84e65ead-3d4b-477e-bc01-98f7e5ec06c0
@@ -736,7 +500,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: 77.81.65.10
     port: 993
@@ -751,7 +515,7 @@ proxies:
     reality-opts:
       public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: ss
     server: 90.156.231.135
     port: 1234
@@ -759,7 +523,7 @@ proxies:
     password: PpQFwzCkAwdgt7FLU6VgdETVEheVGuwy
     udp: true
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -775,7 +539,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: trojan
     server: ger1.uspn.io
     port: 2087
@@ -787,7 +551,7 @@ proxies:
       public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
     type: trojan
     server: verager2.uspn.io
     port: 2087
@@ -798,7 +562,7 @@ proxies:
     reality-opts:
       public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
     type: vless
     server: de.pool.sssrvpn.pro
     port: 443
@@ -812,7 +576,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
     type: vless
     server: g1.notorgate.top
     port: 443
@@ -828,7 +592,7 @@ proxies:
       public-key: N1RsA59DgmnbeitClKXLyCUrG7uWccNpTeXWzFTlPVc
       short-id: 0af721e0f009d1fb
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
     type: vless
     server: 91.108.244.141
     port: 2584
@@ -838,7 +602,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (11)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
     type: vless
     server: 94.141.161.83
     port: 2584
@@ -894,22 +658,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
-    server: test.country-8.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ams.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-    type: vless
     server: nl-node.tribuki.ru
     port: 443
     uuid: 61682d1f-19f0-4f7e-a6a3-ca9333385a3c
@@ -923,7 +671,7 @@ proxies:
       public-key: NAZX_50pJI7ybbMi17-mz7y6dUaaaUfTgSK5pEoMiBA
       short-id: fc17cb37b011ce98
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
     type: vless
     server: 45.148.233.10
     port: 993
@@ -938,7 +686,7 @@ proxies:
     reality-opts:
       public-key: eJeVlxdi2YBV1YpPVCcCgTez80y8ny27SQoZZVBFGyc
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -984,22 +732,6 @@ proxies:
       public-key: 6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA
 
   - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
-    server: test.country-17.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: tr.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -1076,22 +808,6 @@ proxies:
       public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
 
   - name: "🇺🇸 PREMIUM Америка (USA) (4)"
-    type: vless
-    server: test.country-11.eu-ffast.com
-    port: 443
-    uuid: 2f28859e-64e0-4af8-997b-312e556fef81
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: lax.eu-ffast.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -tePObR3oZwGAUOb5kqTYkNWl6rtUKl0RFuzuu06wgw
-      short-id: 50
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
     type: trojan
     server: veraus1.uspn.io
     port: 2087
@@ -1103,7 +819,7 @@ proxies:
       public-key: D6Rp5wFAzRZ-ZHOcKdaTK7aCfsBBu1jb3_dtvekt2W0
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -1118,7 +834,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (7)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
     type: vless
     server: 192.177.26.78
     port: 2584
@@ -1128,7 +844,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (8)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (7)"
     type: vless
     server: d.notorgate.top
     port: 443
@@ -1293,37 +1009,23 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (6)"
       - "🇷🇺 PREMIUM Россия (Russian) (7)"
       - "🇷🇺 PREMIUM Россия (Russian) (8)"
-      - "🇷🇺 PREMIUM Россия (Russian) (9)"
-      - "🇺🇦 PREMIUM Украина (Ukraine) (1)"
-      - "🇺🇦 PREMIUM Украина (Ukraine) (2)"
-      - "🇲🇩 PREMIUM Молдова (Moldova)"
+      - "🇺🇦 PREMIUM Украина (Ukraine)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (1)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
       - "🇵🇱 PREMIUM Польша (Poland) (4)"
-      - "🇨🇿 PREMIUM Чехия (Czech Republic) (1)"
-      - "🇨🇿 PREMIUM Чехия (Czech Republic) (2)"
-      - "🇦🇱 PREMIUM Албания (Albania)"
+      - "🇨🇿 PREMIUM Чехия (Czech Republic)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (4)"
-      - "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
-      - "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
+      - "🇸🇪 PREMIUM Швеция (Sweden)"
+      - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇫🇷 PREMIUM Франция (France) (3)"
       - "🇫🇷 PREMIUM Франция (France) (4)"
-      - "🇫🇷 PREMIUM Франция (France) (5)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
@@ -1334,7 +1036,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (8)"
       - "🇩🇪 PREMIUM Германия (Germany) (9)"
       - "🇩🇪 PREMIUM Германия (Germany) (10)"
-      - "🇩🇪 PREMIUM Германия (Germany) (11)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -1342,11 +1043,9 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
       - "🇪🇸 PREMIUM Испания (Spain)"
       - "🇹🇷 PREMIUM Турция (Turkey) (1)"
       - "🇹🇷 PREMIUM Турция (Turkey) (2)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (3)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
@@ -1355,7 +1054,6 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (5)"
       - "🇺🇸 PREMIUM Америка (USA) (6)"
       - "🇺🇸 PREMIUM Америка (USA) (7)"
-      - "🇺🇸 PREMIUM Америка (USA) (8)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
