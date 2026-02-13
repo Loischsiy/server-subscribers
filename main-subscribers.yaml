@@ -238,22 +238,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
     type: vless
-    server: h.onefrostcloud.com
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: h.onefrostcloud.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: afGhxJoRk9sxVERzuyKcovQAJsrVw4wSgF9rJVOaETc
-      short-id: 7edebbe2d9d880fe
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
-    type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
     uuid: 51fba5dc-3acf-450d-8786-31d88c14a098
@@ -384,22 +368,6 @@ proxies:
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
     type: vless
-    server: b.onefrostcloud.com
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: b.onefrostcloud.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: PDadnDPSRmsJbvmpyz-NBAAcYSDQjg4PdjtdkpX7CEM
-      short-id: 577a94c45a351518
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
-    type: vless
     server: 166.1.131.3
     port: 993
     uuid: b901e129-90ad-de0b-6506-d89bc73aba70
@@ -413,7 +381,7 @@ proxies:
     reality-opts:
       public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
     type: vless
     server: pl-as.connect-iskra.cv
     port: 8443
@@ -429,7 +397,7 @@ proxies:
       public-key: WBzed7hIWe0kqAX8UxY_PitH7XmGqkfB41ptpfS0jRs
       short-id: c13333cd94247d72
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
     type: vless
     server: plcdn19.suio.me
     port: 443
@@ -440,7 +408,7 @@ proxies:
     servername: plcdn19.suio.me
     packet-encoding: xudp
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -455,7 +423,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (7)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
     type: vless
     server: plcdn13.suio.me
     port: 443
@@ -466,7 +434,7 @@ proxies:
     servername: plcdn13.suio.me
     packet-encoding: xudp
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (8)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (7)"
     type: vless
     server: pl-as.connect-iskra.cv
     port: 8443
@@ -482,7 +450,7 @@ proxies:
       public-key: WBzed7hIWe0kqAX8UxY_PitH7XmGqkfB41ptpfS0jRs
       short-id: c13333cd94247d72
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (9)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (8)"
     type: vless
     server: plcdn18.suio.me
     port: 443
@@ -493,7 +461,7 @@ proxies:
     servername: plcdn18.suio.me
     packet-encoding: xudp
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (10)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (9)"
     type: vless
     server: plcdn14.suio.me
     port: 443
@@ -750,22 +718,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
-    server: g1.notorgate.top
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: g1.notorgate.top
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: N1RsA59DgmnbeitClKXLyCUrG7uWccNpTeXWzFTlPVc
-      short-id: 0af721e0f009d1fb
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
-    type: vless
     server: decdn10.suio.me
     port: 443
     uuid: d9f795e4-8e1a-4fb8-9c0f-150421cd50a7
@@ -775,7 +727,7 @@ proxies:
     servername: decdn10.suio.me
     packet-encoding: xudp
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: decdn12.suio.me
     port: 443
@@ -786,7 +738,7 @@ proxies:
     servername: decdn12.suio.me
     packet-encoding: xudp
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: vless
     server: de-as.connect-iskra.cv
     port: 443
@@ -802,7 +754,7 @@ proxies:
       public-key: 6Xwz_6U70TOIPsDK7VFJhh2bA-rlu-Nh-DeYLhmxzTQ
       short-id: a2068df8ba7aed7a
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
     type: vless
     server: 159.195.69.251
     port: 443
@@ -818,7 +770,7 @@ proxies:
       public-key: 6Xwz_6U70TOIPsDK7VFJhh2bA-rlu-Nh-DeYLhmxzTQ
       short-id: a2068df8ba7aed7a
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
     type: vless
     server: decdn11.suio.me
     port: 443
@@ -829,7 +781,7 @@ proxies:
     servername: decdn11.suio.me
     packet-encoding: xudp
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
     type: vless
     server: de-as2.connect-iskra.cv
     port: 443
@@ -845,7 +797,7 @@ proxies:
       public-key: 6Xwz_6U70TOIPsDK7VFJhh2bA-rlu-Nh-DeYLhmxzTQ
       short-id: a2068df8ba7aed7a
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
     type: vless
     server: de.pool.sssrvpn.pro
     port: 443
@@ -859,7 +811,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (11)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
     type: vless
     server: 77.81.65.10
     port: 993
@@ -874,7 +826,7 @@ proxies:
     reality-opts:
       public-key: SkPIAkSI8R1LY1hynsZZcxKkPmJKU11DAMncccLEdjI
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (12)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (11)"
     type: vless
     server: decdn3.suio.me
     port: 443
@@ -885,7 +837,7 @@ proxies:
     servername: decdn3.suio.me
     packet-encoding: xudp
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (13)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (12)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -1098,22 +1050,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
-    server: d.notorgate.top
-    port: 443
-    uuid: 81ae0e2b-f9cc-405c-9d7f-2f826dfe6761
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: d.notorgate.top
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: juAdTlzyFcJvIlMAh3xMJo-nl46phyABIVswaIoVlXU
-      short-id: 0af721e0f009d1fb
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
-    type: vless
     server: 193.202.12.10
     port: 993
     uuid: b901e129-90ad-de0b-6506-d89bc73aba70
@@ -1127,7 +1063,7 @@ proxies:
     reality-opts:
       public-key: BqPcbcS0agCOmW5xem5nQldi_2oGariVJdJZ6Q57810
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: vless
     server: uscdn2.suio.me
     port: 443
@@ -1138,7 +1074,7 @@ proxies:
     servername: uscdn2.suio.me
     packet-encoding: xudp
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: 193.56.20.10
     port: 993
@@ -1153,7 +1089,7 @@ proxies:
     reality-opts:
       public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -1168,7 +1104,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
     type: vless
     server: us.connect-iskra.cv
     port: 443
@@ -1286,19 +1222,11 @@ proxies:
     reality-opts:
       public-key: oE7ZEghzkaOUiw1q3PqBtpllP1NlPHLY8ydJRuICtko
 
-  - name: "🇱🇹 Литва (LITVA)"
-    type: ss
-    server: 45.87.175.92
-    port: 8080
-    cipher: chacha20-ietf-poly1305
-    password: oZIoA69Q8yhcQV8ka3Pa3A
-    udp: true
-
   - name: "🇩🇪 Германия (Germany)"
     type: vless
-    server: 185.176.94.85
+    server: 89.35.130.144
     port: 443
-    uuid: 56d6e8fd-f089-4cd4-a36f-d8957451c4b6
+    uuid: e68c313e-c1a4-49ac-b562-28d5df71a88e
     network: ws
     tls: false
     udp: true
@@ -1347,7 +1275,6 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (5)"
       - "🇷🇺 PREMIUM Россия (Russian) (6)"
       - "🇷🇺 PREMIUM Россия (Russian) (7)"
-      - "🇷🇺 PREMIUM Россия (Russian) (8)"
       - "🇺🇦 PREMIUM Украина (Ukraine)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
@@ -1364,7 +1291,6 @@ proxy-groups:
       - "🇵🇱 PREMIUM Польша (Poland) (7)"
       - "🇵🇱 PREMIUM Польша (Poland) (8)"
       - "🇵🇱 PREMIUM Польша (Poland) (9)"
-      - "🇵🇱 PREMIUM Польша (Poland) (10)"
       - "🇨🇿 PREMIUM Чехия (Czech Republic)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
@@ -1393,7 +1319,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (10)"
       - "🇩🇪 PREMIUM Германия (Germany) (11)"
       - "🇩🇪 PREMIUM Германия (Germany) (12)"
-      - "🇩🇪 PREMIUM Германия (Germany) (13)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -1413,7 +1338,6 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
       - "🇺🇸 PREMIUM Америка (USA) (5)"
-      - "🇺🇸 PREMIUM Америка (USA) (6)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
@@ -1421,7 +1345,6 @@ proxy-groups:
       - "🇮🇳 PREMIUM Индия (India) (5)"
       - "🇵🇰 PREMIUM Пакистан (Pakistan)"
       - "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
-      - "🇱🇹 Литва (LITVA)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
 rule-providers:
