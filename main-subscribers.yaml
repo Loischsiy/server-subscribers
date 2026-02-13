@@ -266,6 +266,21 @@ proxies:
     reality-opts:
       public-key: VxlbLM9ypmP8KyH65M6nPgArl19XOyREm9oNUlCN2yA
 
+  - name: "🇲🇩 PREMIUM Молдова (Moldova)"
+    type: vless
+    server: md1.vpnjantit.com
+    port: 443
+    uuid: 5d8f914e-0919-11f1-89d1-b7a11c8b2e14
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: PvT6d_f5IuOGp0cjiCAsMU69jfrOl80eNuqAAj4-RkM
+      short-id: 025c07e0d252b745
+
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
     type: vless
     server: kz.connect-iskra.cv
@@ -1276,6 +1291,7 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (6)"
       - "🇷🇺 PREMIUM Россия (Russian) (7)"
       - "🇺🇦 PREMIUM Украина (Ukraine)"
+      - "🇲🇩 PREMIUM Молдова (Moldova)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
