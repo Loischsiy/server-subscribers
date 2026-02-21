@@ -70,6 +70,19 @@ proxy-providers:
       timeout: 5000
       lazy: true
       expected-status: 204
+  Free-sub:
+    type: http
+    url: "https://ety.twinkvibe.gay/youtube"
+    path: ./proxy_providers/free-sub.yml
+    override:
+      udp: true
+    health-check:
+      enable: true
+      url: http://cp.cloudflare.com/generate_204
+      interval: 300
+      timeout: 5000
+      lazy: false
+      expected-status: 204
 
 proxies:
   - name: "☁️ WARP (1)"
@@ -160,22 +173,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
     type: vless
-    server: ru-most.tconnect.services
-    port: 7443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: grpc
-    tls: true
-    udp: true
-    servername: ru-most.tconnect.services
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: dropbox.com
-    reality-opts:
-      public-key: UCPWVIu48lJC90JvIjTT91v8_2PimIBLhAOvW1v6DnI
-      short-id: 71e87186710e710e
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
-    type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
     uuid: 51fba5dc-3acf-450d-8786-31d88c14a098
@@ -189,52 +186,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
-    server: ru-3.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: INX5PFS6kQVOtXdnPOlrz69eYrfiaRWnL0aS_Nbmuy8
-      short-id: 71e87186710e710e
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
-    server: ru-1.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: rutube.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 6uOn_Wsv4J5DV6HtQ0Q7kUvxwxsBFFTSiRlXAss292Y
-      short-id: 71e87186710e710e
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
-    type: vless
-    server: ru-most.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: ws
-    tls: true
-    udp: true
-    servername: ru-most.tconnect.services
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: ru-most.tconnect.services
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
     server: youtube.pool.sssrvpn.pro
     port: 443
@@ -249,37 +201,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
-    type: vless
-    server: ru.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: rutube.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: A9agab1ZWEsNrTSCss8w2wuT3Tcjf7Mh11RxMpE_IEI
-      short-id: 94cb4f012557babc
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
-    type: vless
-    server: ru-2.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: eh.vk.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: lA_fU8Xqq_KRFkalOsGUEY-eW07llWaLIS2fvS4LDB0
-      short-id: 71e87186710e710e
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (9)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
     server: ru.aliusvpn.ru
     port: 8443
@@ -308,38 +230,6 @@ proxies:
     reality-opts:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 2356d1ae4b
-
-  - name: "🇱🇹 PREMIUM Литва (LITVA)"
-    type: vless
-    server: redgangaura.name
-    port: 443
-    uuid: 627129b4-98ab-5da4-b601-7e258c2376b3
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: redgangaura.name
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mk-fkkWvUHz2ubIOkr8kfDeglXowdCI3Z4OssjWIIwg
-      short-id: 2b145d99dc39e2cc
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
-    type: vless
-    server: tgbustpro.link
-    port: 443
-    uuid: 627129b4-98ab-5da4-b601-7e258c2376b3
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: tgbustpro.link
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mk-fkkWvUHz2ubIOkr8kfDeglXowdCI3Z4OssjWIIwg
-      short-id: 2b145d99dc39e2cc
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
@@ -370,36 +260,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
-    type: vless
-    server: poland.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5P5lwGRGhGJATZMYduxof-ZR6eb5lzUpsbdDNddT4l4
-      short-id: 71e87186710e710e
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
-    type: vless
-    server: poland.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: ws
-    tls: true
-    udp: true
-    servername: poland.tconnect.services
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: poland.tconnect.services
 
   - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
     type: vless
@@ -433,36 +293,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
     type: vless
-    server: fin.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: stackoverflow.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5P5lwGRGhGJATZMYduxof-ZR6eb5lzUpsbdDNddT4l4
-      short-id: 71e87186710e710e
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-    type: vless
-    server: fin.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: ws
-    tls: true
-    udp: true
-    servername: fin.tconnect.services
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: fin.tconnect.services
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-    type: vless
     server: fi.aliusvpn.ru
     port: 8443
     uuid: 40fa1372-2de2-459d-bb7f-c7b34d89f7e2
@@ -476,7 +306,7 @@ proxies:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 2356d1ae4b
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -505,21 +335,6 @@ proxies:
     reality-opts:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 3f8ad1
-
-  - name: "🇨🇭 PREMIUM Швейцария (Switzerland)"
-    type: vless
-    server: swiz.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: stackoverflow.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: B8VRypcy41lABbR4ZrDPQNTpzh090WOFuAl2zfnStj0
-      short-id: 71e87186710e710e
 
   - name: "🇫🇷 PREMIUM Франция (France) (1)"
     type: vless
@@ -582,38 +397,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
-    server: porkzov.link
-    port: 443
-    uuid: 627129b4-98ab-5da4-b601-7e258c2376b3
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: porkzov.link
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: _0N3gACBkKvGKTh0q5-dmt-XqSHB3xfEHSANRXu-U0I
-      short-id: f00f58383241c807
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
-    type: vless
-    server: ruporkzov.com
-    port: 443
-    uuid: 627129b4-98ab-5da4-b601-7e258c2376b3
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ruporkzov.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mk-fkkWvUHz2ubIOkr8kfDeglXowdCI3Z4OssjWIIwg
-      short-id: 2b145d99dc39e2cc
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
-    type: vless
     server: 212.113.109.63
     port: 443
     uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
@@ -628,68 +411,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
-    type: vless
-    server: de.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: ws
-    tls: true
-    udp: true
-    servername: de.tconnect.services
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: de.tconnect.services
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
-    type: vless
-    server: de.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: stackoverflow.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: dioB_kXykvJQK_HocR5Z3TnXJNabVhYoRX2TVsfsK0Q
-      short-id: 71e87186710e710e
-
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
-    type: vless
-    server: nl.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: stackoverflow.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5P5lwGRGhGJATZMYduxof-ZR6eb5lzUpsbdDNddT4l4
-      short-id: 71e87186710e710e
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-    type: vless
-    server: nl.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: grpc
-    tls: true
-    udp: true
-    servername: nl.tconnect.services
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: dropbox.com
-    reality-opts:
-      public-key: 9qwClMAGnKg-Mdw_06BqIqy0OTWj1Sj2EM7ysHzneXs
-      short-id: 71e87186710e710e
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -704,7 +426,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: ss
     server: gaming-nl.aliusvpn.ru
     port: 8388
@@ -712,7 +434,7 @@ proxies:
     password: Q5NAK5tjC7kVPD8facmREwvukHCg6EV4
     udp: true
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: gaming-nl.aliusvpn.ru
     port: 8443
@@ -727,7 +449,7 @@ proxies:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 44103f58
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
     type: vless
     server: nl.aliusvpn.ru
     port: 8443
@@ -741,37 +463,6 @@ proxies:
     reality-opts:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 44103f58
-
-  - name: "🇮🇹 PREMIUM Italy (Италия) (1)"
-    type: vless
-    server: it.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: grpc
-    tls: true
-    udp: true
-    servername: it.tconnect.services
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: dropbox.com
-    reality-opts:
-      public-key: 9qwClMAGnKg-Mdw_06BqIqy0OTWj1Sj2EM7ysHzneXs
-      short-id: 71e87186710e710e
-
-  - name: "🇮🇹 PREMIUM Italy (Италия) (2)"
-    type: vless
-    server: it.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: stackoverflow.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: g0s7EjoEBg9GFMXPrt20T60Cu-DcqHM9ItqNMcxSU38
-      short-id: 71e87186710e710e
 
   - name: "🇪🇸 PREMIUM Испания (Spain)"
     type: vless
@@ -790,21 +481,6 @@ proxies:
 
   - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
     type: vless
-    server: tr.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: stackoverflow.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: C0Vzk1hw72A-hLhp6sdo61WYdsJk9g0XPxtmDHWii20
-      short-id: 71e87186710e710e
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
     uuid: 51fba5dc-3acf-450d-8786-31d88c14a098
@@ -818,7 +494,7 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
     type: vless
     server: tr.aliusvpn.ru
     port: 8443
@@ -832,21 +508,6 @@ proxies:
     reality-opts:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 3f8ad1
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (4)"
-    type: vless
-    server: tr.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: ws
-    tls: true
-    udp: true
-    servername: tr.tconnect.services
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: tr.tconnect.services
 
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
@@ -865,51 +526,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: vless
-    server: usa-2.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: stackoverflow.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: FnQ1tm1VjohTrCvJqRgboe2D3539zm0ok4hVBxP8cDw
-      short-id: 71e87186710e710e
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
-    type: vless
-    server: usa.tconnect.services
-    port: 8443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: ws
-    tls: true
-    udp: true
-    servername: usa.tconnect.services
-    client-fingerprint: chrome
-    ws-opts:
-      path: "/ws"
-      headers:
-        Host: usa.tconnect.services
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
-    type: vless
-    server: usa.tconnect.services
-    port: 443
-    uuid: 747800bf-e8e9-41ac-a95e-416d1d8deec4
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cdnjs.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: 5P5lwGRGhGJATZMYduxof-ZR6eb5lzUpsbdDNddT4l4
-      short-id: 71e87186710e710e
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
-    type: vless
     server: 93.157.138.138
     port: 8443
     uuid: 40fa1372-2de2-459d-bb7f-c7b34d89f7e2
@@ -923,7 +539,7 @@ proxies:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 2356d1ae4b
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: usa.aliusvpn.ru
     port: 8443
@@ -938,7 +554,7 @@ proxies:
       public-key: cynncQk7kKzEQaExg-FN7pMqFaZPSXEi_Ggy7AXXmVg
       short-id: 2356d1ae4b
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (7)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
@@ -1038,6 +654,9 @@ proxy-groups:
   - name: "Dimon-subscribers"
     icon: https://drive.usercontent.google.com/u/0/uc?id=1XVTiYnMQgKttigplwIj0HxptEN_zBbuU&export=download
     type: select
+    use:
+      - Free-sub
+    exclude-filter: "(?i)0000"
     proxies:
       - "☁️ WARP (1)"
       - "☁️ WARP (2)"
@@ -1048,56 +667,30 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
-      - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇷🇺 PREMIUM Россия (Russian) (5)"
-      - "🇷🇺 PREMIUM Россия (Russian) (6)"
-      - "🇷🇺 PREMIUM Россия (Russian) (7)"
-      - "🇷🇺 PREMIUM Россия (Russian) (8)"
-      - "🇷🇺 PREMIUM Россия (Russian) (9)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
-      - "🇱🇹 PREMIUM Литва (LITVA)"
-      - "🇱🇻 PREMIUM Латвия (Latvia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
-      - "🇵🇱 PREMIUM Польша (Poland) (3)"
-      - "🇵🇱 PREMIUM Польша (Poland) (4)"
       - "🇨🇿 PREMIUM Чехия (Czech Republic)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
-      - "🇨🇭 PREMIUM Швейцария (Switzerland)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
-      - "🇩🇪 PREMIUM Германия (Germany) (4)"
-      - "🇩🇪 PREMIUM Германия (Germany) (5)"
-      - "🇩🇪 PREMIUM Германия (Germany) (6)"
-      - "🇩🇪 PREMIUM Германия (Germany) (7)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-      - "🇮🇹 PREMIUM Italy (Италия) (1)"
-      - "🇮🇹 PREMIUM Italy (Италия) (2)"
       - "🇪🇸 PREMIUM Испания (Spain)"
       - "🇹🇷 PREMIUM Турция (Turkey) (1)"
       - "🇹🇷 PREMIUM Турция (Turkey) (2)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (3)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (4)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
-      - "🇺🇸 PREMIUM Америка (USA) (5)"
-      - "🇺🇸 PREMIUM Америка (USA) (6)"
-      - "🇺🇸 PREMIUM Америка (USA) (7)"
       - "🇦🇷 PREMIUM Аргентина (Argentina)"
       - "🇯🇵 PREMIUM Япония (Japan)"
       - "🇭🇰 PREMIUM Гонконг (Hong Kong)"
