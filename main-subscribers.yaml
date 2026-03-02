@@ -214,6 +214,63 @@ proxies:
       public-key: ZVfaZBEaPWlmb-Srxncu2WDACudPbm48S1V1Zy2ZcRw
       short-id: 78523b486884cc4d
 
+  - name: "🌎 PREMIUM Случайная (Random) (5)"
+    type: vless
+    server: 85.239.47.229
+    port: 443
+    uuid: d9d411ca-d250-48bb-b68f-16813267a203
+    network: grpc
+    tls: true
+    udp: true
+    servername: ru.moktana.digital
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: xyz
+    packet-encoding: xudp
+    reality-opts:
+      public-key: jhq863XE_6nqkA3O0FE_U_Lalpaqu8dKV5JTVr4r924
+      short-id: e2425b7e8e314127
+
+  - name: "🌎 PREMIUM Случайная (Random) (6)"
+    type: vless
+    server: 45.85.93.50
+    port: 443
+    uuid: 42951520-6dd8-4bc0-859d-97e123b1e8cc
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: yahoo.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: iJijX259TNUY-hWNXyypOTOiOpke9leniss_jlHE61g
+      short-id: fc74fe7479dfd8f2
+
+  - name: "🌎 PREMIUM Случайная (Random) (7)"
+    type: vless
+    server: 85.239.47.229
+    port: 443
+    uuid: d9d411ca-d250-48bb-b68f-16813267a203
+    network: grpc
+    tls: true
+    udp: true
+    servername: ru.moktana.digital
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: xyz
+    packet-encoding: xudp
+    reality-opts:
+      public-key: jhq863XE_6nqkA3O0FE_U_Lalpaqu8dKV5JTVr4r924
+      short-id: e2425b7e8e314127
+
+  - name: "🌎 PREMIUM Случайная (Random) (8)"
+    type: ss
+    server: 85.239.47.229
+    port: 40630
+    cipher: chacha20-ietf-poly1305
+    password: aQJVehKu3QbTz5FZ0zdKCw
+    udp: true
+
   - name: "🇷🇺 PREMIUM Россия (Russian)"
     type: vless
     server: vdsina.oblakovpn.org
@@ -229,22 +286,24 @@ proxies:
       public-key: ZVfaZBEaPWlmb-Srxncu2WDACudPbm48S1V1Zy2ZcRw
       short-id: 78523b486884cc4d
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
     type: vless
-    server: plre.jykvpn.com
+    server: 85.239.43.9
     port: 443
-    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
-    network: tcp
+    uuid: 65d7d00c-eef4-4e48-993c-b5a4993b7873
+    network: grpc
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
+    servername: ru.moktana.digital
     client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: xyz
+    packet-encoding: xudp
     reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: c2a0b2d60a7fc300
+      public-key: 5Zs8eBSImuOYB8hgWYsoZA0GUe0PE1EvB5R_R9jzaBo
+      short-id: 45a6dfea432c2811
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
     server: 89.125.38.66
     port: 443
@@ -259,7 +318,37 @@ proxies:
     reality-opts:
       public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
+    type: vless
+    server: plre.jykvpn.com
+    port: 443
+    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
+      short-id: c2a0b2d60a7fc300
+
+  - name: "🇷🇴 PREMIUM Румыния (Romania)"
+    type: vless
+    server: 151.242.191.40
+    port: 443
+    uuid: 42951520-6dd8-4bc0-859d-97e123b1e8cc
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 9z7PEwpqqd55A6EYiuXpOVn8j7gWiHpiEBr-ay8sjwM
+      short-id: 1b8215be7d168685
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
     type: vless
     server: 89.44.76.223
     port: 443
@@ -273,6 +362,23 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+    type: vless
+    server: 144.31.90.159
+    port: 443
+    uuid: 9ddf1142-c967-4830-9662-74152aa809af
+    network: grpc
+    tls: true
+    udp: true
+    servername: moktana.digital
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: xyz
+    packet-encoding: xudp
+    reality-opts:
+      public-key: _owMx_tm3i96Sa19caWzVJ4GK4C2GXmj5pN0uvx9kC4
+      short-id: 8734b64f39a80b8e
 
   - name: "🇸🇪 PREMIUM Швеция (Sweden)"
     type: vless
@@ -289,38 +395,22 @@ proxies:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: 4c02bbbfa833b3b6
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
+  - name: "🇨🇭 PREMIUM Швейцария (Switzerland)"
     type: vless
-    server: 72.56.112.189
+    server: 91.221.232.27
     port: 443
-    uuid: c74486a9-ed01-4224-b27f-51174e510fcb
+    uuid: 42951520-6dd8-4bc0-859d-97e123b1e8cc
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: 5post-gate.x5.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
-    type: vless
-    server: gertestg.nekosocks.com
-    port: 4443
-    uuid: 0c65e9e1-cfad-4933-b3bb-aa7f0356976a
-    network: grpc
-    tls: true
-    udp: true
-    servername: gertestg.nekosocks.com
+    servername: yahoo.com
     client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc-real
     reality-opts:
-      public-key: h4CeL8iPgeLP69M7OM15QCz9PbEmvaJKF8fUchLQ3Qk
-      short-id: a5b25fb49c93252a
+      public-key: iJijX259TNUY-hWNXyypOTOiOpke9leniss_jlHE61g
+      short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -336,7 +426,22 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
+    type: vless
+    server: 45.129.242.158
+    port: 443
+    uuid: 42951520-6dd8-4bc0-859d-97e123b1e8cc
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: 9z7PEwpqqd55A6EYiuXpOVn8j7gWiHpiEBr-ay8sjwM
+      short-id: 1b8215be7d168685
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: de.jykvpn.com
     port: 443
@@ -351,9 +456,9 @@ proxies:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: 4c02bbbfa833b3b6
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
-    server: 72.56.86.219
+    server: 72.56.112.189
     port: 443
     uuid: c74486a9-ed01-4224-b27f-51174e510fcb
     network: tcp
@@ -366,12 +471,52 @@ proxies:
     reality-opts:
       public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+    type: vless
+    server: 178.17.48.57
+    port: 443
+    uuid: 891189b5-de3c-49b6-ab5a-149a072335c0
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: de.moktana.digital
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: gmcaceHetuS4yBVtFAlZbhupbpkmpqPrm38lM2Vfjks
+      short-id: 39b2ba882028c77c
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+    type: vless
+    server: gertestg.nekosocks.com
+    port: 4443
+    uuid: 0c65e9e1-cfad-4933-b3bb-aa7f0356976a
+    network: grpc
+    tls: true
+    udp: true
+    servername: gertestg.nekosocks.com
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: grpc-real
+    reality-opts:
+      public-key: h4CeL8iPgeLP69M7OM15QCz9PbEmvaJKF8fUchLQ3Qk
+      short-id: a5b25fb49c93252a
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: ss
     server: 72.56.124.80
     port: 1243
     cipher: chacha20-ietf-poly1305
     password: s8jQAbChdhREbJhpswLGTYHr1nJQ8Wpu
+    udp: true
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+    type: ss
+    server: 5.129.214.101
+    port: 46016
+    cipher: chacha20-ietf-poly1305
+    password: izxPSOKeZAJUVJjft6xYOw
     udp: true
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -389,7 +534,39 @@ proxies:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: 4c02bbbfa833b3b6
 
-  - name: "🇺🇸 PREMIUM Америка (USA)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+    type: vless
+    server: 5.129.214.101
+    port: 443
+    uuid: 68bd4aad-23d6-43e2-ac79-47689d355e1d
+    network: grpc
+    tls: true
+    udp: true
+    servername: moktana.digital
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: xyz
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 4C-kTZA6S8a3NfkTMvvHU4_Fwp2LB_rRf3EahWjKDVw
+      short-id: c9f53f7133493231
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+    type: vless
+    server: 72.56.86.219
+    port: 443
+    uuid: c74486a9-ed01-4224-b27f-51174e510fcb
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: 5post-gate.x5.ru
+    client-fingerprint: qq
+    packet-encoding: xudp
+    reality-opts:
+      public-key: A3PWLCRX9oeSyPvrmrwj2jUXcLo2uCwAISRBHtNE1Xw
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
     server: usa.oblakovpn.org
     port: 443
@@ -403,6 +580,23 @@ proxies:
     reality-opts:
       public-key: ZVfaZBEaPWlmb-Srxncu2WDACudPbm48S1V1Zy2ZcRw
       short-id: 78523b486884cc4d
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
+    type: vless
+    server: 45.90.12.24
+    port: 443
+    uuid: 84f23f7f-3399-485e-a9c8-2748b128aea3
+    network: grpc
+    tls: true
+    udp: true
+    servername: apple.com
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: xyz
+    packet-encoding: xudp
+    reality-opts:
+      public-key: _vpd5Xh9-5wiVjJ_AjtvRvn0_6FKmN93vVUGtivX0BI
+      short-id: 6d1e3754f5cc84b7
 
   - name: "🇵🇱 Польша (Poland)"
     type: vless
@@ -488,19 +682,32 @@ proxy-groups:
       - "🌎 PREMIUM Случайная (Random) (2)"
       - "🌎 PREMIUM Случайная (Random) (3)"
       - "🌎 PREMIUM Случайная (Random) (4)"
+      - "🌎 PREMIUM Случайная (Random) (5)"
+      - "🌎 PREMIUM Случайная (Random) (6)"
+      - "🌎 PREMIUM Случайная (Random) (7)"
+      - "🌎 PREMIUM Случайная (Random) (8)"
       - "🇷🇺 PREMIUM Россия (Russian)"
+      - "🇱🇻 PREMIUM Латвия (Latvia)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
-      - "🇫🇮 PREMIUM Финляндия (Finland)"
+      - "🇷🇴 PREMIUM Румыния (Romania)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇸🇪 PREMIUM Швеция (Sweden)"
+      - "🇨🇭 PREMIUM Швейцария (Switzerland)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
+      - "🇩🇪 PREMIUM Германия (Germany) (5)"
+      - "🇩🇪 PREMIUM Германия (Germany) (6)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-      - "🇺🇸 PREMIUM Америка (USA)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+      - "🇺🇸 PREMIUM Америка (USA) (1)"
+      - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇵🇱 Польша (Poland)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
