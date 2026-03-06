@@ -2500,6 +2500,36 @@ proxies:
       public-key: Nk7AGEOIkqIP9sqQpKjN3-7hUULzhbicXAou6ELHBwU
       short-id: 9375d8e286628bc6
 
+  - name: "🇷🇺 PREMIUM Россия (Russian) (36)"
+    type: vless
+    server: 84.201.131.69
+    port: 443
+    uuid: aeb00157-3610-48aa-91bb-5ac68450159e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: m.vk.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: NcttiFYu0isIjgZoTO310cYXKwUHS8HcxLEuNHIQZwE
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (37)"
+    type: vless
+    server: 84.201.156.49
+    port: 8443
+    uuid: aeb00157-3610-48aa-91bb-5ac68450159e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: VhGI9XnlEmyU9_sr6QgKbPPftJt6AbDbHir3eDAgdVg
+
   - name: "🇺🇦 PREMIUM Украина (Ukraine) (1)"
     type: vless
     server: node-bg1.cdn-global.pro
@@ -3721,6 +3751,21 @@ proxies:
       public-key: NJom3Q_CAY8nDdveyfHBNYIZEeEC-lBAAvenNiRaBDs
       short-id: b9
 
+  - name: "🇦🇱 PREMIUM Албания (Albania) (4)"
+    type: vless
+    server: 151.243.169.40
+    port: 443
+    uuid: aeb00157-3610-48aa-91bb-5ac68450159e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.microsoft.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: ZdeYfajpQ2g1-SFHXJXrNv_vB5k6S8n8qvCBnG4_TU0
+
   - name: "🇧🇦 PREMIUM Босния и Герцеговина (Bosnia and Herzegovina)"
     type: vless
     server: ba.srv.oplcdn.top
@@ -3771,18 +3816,17 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
     type: vless
-    server: fl3.cowjuice.me
-    port: 443
-    uuid: 8d722ac9-110d-4cb3-a9b2-dd3dd4049248
+    server: fi.1xvpn.org
+    port: 28681
+    uuid: 86aed558-694a-4ef1-a595-4fe20a1232e7
     network: tcp
     tls: true
     udp: true
-    servername: fl3.cowjuice.me
-    client-fingerprint: qq
-    packet-encoding: xudp
+    servername: login.vk.com
+    client-fingerprint: chrome
     reality-opts:
-      public-key: hyWywSIlgux05EhWlFV4QEIOYWkZK55GUuPJBMDXUW0
-      short-id: 111aaa43
+      public-key: SSpH7FzOQlaaEklBm3meKdgj925LeDp0FXEDMuZtQAg
+      short-id: fc7e01ab19a8fe01
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
     type: vless
@@ -4206,17 +4250,18 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (30)"
     type: vless
-    server: fi.1xvpn.org
-    port: 28681
-    uuid: 86aed558-694a-4ef1-a595-4fe20a1232e7
+    server: fl3.cowjuice.me
+    port: 443
+    uuid: 8d722ac9-110d-4cb3-a9b2-dd3dd4049248
     network: tcp
     tls: true
     udp: true
-    servername: login.vk.com
-    client-fingerprint: chrome
+    servername: fl3.cowjuice.me
+    client-fingerprint: qq
+    packet-encoding: xudp
     reality-opts:
-      public-key: SSpH7FzOQlaaEklBm3meKdgj925LeDp0FXEDMuZtQAg
-      short-id: fc7e01ab19a8fe01
+      public-key: hyWywSIlgux05EhWlFV4QEIOYWkZK55GUuPJBMDXUW0
+      short-id: 111aaa43
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (31)"
     type: vless
@@ -5753,20 +5798,44 @@ proxies:
       public-key: j4KLrYf5S24DtaQ16vOCfLRgUdVUR4_a0LSaAMtaWFw
       short-id: 7373ce0e1bad35cb
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (54)"
     type: vless
-    server: cdn3.api-rutube.ru
+    server: free01.choomba.tech
     port: 443
-    uuid: 642dd511-d504-459c-a24f-c903fadbde3e
+    uuid: aeb00157-3610-48aa-91bb-5ac68450159e
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: ozon.ru
+    servername: www.microsoft.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
+      public-key: YE2NpJlMwrMiLWQ-HvZvPu7oBvZ_WAnrTfqPUHPu6DU
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (55)"
+    type: ss
+    server: 151.243.169.40
+    port: 9999
+    cipher: chacha20-ietf-poly1305
+    password: Qf09d-6P3bYLwVtEksHaBtWTtcFBocMS
+    udp: true
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+    type: vless
+    server: 185.184.121.57
+    port: 8443
+    uuid: 70b761ee-1847-40d0-9fa9-d0df88083036
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ign.dev
+    client-fingerprint: qq
+    packet-encoding: xudp
+    reality-opts:
+      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
+      short-id: 6ba85179e30d4fc2
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
@@ -5952,19 +6021,18 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (14)"
     type: vless
-    server: 185.184.121.57
-    port: 8443
-    uuid: 70b761ee-1847-40d0-9fa9-d0df88083036
+    server: cdn3.api-rutube.ru
+    port: 443
+    uuid: 642dd511-d504-459c-a24f-c903fadbde3e
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: ign.dev
-    client-fingerprint: qq
+    servername: ozon.ru
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
+      public-key: IBvNLerjNLpF4OpUX-wGJp8YDZrnKoh-gEItUDNT_Bg
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (15)"
     type: vless
@@ -6967,19 +7035,19 @@ proxies:
 
   - name: "🇮🇱 PREMIUM Израиль (Israel) (1)"
     type: vless
-    server: il.fasti.win
-    port: 972
-    uuid: db9b74fa-9e5c-47b7-8228-dd3888d7cec9
+    server: il.nodes.rocketnetwork.ru
+    port: 443
+    uuid: 9b80440f-beea-471d-82b1-477b0b7dff6a
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: il.fasti.win
+    servername: il.nodes.rocketnetwork.ru
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
-      short-id: feedbacc
+      public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+      short-id: 428ef87fd47a3a32
 
   - name: "🇮🇱 PREMIUM Израиль (Israel) (2)"
     type: vless
@@ -7013,19 +7081,19 @@ proxies:
 
   - name: "🇮🇱 PREMIUM Израиль (Israel) (4)"
     type: vless
-    server: il.nodes.rocketnetwork.ru
-    port: 443
-    uuid: 9b80440f-beea-471d-82b1-477b0b7dff6a
+    server: il.fasti.win
+    port: 972
+    uuid: db9b74fa-9e5c-47b7-8228-dd3888d7cec9
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: il.nodes.rocketnetwork.ru
+    servername: il.fasti.win
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
-      short-id: 428ef87fd47a3a32
+      public-key: -YTGWg5DjsLDyaDfr1D83kiUK22LVcrK3yC53lqqigs
+      short-id: feedbacc
 
   - name: "🇦🇪 PREMIUM ОАЭ (UAE) (1)"
     type: vless
@@ -7123,19 +7191,18 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
-    server: chus.nodes.rocketnetwork.ru
+    server: us2.x8lab.org
     port: 443
-    uuid: 9b80440f-beea-471d-82b1-477b0b7dff6a
+    uuid: 038a4811-98c3-4c64-94d4-55523d36725f
     network: tcp
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: us.nodes.rocketnetwork.ru
+    servername: www.kernel.org
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
-      short-id: 428ef87fd47a3a32
+      public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
+      short-id: cd0b563c7e0ea754
 
   - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: vless
@@ -7624,18 +7691,19 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (34)"
     type: vless
-    server: us2.x8lab.org
+    server: chus.nodes.rocketnetwork.ru
     port: 443
-    uuid: 038a4811-98c3-4c64-94d4-55523d36725f
+    uuid: 9b80440f-beea-471d-82b1-477b0b7dff6a
     network: tcp
     tls: true
     udp: true
-    servername: www.kernel.org
+    flow: xtls-rprx-vision
+    servername: us.nodes.rocketnetwork.ru
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
-      short-id: cd0b563c7e0ea754
+      public-key: Mn0DIMKW6zu0_D3E1qKO7xMlIVZvB-rqO_-f7Le2vAs
+      short-id: 428ef87fd47a3a32
 
   - name: "🇺🇸 PREMIUM Америка (USA) (35)"
     type: vless
@@ -8299,8 +8367,8 @@ proxy-groups:
     icon: https://drive.usercontent.google.com/u/0/uc?id=1XVTiYnMQgKttigplwIj0HxptEN_zBbuU&export=download
     type: select
     use:
-      - Free-sub
       - Subs2
+      - Free-sub
     exclude-filter: "(?i)0000"
     proxies:
       - "☁️ WARP (1)"
@@ -8460,6 +8528,8 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (33)"
       - "🇷🇺 PREMIUM Россия (Russian) (34)"
       - "🇷🇺 PREMIUM Россия (Russian) (35)"
+      - "🇷🇺 PREMIUM Россия (Russian) (36)"
+      - "🇷🇺 PREMIUM Россия (Russian) (37)"
       - "🇺🇦 PREMIUM Украина (Ukraine) (1)"
       - "🇺🇦 PREMIUM Украина (Ukraine) (2)"
       - "🇺🇦 PREMIUM Украина (Ukraine) (3)"
@@ -8541,6 +8611,7 @@ proxy-groups:
       - "🇦🇱 PREMIUM Албания (Albania) (1)"
       - "🇦🇱 PREMIUM Албания (Albania) (2)"
       - "🇦🇱 PREMIUM Албания (Albania) (3)"
+      - "🇦🇱 PREMIUM Албания (Albania) (4)"
       - "🇧🇦 PREMIUM Босния и Герцеговина (Bosnia and Herzegovina)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (1)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (2)"
@@ -8678,6 +8749,8 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (51)"
       - "🇩🇪 PREMIUM Германия (Germany) (52)"
       - "🇩🇪 PREMIUM Германия (Germany) (53)"
+      - "🇩🇪 PREMIUM Германия (Germany) (54)"
+      - "🇩🇪 PREMIUM Германия (Germany) (55)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
