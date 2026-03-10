@@ -3163,21 +3163,6 @@ proxies:
       public-key: rYiFTG8ncb8XH9_QKXhBBVrDolOO7rMNaoue2KzfjUI
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (19)"
-    type: vless
-    server: 146.103.97.223
-    port: 443
-    uuid: KOSMOVPN_999955348
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: login.vk.com
-    client-fingerprint: random
-    reality-opts:
-      public-key: fWsinWoDyBvjXpQI0n1CMd4wa3I-PX1nSDjjssq2yls
-      short-id: ffffffffff
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (20)"
     type: ss
     server: 81.31.245.70
     port: 44423
@@ -3185,7 +3170,7 @@ proxies:
     password: 5y53z3TR-OeEETvH0QYuLQ
     udp: true
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (21)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (20)"
     type: vless
     server: nl.axolab.org
     port: 443
@@ -3200,7 +3185,7 @@ proxies:
       public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
       short-id: cd0b563c7e0ea754
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (22)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (21)"
     type: vless
     server: n-1.union.monster
     port: 8443
@@ -3215,7 +3200,7 @@ proxies:
       public-key: NJom3Q_CAY8nDdveyfHBNYIZEeEC-lBAAvenNiRaBDs
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (23)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (22)"
     type: vless
     server: 144.31.234.122
     port: 443
@@ -3231,7 +3216,7 @@ proxies:
       public-key: a7pE0PrtV-p1g975c57xFrQ8MBI4G_Ozd7eWiq4L6lU
       short-id: f1d00cbbb31154b1
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (24)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (23)"
     type: vless
     server: n-0.union.monster
     port: 8444
@@ -3247,7 +3232,7 @@ proxies:
       public-key: NJom3Q_CAY8nDdveyfHBNYIZEeEC-lBAAvenNiRaBDs
       short-id: b9
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (25)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (24)"
     type: vless
     server: nl.pool.sssrvpn.pro
     port: 443
@@ -3263,7 +3248,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (26)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (25)"
     type: vless
     server: nl3.oncloudvpn.com
     port: 443
@@ -3279,22 +3264,7 @@ proxies:
       public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
       short-id: f106
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (27)"
-    type: vless
-    server: 146.103.114.237
-    port: 443
-    uuid: KOSMOVPN_999155286
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: dropbox.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Vhc9iIpFKXAiyW3_CExq3UUi1vDYKFQIkBi0ag_RqSk
-      short-id: ffffffffff
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (28)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (26)"
     type: vless
     server: 79.141.164.145
     port: 443
@@ -3311,7 +3281,7 @@ proxies:
       public-key: OCna3MeG4UjbOoWoEjckg23r1-Kl0Zct4bKGrmDoew4
       short-id: aabbccdd
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (29)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (27)"
     type: vless
     server: 81.31.245.70
     port: 443
@@ -3328,7 +3298,7 @@ proxies:
       public-key: FqdXLAutPj4dHB0Y2Uvr4CZfOlseoyi4GEjOykN4xwE
       short-id: 23696c44ee27ce56
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (30)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (28)"
     type: vless
     server: nlcdn5.suio.me
     port: 443
@@ -3339,7 +3309,7 @@ proxies:
     servername: nlcdn5.suio.me
     packet-encoding: xudp
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (31)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (29)"
     type: vless
     server: nd.fasti.win
     port: 443
@@ -4286,8 +4256,6 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (27)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (28)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (29)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (30)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (31)"
       - "🇮🇹 PREMIUM Italy (Италия)"
       - "🇪🇸 PREMIUM Испания (Spain) (1)"
       - "🇪🇸 PREMIUM Испания (Spain) (2)"
