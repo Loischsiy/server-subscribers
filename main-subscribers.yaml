@@ -2126,22 +2126,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (12)"
     type: vless
-    server: gertestg.nekosocks.com
-    port: 4443
-    uuid: 0c65e9e1-cfad-4933-b3bb-aa7f0356976a
-    network: grpc
-    tls: true
-    udp: true
-    servername: gertestg.nekosocks.com
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc-real
-    reality-opts:
-      public-key: h4CeL8iPgeLP69M7OM15QCz9PbEmvaJKF8fUchLQ3Qk
-      short-id: a5b25fb49c93252a
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (13)"
-    type: vless
     server: de5.jugsenkeys4pays.su
     port: 10002
     uuid: c727a2f7-8db3-467f-8f57-e4f1665dbb30
@@ -2154,7 +2138,7 @@ proxies:
     reality-opts:
       public-key: WBdlMzBt7rYtjvtiWreM8_S3arzxSDhSPAyqQeo-GWc
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (14)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (13)"
     type: vless
     server: gertest2g.nekosocks.com
     port: 4443
@@ -2170,7 +2154,7 @@ proxies:
       public-key: P0ceZnf6N49nDZL5UzEIgKv2DwTvxSYZdIujBmNw11s
       short-id: 92739d1b2e8214c1
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (15)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (14)"
     type: vless
     server: frankfurt.admvs.keshe-voz.ru
     port: 8443
@@ -2186,7 +2170,7 @@ proxies:
       public-key: j4KLrYf5S24DtaQ16vOCfLRgUdVUR4_a0LSaAMtaWFw
       short-id: 7373ce0e1bad35cb
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (16)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (15)"
     type: vless
     server: de.x8lab.org
     port: 443
@@ -2202,7 +2186,7 @@ proxies:
       public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
       short-id: cd0b563c7e0ea754
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (17)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (16)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 8454
@@ -2218,7 +2202,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (18)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (17)"
     type: vless
     server: de5.jugsenkeys4pays.su
     port: 443
@@ -2232,7 +2216,7 @@ proxies:
     reality-opts:
       public-key: WBdlMzBt7rYtjvtiWreM8_S3arzxSDhSPAyqQeo-GWc
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (19)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (18)"
     type: vless
     server: 45.129.242.158
     port: 443
@@ -2247,7 +2231,7 @@ proxies:
       public-key: 9z7PEwpqqd55A6EYiuXpOVn8j7gWiHpiEBr-ay8sjwM
       short-id: 1b8215be7d168685
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (20)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (19)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -2263,7 +2247,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (21)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (20)"
     type: vless
     server: de.oncloudvpn.com
     port: 443
@@ -2279,7 +2263,7 @@ proxies:
       public-key: 1az_XYGwf1SX5RjaXXov8xBFqpbFlzYegZgFWULF1FY
       short-id: f106
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (22)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (21)"
     type: vless
     server: 178.17.48.57
     port: 443
@@ -2295,7 +2279,7 @@ proxies:
       public-key: gmcaceHetuS4yBVtFAlZbhupbpkmpqPrm38lM2Vfjks
       short-id: 39b2ba882028c77c
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (23)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (22)"
     type: vless
     server: de.jykvpn.com
     port: 443
@@ -2310,7 +2294,7 @@ proxies:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: 4c02bbbfa833b3b6
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (24)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (23)"
     type: vless
     server: frankfurt.node.specnet.ru
     port: 8443
@@ -2326,7 +2310,7 @@ proxies:
       public-key: j4KLrYf5S24DtaQ16vOCfLRgUdVUR4_a0LSaAMtaWFw
       short-id: 7373ce0e1bad35cb
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (25)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (24)"
     type: vless
     server: gertest2.nekosocks.com
     port: 443
@@ -2341,7 +2325,7 @@ proxies:
       public-key: Dh1UomRsMtlpOKAM4lnh9FElnSFwPNZz9wOEgOs2PXU
       short-id: fc993ee4c735f617
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (26)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (25)"
     type: vless
     server: de.axolab.org
     port: 443
@@ -2357,7 +2341,7 @@ proxies:
       public-key: k9BuzZPnzofDcPTaa7ROHNIc9ww2jy3tLAJ04GuKvAQ
       short-id: c44bcdb731f12c41
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (27)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (26)"
     type: vless
     server: r.free-telegram-vpn.ru
     port: 8443
@@ -3443,7 +3427,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (24)"
       - "🇩🇪 PREMIUM Германия (Germany) (25)"
       - "🇩🇪 PREMIUM Германия (Germany) (26)"
-      - "🇩🇪 PREMIUM Германия (Germany) (27)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
