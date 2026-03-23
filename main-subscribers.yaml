@@ -3,17 +3,37 @@ socks-port: 7891
 redir-port: 7892
 allow-lan: true
 mode: rule    
-log-level: info
+log-level: error
 external-controller: 127.0.0.1:9090
-geodata-mode: true
-geodata-loader: standard
-geox-url:
-  geoip: https://raw.githubusercontent.com/runetfreedom/russia-blocked-geoip/release/geoip.dat
-  geosite: https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat
-geo-auto-update: true
-geo-update-interval: 24
+geodata-mode: false
+profile:
+  store-selected: true
+  store-fake-ip: true
+sniffer:
+  enable: true
+  force-dns-mapping: true
+  parse-pure-ip: true
+  override-destination: true
+  sniff:
+    HTTP:
+      ports:
+        - 80
+        - 8080-8880
+      override-destination: true
+    TLS:
+      ports:
+        - 443
+        - 8443
+      override-destination: true
+    QUIC:
+      ports:
+        - 443
+        - 8443
+      override-destination: true
 dns:
   enable: true
+  nameserver-policy:
+    'rule-set:HageziProPlus': 'rcode://success'
   use-hosts: true
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
@@ -57,7 +77,7 @@ dns:
     - speedtest.cros.wr.pvp.net
 
 proxy-providers:
-  Subs-wh:
+  Subs-wh1:
     type: http
     url: "https://etoneya.a9fm.site/whitelist"
     path: ./proxy_providers/sub.yml
@@ -68,12 +88,12 @@ proxy-providers:
       url: http://cp.cloudflare.com/generate_204
       interval: 300
       timeout: 5000
-      lazy: true
+      lazy: false
       expected-status: 204
-  Subs2:
+  Subs-wh2:
     type: http
-    url: "https://gitlab.com/Loischsiy/server-subscribers/-/raw/main/test.yaml"
-    path: ./proxy_providers/subs2.yml
+    url: "https://alley.serv00.net/2"
+    path: ./proxy_providers/sub.yml
     override:
       udp: true
     health-check:
@@ -1047,20 +1067,20 @@ proxies:
 proxy-groups:
   - name: "🇫🇲 Обход белого списка авто"
     use:
-      - Subs-wh
+      - Subs-wh1
+      - Subs-wh2
     type: url-test
     url: http://cp.cloudflare.com/generate_204
     hidden: true
     expected-status: 204
     interval: 300
-    tolerance: 150
-    lazy: true
+    tolerance: 250
+    lazy: false
 
   - name: "Dimon-subscribers"
     icon: https://drive.usercontent.google.com/u/0/uc?id=1XVTiYnMQgKttigplwIj0HxptEN_zBbuU&export=download
     type: select
     use:
-      - Subs2
       - Free-sub
     exclude-filter: "(?i)0000"
     proxies:
@@ -1148,10 +1168,46 @@ rule-providers:
     url: https://github.com/legiz-ru/mihomo-rule-sets/raw/main/other/torrent-trackers.mrs
     path: ./rule-sets/torrent-trackers.mrs
     interval: 86400
+  geoip-ru:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geoip/ru.mrs
+    path: ./geoip-ru.mrs
+    interval: 86400
+  geosite-ru:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/category-ru.mrs
+    path: ./geosite-ru.mrs
+    interval: 86400
+  geosite-private:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/private.mrs
+    path: ./geosite-private.mrs
+    interval: 86400
+  geoip-private:
+    type: http
+    behavior: ipcidr
+    format: mrs
+    url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geoip/private.mrs
+    path: ./geoip-private.mrs
+    interval: 86400
+  HageziProPlus:
+    type: http
+    format: mrs
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/MiHomoer/MiHomo-Hagezi@release/HageziProPlus.mrs"
+    path: ./HageziProPlus.mrs
+    interval: 86400
 
 rules:
-  - GEOSITE,private,DIRECT
-  - GEOIP,private,DIRECT
+  # Для частных сетей
+  - RULE-SET,geosite-private,DIRECT,no-resolve
+  - RULE-SET,geoip-private,DIRECT
   # Для джостиков flydigi
   - DOMAIN-KEYWORD,flydigi,DIRECT
   # Для торрент программ из ruleset
@@ -1167,7 +1223,7 @@ rules:
   - PROCESS-NAME,org.qbittorrent.client,DIRECT
   - PROCESS-NAME,com.utorrent.client,DIRECT
   - PROCESS-NAME,com.bittorrent.client,DIRECT
-  # Для игр китайских
+  # Для игр китайских от supercell
   - PROCESS-NAME,com.tencent.tmgp.supercell.*,DIRECT
   # Для отображения айпи в clash программах
   - DOMAIN-SUFFIX,ipwho.is,Dimon-subscribers
@@ -1175,9 +1231,15 @@ rules:
   - DOMAIN-SUFFIX,ip.sb,Dimon-subscribers
   # Для аниме сайтов
   - DOMAIN-KEYWORD,anime,Dimon-subscribers
-  # Для вк и ру сайтов
+  # Для вк
   - DOMAIN-KEYWORD,vk,DIRECT
-  - GEOIP,ru,DIRECT
+  # Для ру сайтов
+  - RULE-SET,geoip-ru,DIRECT
+  - RULE-SET,geosite-ru,DIRECT
   - DOMAIN-SUFFIX,ru,DIRECT
-  - GEOSITE,category-ads-all,REJECT
+  - DOMAIN-SUFFIX,su,DIRECT
+  - DOMAIN-SUFFIX,ru.com,DIRECT
+  - DOMAIN-SUFFIX,ru.net,DIRECT
+  # Блокировка рекламы
+  - RULE-SET,HageziProPlus,REJECT,no-resolve
   - MATCH,Dimon-subscribers
