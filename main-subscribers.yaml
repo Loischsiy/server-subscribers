@@ -1008,22 +1008,6 @@ proxies:
     reality-opts:
       public-key: 5zfDqFhsXBs9Oy9Rm7VZwNgzEZPb3217UW8VEt6LrgU
 
-  - name: "🇵🇱 Польша (Poland)"
-    type: vless
-    server: free-pl.moscow-neversleep.digital
-    port: 443
-    uuid: e6ddf1f2-67f5-0064-b374-f39796b829c0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: free-pl.moscow-neversleep.digital
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-      short-id: 1ed136481e0ede74
-
   - name: "🇩🇪 Германия (Germany)"
     type: vless
     server: 89.35.130.144
@@ -1049,21 +1033,6 @@ proxies:
     reality-opts:
       public-key: gPYyAl_vwMzKONbwy88LfVc0N_8LPcqNxX1pADtlUhI
       short-id: 4625e48b6e8839de
-
-  - name: "🇺🇸 Америка (USA)"
-    type: vless
-    server: free-us.moscow-neversleep.digital
-    port: 443
-    uuid: e6ddf1f2-67f5-4c4d-b374-f39796b829c0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-      short-id: 1ed136481e0ede74
 proxy-groups:
   - name: "🇫🇲 Обход белого списка авто"
     use:
@@ -1149,10 +1118,8 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (4)"
       - "🇺🇸 PREMIUM Америка (USA) (5)"
       - "🇺🇸 PREMIUM Америка (USA) (6)"
-      - "🇵🇱 Польша (Poland)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
-      - "🇺🇸 Америка (USA)"
 rule-providers:
   torrent-clients:
     type: http
