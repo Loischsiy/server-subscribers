@@ -253,7 +253,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🌎 PREMIUM Случайная (Random) (1)"
+  - name: "🌎 PREMIUM Случайная (Random)"
     type: vless
     server: 45.85.93.50
     port: 443
@@ -267,34 +267,6 @@ proxies:
     reality-opts:
       public-key: iJijX259TNUY-hWNXyypOTOiOpke9leniss_jlHE61g
       short-id: fc74fe7479dfd8f2
-
-  - name: "🌎 PREMIUM Случайная (Random) (2)"
-    type: vless
-    server: de.jykvpn.com
-    port: 2048
-    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
-    network: ws
-    tls: false
-    udp: true
-    ws-opts:
-      path: "/"
-      headers:
-        Host: ads.x5.ru
-
-  - name: "🌎 PREMIUM Случайная (Random) (3)"
-    type: vless
-    server: osre.jykvpn.com
-    port: 443
-    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: 4c02bbbfa833b3b6
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
     type: hysteria2
@@ -409,7 +381,7 @@ proxies:
     reality-opts:
       public-key: s5r4SIxS-jFerlNOD5Rm58Qk7DYmXF2-AXxMHL8OzQA
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+  - name: "🇵🇱 PREMIUM Польша (Poland)"
     type: vless
     server: pol1.2clash.ru
     port: 443
@@ -423,21 +395,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: YthnVlOxisN02pCkoOkMKIbziejr9YtBwgYJJ_A82Vk
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
-    type: vless
-    server: plre.jykvpn.com
-    port: 443
-    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: c2a0b2d60a7fc300
 
   - name: "🇷🇴 PREMIUM Румыния (Romania)"
     type: vless
@@ -530,27 +487,12 @@ proxies:
       public-key: 2UqmYnwyUG2DqKspr_4VVecvGnzfDG8QGDhnvWY3ESs
       short-id: 32
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (1)"
+  - name: "🇸🇪 PREMIUM Швеция (Sweden)"
     type: hysteria2
     server: 46.21.81.123
     port: 443
     password: tg_8388891296_1ab81194
     skip-cert-verify: true
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-    type: vless
-    server: swre.jykvpn.com
-    port: 443
-    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: 4c02bbbfa833b3b6
 
   - name: "🇳🇴 PREMIUM Норвегия (Norway)"
     type: vless
@@ -712,21 +654,6 @@ proxies:
       public-key: oYJtcs4IBZrYEYGhVxBqnqNMNGIFQQP9_uoLNG2vK2s
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
-    type: vless
-    server: de.jykvpn.com
-    port: 443
-    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: 4c02bbbfa833b3b6
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
     type: hysteria2
     server: 138.124.73.26
     port: 443
@@ -734,21 +661,6 @@ proxies:
     skip-cert-verify: true
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
-    type: vless
-    server: nlre.jykvpn.com
-    port: 443
-    uuid: 9c4b290c-2fb1-4f2a-8180-353c0d178034
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
-      short-id: 4c02bbbfa833b3b6
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
     server: nl01.secret-port.net
     port: 8443
@@ -763,7 +675,7 @@ proxies:
       public-key: NDme3MDBicy6vs6dWqzZroAYnScyVES4dSf7boziGHw
       short-id: 207b537a78524200
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
     server: neth1.2clash.ru
     port: 443
@@ -779,14 +691,14 @@ proxies:
       public-key: HQ3MqrP4IaCgmX5lNITdhHRVNGRFLOXiGgY3g0WY40I
       short-id: 88
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: hysteria2
     server: 185.132.53.62
     port: 443
     password: tg_8388891296_1ab81194
     skip-cert-verify: true
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
     type: vless
     server: s1.nodu3.ru
     port: 443
@@ -801,7 +713,7 @@ proxies:
     reality-opts:
       public-key: dR3W06Hm_v5LOrWtoTt6IZxpmQwugXhE7m3xNU7JW30
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
     server: neth1.2clash.ru
     port: 443
@@ -817,7 +729,7 @@ proxies:
       public-key: HQ3MqrP4IaCgmX5lNITdhHRVNGRFLOXiGgY3g0WY40I
       short-id: 88
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
     type: vless
     server: nl.pool.sssrvpn.pro
     port: 443
@@ -833,7 +745,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
     type: vless
     server: nl.pool.sssrvpn.pro
     port: 443
@@ -1062,9 +974,7 @@ proxy-groups:
       - "🇫🇲 PREMIUM Обход белого списка (2)"
       - "🇫🇲 PREMIUM Обход белого списка (3)"
       - "🇫🇲 PREMIUM Обход белого списка (4)"
-      - "🌎 PREMIUM Случайная (Random) (1)"
-      - "🌎 PREMIUM Случайная (Random) (2)"
-      - "🌎 PREMIUM Случайная (Random) (3)"
+      - "🌎 PREMIUM Случайная (Random)"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
@@ -1074,8 +984,7 @@ proxy-groups:
       - "🇱🇻 PREMIUM Латвия (Latvia) (2)"
       - "🇪🇪 PREMIUM Эстония (Estonia) (1)"
       - "🇪🇪 PREMIUM Эстония (Estonia) (2)"
-      - "🇵🇱 PREMIUM Польша (Poland) (1)"
-      - "🇵🇱 PREMIUM Польша (Poland) (2)"
+      - "🇵🇱 PREMIUM Польша (Poland)"
       - "🇷🇴 PREMIUM Румыния (Romania)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
@@ -1083,8 +992,7 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
+      - "🇸🇪 PREMIUM Швеция (Sweden)"
       - "🇳🇴 PREMIUM Норвегия (Norway)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
@@ -1098,7 +1006,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇩🇪 PREMIUM Германия (Germany) (5)"
       - "🇩🇪 PREMIUM Германия (Germany) (6)"
-      - "🇩🇪 PREMIUM Германия (Germany) (7)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -1106,7 +1013,6 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
       - "🇹🇷 PREMIUM Турция (Turkey) (1)"
       - "🇹🇷 PREMIUM Турция (Turkey) (2)"
       - "🇹🇷 PREMIUM Турция (Turkey) (3)"
