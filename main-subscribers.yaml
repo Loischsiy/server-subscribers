@@ -270,37 +270,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
-    server: rus.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: max.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: OZSUq0RzhWMi6YZgQKNzcmb8D7_eKYzZ5LVrP30NMSc
-      short-id: 55
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
-    server: rus1.linkey36.ru
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: edge
-    packet-encoding: xudp
-    reality-opts:
-      public-key: LjalD29qQhoVZcbFxi9zr1eYGloBjUPRIFL2_hNClxU
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
     server: bridge.pool.sssrvpn.pro
     port: 443
     uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
@@ -315,67 +284,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia)"
-    type: vless
-    server: s1.nodu10.ru
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: TTqkOFxY5de8wuJ8qu9ibe0cA-cbEiP--Pr0iKkHfmg
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia)"
-    type: vless
-    server: est.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: s5r4SIxS-jFerlNOD5Rm58Qk7DYmXF2-AXxMHL8OzQA
-
-  - name: "🇵🇱 PREMIUM Польша (Poland)"
-    type: vless
-    server: pol1.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: YthnVlOxisN02pCkoOkMKIbziejr9YtBwgYJJ_A82Vk
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-    type: vless
-    server: fl13.linkey21.ru
-    port: 8443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: hda1r36mXBB1qKWr8vv12bzIjye0t-JrqScgHWB96Tc
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland)"
     type: vless
     server: fi.pool.sssrvpn.pro
     port: 443
@@ -390,52 +299,6 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-    type: vless
-    server: finl3.linkey40.ru
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: hbz2h-uZbBKkiPKeSzxgbU_cg82IxHklArWTVis3DC0
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-    type: vless
-    server: fin1.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 2UqmYnwyUG2DqKspr_4VVecvGnzfDG8QGDhnvWY3ESs
-      short-id: 32
-
-  - name: "🇳🇴 PREMIUM Норвегия (Norway)"
-    type: vless
-    server: 193.200.229.240
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ogx2q9nA6IVvw2JHIrJoSNzu4RdMhWNu3lPuYf5MjiY
 
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
@@ -453,7 +316,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇫🇷 PREMIUM Франция (France)"
+  - name: "🇫🇷 PREMIUM Франция (France) (1)"
     type: vless
     server: fr01.secret-port.net
     port: 8443
@@ -468,38 +331,16 @@ proxies:
       public-key: Zy_5CJ0RPv8MNMMOr_awWM9TQRoBdxmUWc9VZYec8Gs
       short-id: a70875a21880d86d
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
-    type: vless
-    server: 212.113.109.63
+  - name: "🇫🇷 PREMIUM Франция (France) (2)"
+    type: trojan
+    server: ru-1.krugvpn.com
     port: 443
-    uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: yahoo.com
+    password: 179d0c27hfb9f
     client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
-      short-id: fc74fe7479dfd8f2
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
-    type: vless
-    server: ger32.linkey19.ru
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 9ojzAx3_C_SVHf0lGFM5AeNwQRH2oMGjko8X4bMVHkc
+    sni: ru-1.krugvpn.com
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
     server: bridge.pool.sssrvpn.pro
     port: 8454
@@ -515,20 +356,21 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
-    server: mostger1.linkey41.ru
+    server: 212.113.109.63
     port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
+    uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
+    servername: yahoo.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: oYJtcs4IBZrYEYGhVxBqnqNMNGIFQQP9_uoLNG2vK2s
+      public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
+      short-id: fc74fe7479dfd8f2
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: vless
@@ -547,53 +389,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
-    server: neth1.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: HQ3MqrP4IaCgmX5lNITdhHRVNGRFLOXiGgY3g0WY40I
-      short-id: 88
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-    type: vless
-    server: s1.nodu3.ru
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: dR3W06Hm_v5LOrWtoTt6IZxpmQwugXhE7m3xNU7JW30
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-    type: vless
-    server: neth1.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: HQ3MqrP4IaCgmX5lNITdhHRVNGRFLOXiGgY3g0WY40I
-      short-id: 88
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-    type: vless
     server: nl.pool.sssrvpn.pro
     port: 443
     uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
@@ -608,7 +403,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: nl.pool.sssrvpn.pro
     port: 443
@@ -626,21 +421,6 @@ proxies:
 
   - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
     type: vless
-    server: tr7.linkey13.ru
-    port: 8443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: yOPY1KcLK46ToKmPpf7fX1xZUNhC3wa1HQpNnNNSVGY
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
     server: bridge.pool.sssrvpn.pro
     port: 8445
     uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
@@ -655,7 +435,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
     type: vless
     server: tr01.secret-port.net
     port: 8443
@@ -669,21 +449,6 @@ proxies:
     reality-opts:
       public-key: VyYeacuO9B4q0GbQA7ThD-ma3HAHHwgm0-F7vdkU2hM
       short-id: fd98f8a79afd1053
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (4)"
-    type: vless
-    server: tur1.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SMDsSFn4c3kXlqq0ZL0NuCHxRcb0JprYptCxiWdUVAY
 
   - name: "🇮🇱 PREMIUM Израиль (Israel)"
     type: vless
@@ -700,22 +465,7 @@ proxies:
       public-key: V88lE6VJbhqVp0ogzrw7jx76aCSZFptrH8OabVrbEEA
       short-id: e19e7bac67b4d9f0
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (1)"
-    type: vless
-    server: usa1.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 5zfDqFhsXBs9Oy9Rm7VZwNgzEZPb3217UW8VEt6LrgU
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
+  - name: "🇺🇸 PREMIUM Америка (USA)"
     type: vless
     server: us.pool.sssrvpn.pro
     port: 443
@@ -730,51 +480,6 @@ proxies:
     reality-opts:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: 6ba85179e30d4fc2
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
-    type: vless
-    server: ru-m-usa1.linkey36.ru
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: edge
-    packet-encoding: xudp
-    reality-opts:
-      public-key: WIChHpn4hT5L-O75eF6dDuw7RtWaKlJIWx8esPraPUM
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
-    type: vless
-    server: ru-usa1.linkey39.ru
-    port: 443
-    uuid: b2973580-78a2-4d47-89f4-e4f130612b07
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.vk.com
-    client-fingerprint: edge
-    packet-encoding: xudp
-    reality-opts:
-      public-key: WIChHpn4hT5L-O75eF6dDuw7RtWaKlJIWx8esPraPUM
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
-    type: vless
-    server: usa1.2clash.ru
-    port: 443
-    uuid: e93f08db-1a24-4685-b167-b58d0597c9fb
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: store.steampowered.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 5zfDqFhsXBs9Oy9Rm7VZwNgzEZPb3217UW8VEt6LrgU
 
   - name: "🇩🇪 Германия (Germany)"
     type: vless
@@ -832,38 +537,19 @@ proxy-groups:
       - "🇫🇲 PREMIUM Обход белого списка (4)"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
-      - "🇷🇺 PREMIUM Россия (Russian) (3)"
-      - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇱🇻 PREMIUM Латвия (Latvia)"
-      - "🇪🇪 PREMIUM Эстония (Estonia)"
-      - "🇵🇱 PREMIUM Польша (Poland)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-      - "🇳🇴 PREMIUM Норвегия (Norway)"
+      - "🇫🇮 PREMIUM Финляндия (Finland)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
-      - "🇫🇷 PREMIUM Франция (France)"
+      - "🇫🇷 PREMIUM Франция (France) (1)"
+      - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
-      - "🇩🇪 PREMIUM Германия (Germany) (3)"
-      - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
       - "🇹🇷 PREMIUM Турция (Turkey) (1)"
       - "🇹🇷 PREMIUM Турция (Turkey) (2)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (3)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (4)"
       - "🇮🇱 PREMIUM Израиль (Israel)"
-      - "🇺🇸 PREMIUM Америка (USA) (1)"
-      - "🇺🇸 PREMIUM Америка (USA) (2)"
-      - "🇺🇸 PREMIUM Америка (USA) (3)"
-      - "🇺🇸 PREMIUM Америка (USA) (4)"
-      - "🇺🇸 PREMIUM Америка (USA) (5)"
+      - "🇺🇸 PREMIUM Америка (USA)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
 rule-providers:
