@@ -272,70 +272,6 @@ proxies:
     dialer-proxy: "🇵🇱 PREMIUM Польша (Poland) (1)"
 
 
-  - name: "🇫🇲 PREMIUM Обход белого списка (1)"
-    type: vless
-    server: bridge.pool.sssrvpn.pro
-    port: 8444
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇲 PREMIUM Обход белого списка (2)"
-    type: vless
-    server: bridge.pool.sssrvpn.pro
-    port: 8444
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇲 PREMIUM Обход белого списка (3)"
-    type: vless
-    server: bridge.pool.sssrvpn.pro
-    port: 8444
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇲 PREMIUM Обход белого списка (4)"
-    type: vless
-    server: bridge.pool.sssrvpn.pro
-    port: 8444
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
   - name: "🌎 PREMIUM Случайная (Random) (1)"
     type: vless
     server: osre.jykvpn.com
@@ -435,21 +371,6 @@ proxies:
       short-id: 3b0bd499d9a7c376
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
-    type: vless
-    server: ru01.secret-port.net
-    port: 8443
-    uuid: b3f98977-7665-44d1-82a6-d7daa873586b
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ru01.secret-port.net
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Jc9w9APOxwIGjVqbV1E2kPDXkk32v6A5hJ1CmbaN8TE
-      short-id: d92af2e6ad26948e
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: ss
     server: 194.87.104.254
     port: 51523
@@ -457,7 +378,7 @@ proxies:
     password: NFRLVn_oDYsNxe1VNjMadR5CAoS3u_MT
     udp: true
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
     server: 178.253.55.42
     port: 443
@@ -472,22 +393,6 @@ proxies:
     reality-opts:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: c2a0b2d60a7fc300
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
-    type: vless
-    server: bridge.pool.sssrvpn.pro
-    port: 443
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
 
   - name: "🇱🇹 PREMIUM Литва (LITVA) (1)"
     type: ss
@@ -556,22 +461,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
     type: vless
-    server: fi.pool.sssrvpn.pro
-    port: 443
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fi.reality.tv123.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-    type: vless
     server: 138.124.7.12
     port: 443
     uuid: 122f5c2d-6be0-4c22-968c-82059f3fad9f
@@ -587,7 +476,7 @@ proxies:
       public-key: zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E
       short-id: 88e6a995e419b5f9
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
     type: vless
     server: fire.jykvpn.com
     port: 2048
@@ -617,23 +506,7 @@ proxies:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: ccf6f64e6bc81cd1
 
-  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
-    type: vless
-    server: uk.pool.sssrvpn.pro
-    port: 443
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: uk.reality.tv123.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇫🇷 PREMIUM Франция (France) (1)"
+  - name: "🇫🇷 PREMIUM Франция (France)"
     type: trojan
     server: ru-1.krugvpn.com
     port: 443
@@ -642,38 +515,7 @@ proxies:
     udp: true
     sni: ru-1.krugvpn.com
 
-  - name: "🇫🇷 PREMIUM Франция (France) (2)"
-    type: vless
-    server: fr01.secret-port.net
-    port: 8443
-    uuid: b3f98977-7665-44d1-82a6-d7daa873586b
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fr01.secret-port.net
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: Zy_5CJ0RPv8MNMMOr_awWM9TQRoBdxmUWc9VZYec8Gs
-      short-id: a70875a21880d86d
-
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
-    type: vless
-    server: bridge.pool.sssrvpn.pro
-    port: 8454
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de.reality.tv123.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: de.jykvpn.com
     port: 443
@@ -689,7 +531,7 @@ proxies:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: 4c02bbbfa833b3b6
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -705,7 +547,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: 138.124.28.112
     port: 443
@@ -722,7 +564,7 @@ proxies:
       public-key: zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E
       short-id: 6e5de0fb804a25bd
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: ss
     server: 95.85.232.0
     port: 51523
@@ -748,37 +590,6 @@ proxies:
       short-id: 3b0bd499d9a7c376
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-    type: vless
-    server: nl.pool.sssrvpn.pro
-    port: 443
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl.reality.tv123.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-    type: vless
-    server: nl01.secret-port.net
-    port: 8443
-    uuid: b3f98977-7665-44d1-82a6-d7daa873586b
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl01.secret-port.net
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: NDme3MDBicy6vs6dWqzZroAYnScyVES4dSf7boziGHw
-      short-id: 207b537a78524200
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
     type: ss
     server: 50.7.177.91
     port: 51523
@@ -786,23 +597,7 @@ proxies:
     password: NFRLVn_oDYsNxe1VNjMadR5CAoS3u_MT
     udp: true
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-    type: vless
-    server: nl.pool.sssrvpn.pro
-    port: 443
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl.reality.tv123.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: nlre.jykvpn.com
     port: 443
@@ -817,52 +612,6 @@ proxies:
     reality-opts:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: ccf6f64e6bc81cd1
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
-    type: vless
-    server: tr01.secret-port.net
-    port: 8443
-    uuid: b3f98977-7665-44d1-82a6-d7daa873586b
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: tr01.secret-port.net
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: VyYeacuO9B4q0GbQA7ThD-ma3HAHHwgm0-F7vdkU2hM
-      short-id: fd98f8a79afd1053
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
-    server: bridge.pool.sssrvpn.pro
-    port: 8445
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: tr.reality.tv123.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇮🇱 PREMIUM Израиль (Israel)"
-    type: vless
-    server: il01.secret-port.net
-    port: 8443
-    uuid: b3f98977-7665-44d1-82a6-d7daa873586b
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: il01.secret-port.net
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: V88lE6VJbhqVp0ogzrw7jx76aCSZFptrH8OabVrbEEA
-      short-id: e19e7bac67b4d9f0
 
   - name: "🇦🇪 PREMIUM ОАЭ (UAE)"
     type: vless
@@ -881,22 +630,6 @@ proxies:
       short-id: 4c02bbbfa833b3b6
 
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
-    type: vless
-    server: us.pool.sssrvpn.pro
-    port: 443
-    uuid: 4e2d5dcc-af03-4b66-9771-560eda395d80
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: us.reality.tv123.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
-      short-id: 6ba85179e30d4fc2
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: ss
     server: 216.227.161.43
     port: 51523
@@ -904,7 +637,7 @@ proxies:
     password: NFRLVn_oDYsNxe1VNjMadR5CAoS3u_MT
     udp: true
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
     type: vless
     server: 216.227.161.43
     port: 443
@@ -921,7 +654,7 @@ proxies:
       public-key: zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E
       short-id: f8ed61b6af45935f
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: 38.107.232.143
     port: 443
@@ -1007,10 +740,6 @@ proxy-groups:
       - "☁️ WARP ➡️ 🇺🇸"
       - "☁️ WARP ➡️ 🇵🇱"
       - "🇫🇲 Обход белого списка авто"
-      - "🇫🇲 PREMIUM Обход белого списка (1)"
-      - "🇫🇲 PREMIUM Обход белого списка (2)"
-      - "🇫🇲 PREMIUM Обход белого списка (3)"
-      - "🇫🇲 PREMIUM Обход белого списка (4)"
       - "🌎 PREMIUM Случайная (Random) (1)"
       - "🌎 PREMIUM Случайная (Random) (2)"
       - "🌎 PREMIUM Случайная (Random) (3)"
@@ -1020,8 +749,6 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
-      - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇷🇺 PREMIUM Россия (Russian) (5)"
       - "🇱🇹 PREMIUM Литва (LITVA) (1)"
       - "🇱🇹 PREMIUM Литва (LITVA) (2)"
       - "🇵🇱 PREMIUM Польша (Poland)"
@@ -1029,30 +756,19 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
       - "🇸🇪 PREMIUM Швеция (Sweden)"
-      - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
-      - "🇫🇷 PREMIUM Франция (France) (1)"
-      - "🇫🇷 PREMIUM Франция (France) (2)"
+      - "🇫🇷 PREMIUM Франция (France)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
-      - "🇩🇪 PREMIUM Германия (Germany) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
-      - "🇮🇱 PREMIUM Израиль (Israel)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
-      - "🇺🇸 PREMIUM Америка (USA) (4)"
       - "🇳🇬 PREMIUM Нигерия (Nigeria)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
