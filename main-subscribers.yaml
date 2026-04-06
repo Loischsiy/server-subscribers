@@ -259,17 +259,17 @@ proxies:
     udp: true
     dialer-proxy: "🇺🇸 PREMIUM Америка (USA) (1)"
   
-  - name: "☁️ WARP ➡️ 🇵🇱"
-    type: wireguard
-    server: engage.cloudflareclient.com
-    port: 1701
-    ip: 162.159.195.2
-    ipv6: 2606:4700:110:81f0:95f0:4698:f34f:8198/128
-    private-key: oAC9P1w9fK2ymm0YI0c9fuLkJHRNdnC+SHJpWNP6lko=
-    public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
-    mtu: 1280                 
-    udp: true
-    dialer-proxy: "🇵🇱 PREMIUM Польша (Poland) (1)"
+  # - name: "☁️ WARP ➡️ 🇵🇱"
+  #   type: wireguard
+  #   server: engage.cloudflareclient.com
+  #   port: 1701
+  #   ip: 162.159.195.2
+  #   ipv6: 2606:4700:110:81f0:95f0:4698:f34f:8198/128
+  #   private-key: oAC9P1w9fK2ymm0YI0c9fuLkJHRNdnC+SHJpWNP6lko=
+  #   public-key: bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=
+  #   mtu: 1280                 
+  #   udp: true
+  #   dialer-proxy: "🇵🇱 PREMIUM Польша (Poland) (1)"
 
 
   - name: "🌎 PREMIUM Случайная (Random) (1)"
@@ -738,8 +738,6 @@ proxy-groups:
       - "☁️ WARP 🇪🇪"
       - "☁️ WARP 🇫🇮"
       - "☁️ WARP ➡️ 🇺🇸"
-      - "☁️ WARP ➡️ 🇵🇱"
-      - "🇫🇲 Обход белого списка авто"
       - "🌎 PREMIUM Случайная (Random) (1)"
       - "🌎 PREMIUM Случайная (Random) (2)"
       - "🌎 PREMIUM Случайная (Random) (3)"
@@ -772,6 +770,9 @@ proxy-groups:
       - "🇳🇬 PREMIUM Нигерия (Nigeria)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
+      # - "☁️ WARP ➡️ 🇵🇱"
+      - "🇫🇲 Обход белого списка авто"
+
 rule-providers:
   torrent-clients:
     type: http
