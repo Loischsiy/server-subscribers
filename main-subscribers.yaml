@@ -721,22 +721,6 @@ proxies:
       public-key: A7rUZxACVEZDLxE5yl0bwplc6HMl2XBDasR9X8hy-CA
       short-id: c8855701
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
-    type: vless
-    server: net6.orryx.org
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: net6.orryx.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: BESpSmmif1Le8JZDCy50V-GS0QgXr9bKzHvOPjh8bGk
-      short-id: 57d9cf1ee4fb7afe
-
   - name: "🇦🇱 PREMIUM Албания (Albania)"
     type: vless
     server: 84.200.73.91
@@ -833,22 +817,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
     type: vless
-    server: net2.orryx.org
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: net2.orryx.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: BTC3rCBtaojCWwn8d7Gpeh5z2RuNKvIBAztslgH-y24
-      short-id: 19ad0f27daabccdd
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
-    type: vless
     server: 138.124.7.12
     port: 443
     uuid: 122f5c2d-6be0-4c22-968c-82059f3fad9f
@@ -864,7 +832,7 @@ proxies:
       public-key: zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E
       short-id: 88e6a995e419b5f9
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (6)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (5)"
     type: ss
     server: 45.144.52.104
     port: 51523
@@ -872,7 +840,7 @@ proxies:
     password: NFRLVn_oDYsNxe1VNjMadR5CAoS3u_MT
     udp: true
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (7)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (6)"
     type: vless
     server: fi-u4.vpn-port.com
     port: 443
@@ -887,7 +855,7 @@ proxies:
       public-key: KRYdO2VLcgpamVvXS1TJTaBDZg_7_ECPm0P21izq3Dg
       short-id: d3f7df824680
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (7)"
     type: vless
     server: fiem.grizzlyvpn.work
     port: 443
@@ -1047,22 +1015,6 @@ proxies:
       public-key: HJ3fX9pLVXj3msYSPDFQ-2lNStMT23oikDDUX_0QVXs
       short-id: ae308d8ed52d9ca6
 
-  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (3)"
-    type: vless
-    server: br.orryx.site
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: _qgZenqI7AVa30KP9E5ErO05iSYWw83p2HdSTKGAlB4
-      short-id: 417cc8bba919a640
-
   - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
     type: vless
     server: 91.192.102.115
@@ -1134,22 +1086,6 @@ proxies:
     client-fingerprint: chrome
     udp: true
     sni: ru-1.krugvpn.com
-
-  - name: "🇫🇷 PREMIUM Франция (France) (4)"
-    type: vless
-    server: net3.orryx.org
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: net3.orryx.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: a6GFsz31F4sjjPnPyascQT2WBPz1raFRJ_r5PxxGPHc
-      short-id: 9524356250efe49b
 
   - name: "🇦🇹 PREMIUM Австрия (Austria) (1)"
     type: vless
@@ -1354,22 +1290,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (12)"
     type: vless
-    server: net7.orryx.org
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: net7.orryx.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 0h-qqqwW8TJ_9ZKz9iJ7C3YOpOIecHQgcnHzs3LxZWI
-      short-id: 57d9cf1ee4fb7afe
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (13)"
-    type: vless
     server: 31.56.39.4
     port: 443
     uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
@@ -1384,7 +1304,7 @@ proxies:
       public-key: P1QYDpQF1wCb8T3R6p0s3a_xXQsGVyxVUHRBAofvEGI
       short-id: 5fdd9343
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (14)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (13)"
     type: vless
     server: 31.56.39.4
     port: 443
@@ -1450,22 +1370,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
     type: vless
-    server: nl.orryx.site
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: GdnvNkFNyN8qIaSn3ni6dJrMHt3wUcqXq_XMT_d8UBI
-      short-id: 756d9336d576295d
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-    type: vless
     server: mbt7z5b-wzr5mx.nl.velvetvpn.xyz
     port: 40443
     uuid: b5847916-3d02-417a-bf8b-a595e136594b
@@ -1480,7 +1384,7 @@ proxies:
       public-key: wKPAR2t-xoUMbBqRHV7SLvGuR9dwrcH6bTSknyBO0T8
       short-id: a1b2c3d4e5f6789a
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
     server: j2e4f3b-d9r8vq.95.velvetvpn.xyz
     port: 40443
@@ -1496,7 +1400,7 @@ proxies:
       public-key: DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs
       short-id: 505c94b8c65afb0a
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
     type: vless
     server: nl-u47.vpn-port.com
     port: 443
@@ -1511,7 +1415,7 @@ proxies:
       public-key: xKnkfpr5dy6TE8rNU-Mpt33CdZla7EMPBn5_uUtAg2c
       short-id: 9b8dca
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
     type: vless
     server: nl1.worldcouncils.xyz
     port: 443
@@ -1527,7 +1431,7 @@ proxies:
       public-key: op9lfDHFM-SAxlPSkmDtEAGhhZLTC8OoNJiQKMptEU4
       short-id: 2e7147f2c0bc31a5
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
     type: vless
     server: nlre.jykvpn.com
     port: 443
@@ -1543,7 +1447,7 @@ proxies:
       public-key: MNTWCLyV7EquFn-J0a6KRlQZ0dt6QY5mmu7Dq8uDkxw
       short-id: ccf6f64e6bc81cd1
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
     type: ss
     server: 50.7.177.91
     port: 51523
@@ -1551,7 +1455,7 @@ proxies:
     password: NFRLVn_oDYsNxe1VNjMadR5CAoS3u_MT
     udp: true
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
     type: vless
     server: 50.7.177.172
     port: 443
@@ -1584,7 +1488,7 @@ proxies:
       public-key: qnQo7wgPmu4dB0mgHJe0ClfVI21Sm5LbSEOj2dc8_Fg
       short-id: d0fd76760cebb629
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey)"
     type: vless
     server: tr-u4.vpn-port.com
     port: 443
@@ -1598,22 +1502,6 @@ proxies:
     reality-opts:
       public-key: LrkTlNEJWcAgeYQ2c3Ms2j5NY8R-jQBvgnaGFOWG3yM
       short-id: 98b4
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: vless
-    server: tr.orryx.site
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: jel3azbfVar1OJHZtNGKr-gWqp4UCFQk_i0McH9IxDE
-      short-id: 756d9336d576295d
 
   - name: "🇦🇪 PREMIUM ОАЭ (UAE)"
     type: vless
@@ -1753,22 +1641,6 @@ proxies:
       short-id: a1b2c3d4e5f6789a
 
   - name: "🇺🇸 PREMIUM Америка (USA) (9)"
-    type: vless
-    server: net8.orryx.org
-    port: 443
-    uuid: 10e7f790-00a0-4878-8597-36f219f108c8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: net8.orryx.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: yqpNrVYa_FNg_RroSzDyRltNSFk8DFRyEp68nJB4_Vo
-      short-id: 57d9cf1ee4fb7afe
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (10)"
     type: vless
     server: us-u6.vpn-port.com
     port: 443
@@ -1913,7 +1785,6 @@ proxy-groups:
       - "🇱🇹 PREMIUM Литва (LITVA) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
-      - "🇵🇱 PREMIUM Польша (Poland) (3)"
       - "🇦🇱 PREMIUM Албания (Albania)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (1)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (2)"
@@ -1924,7 +1795,6 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (7)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (8)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
@@ -1934,13 +1804,11 @@ proxy-groups:
       - "🇳🇴 PREMIUM Норвегия (Norway)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
-      - "🇬🇧 PREMIUM Великобритания (United Kingdom) (3)"
       - "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
       - "🇨🇭 PREMIUM Швейцария (Switzerland) (2)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇫🇷 PREMIUM Франция (France) (3)"
-      - "🇫🇷 PREMIUM Франция (France) (4)"
       - "🇦🇹 PREMIUM Австрия (Austria) (1)"
       - "🇦🇹 PREMIUM Австрия (Austria) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
@@ -1956,7 +1824,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (11)"
       - "🇩🇪 PREMIUM Германия (Germany) (12)"
       - "🇩🇪 PREMIUM Германия (Germany) (13)"
-      - "🇩🇪 PREMIUM Германия (Germany) (14)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -1967,10 +1834,8 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
       - "🇪🇸 PREMIUM Испания (Spain)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
+      - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
@@ -1981,7 +1846,6 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (7)"
       - "🇺🇸 PREMIUM Америка (USA) (8)"
       - "🇺🇸 PREMIUM Америка (USA) (9)"
-      - "🇺🇸 PREMIUM Америка (USA) (10)"
       - "🇧🇷 PREMIUM Бразилия (Brazil)"
       - "🇸🇬 PREMIUM Сингапур (Singapore)"
       - "🇳🇬 PREMIUM Нигерия (Nigeria)"
