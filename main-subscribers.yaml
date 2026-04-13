@@ -480,21 +480,6 @@ proxies:
       public-key: gHi_ddcj_iho2NPmuHyXDzQEiLa-DyENfhjK0RNSRRI
       short-id: e8749711
 
-  - name: "🇬🇪 PREMIUM Грузия (Georgia)"
-    type: vless
-    server: 185.49.165.168
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ttc.com.ge
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: JKApuj3xAlGurDEr1VrYzmMqRUoJ0TjLvthESjPRBFg
-
   - name: "🇵🇱 PREMIUM Польша (Poland)"
     type: vless
     server: pl3.gosocial.today
@@ -623,22 +608,6 @@ proxies:
       public-key: g_VquUJ5cr62peCSGQHrfW1W-aJCU3tM_ZjuvG3GtzI
       short-id: 10e963e9
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (3)"
-    type: vless
-    server: 185.21.11.66
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.ratsit.se
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: vgBj1zwT-PK1jY__4u236VYosDZ_FG9iaoiMEc_t5jM
-      short-id: 63ee95fdd239422e
-
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
     type: vless
     server: d96dc0e4cc97e61a.grizzlyvpn.work
@@ -671,23 +640,7 @@ proxies:
       public-key: HJ3fX9pLVXj3msYSPDFQ-2lNStMT23oikDDUX_0QVXs
       short-id: ae308d8ed52d9ca6
 
-  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
-    type: vless
-    server: 91.192.102.115
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: swissfilms.ch
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: eRZFdZulDIPyFqvt3Vr6s1HhuMQ4UBVTbuzj5m6TMQY
-      short-id: 3cbc4871821cf61a
-
-  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (2)"
+  - name: "🇨🇭 PREMIUM Швейцария (Switzerland)"
     type: vless
     server: 4e020988ffef0eff.grizzlyvpn.work
     port: 443
@@ -703,7 +656,7 @@ proxies:
       public-key: P70wPy3T4FVBRTLGD96E9qucETsCj0Iuf1PFquZ1-y4
       short-id: 465927544bb8484f
 
-  - name: "🇫🇷 PREMIUM Франция (France) (1)"
+  - name: "🇫🇷 PREMIUM Франция (France)"
     type: vless
     server: safr9.grizzlyvpn.work
     port: 443
@@ -718,47 +671,6 @@ proxies:
     reality-opts:
       public-key: P70wPy3T4FVBRTLGD96E9qucETsCj0Iuf1PFquZ1-y4
       short-id: a26ee7d3b2bdd535
-
-  - name: "🇫🇷 PREMIUM Франция (France) (2)"
-    type: trojan
-    server: ru-1.krugvpn.com
-    port: 443
-    password: 179d0c27hfb9f
-    client-fingerprint: chrome
-    udp: true
-    sni: ru-1.krugvpn.com
-
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (1)"
-    type: vless
-    server: at2.worldcouncils.xyz
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.kulturpool.at
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: uejsWmWyM6nnLI5fxtFel8fFrk5x7jrVCMGbBvBLgjc
-      short-id: 9415620c7ca724d3
-
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (2)"
-    type: vless
-    server: 94.177.9.39
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kulturpool.at
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: hAU2uphlYOtsr8fUxBUlNm2br0PY-vJTObN9yyJCPmw
-      short-id: d84adf9532d776c6
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
@@ -778,38 +690,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
-    server: 212.227.161.81
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.thomaskastner.de
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: NLvfW1zTFd-f-FadNHAFiQFpK9C2fzhR8xyEJ08QICs
-      short-id: 8c35cb152b620c27
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
-    type: vless
-    server: 162.248.166.217
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.mediamarkt.de
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: DdtwqiK6H8Sc-oU72Mv68YiiE_hzUi6xuG8iulXJzUw
-      short-id: fbc06023de472c06
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
-    type: vless
     server: 212.113.109.63
     port: 443
     uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
@@ -824,7 +704,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: ger.frdmhere.com
     port: 443
@@ -840,7 +720,7 @@ proxies:
       public-key: J8SR9wrUnOVg8OaQWOm2y1GyDlnISBDbDhVT9SJ41WA
       short-id: 7ccbcb93b59845de
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: media.frdmhere.com
     port: 443
@@ -856,7 +736,7 @@ proxies:
       headers:
         Host: media.frdmhere.com
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: vless
     server: 31.56.39.4
     port: 443
@@ -872,7 +752,7 @@ proxies:
       public-key: P1QYDpQF1wCb8T3R6p0s3a_xXQsGVyxVUHRBAofvEGI
       short-id: 5fdd9343
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
     type: vless
     server: 31.56.39.4
     port: 443
@@ -888,7 +768,7 @@ proxies:
       public-key: P1QYDpQF1wCb8T3R6p0s3a_xXQsGVyxVUHRBAofvEGI
       short-id: 5fdd9343
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands)"
     type: vless
     server: 6ab211ac03985452.grizzlyvpn.work
     port: 443
@@ -903,38 +783,6 @@ proxies:
     reality-opts:
       public-key: P70wPy3T4FVBRTLGD96E9qucETsCj0Iuf1PFquZ1-y4
       short-id: 3700196b84402762
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-    type: vless
-    server: nl1.worldcouncils.xyz
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.apple.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: op9lfDHFM-SAxlPSkmDtEAGhhZLTC8OoNJiQKMptEU4
-      short-id: 2e7147f2c0bc31a5
-
-  - name: "🇪🇸 PREMIUM Испания (Spain)"
-    type: vless
-    server: 82.223.44.3
-    port: 443
-    uuid: d2cd9d28-615a-4b04-8893-a13242bcaf0c
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.digisanse.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: qnQo7wgPmu4dB0mgHJe0ClfVI21Sm5LbSEOj2dc8_Fg
-      short-id: d0fd76760cebb629
 
   - name: "🇺🇸 PREMIUM Америка (USA) (1)"
     type: vless
@@ -1081,7 +929,6 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-      - "🇬🇪 PREMIUM Грузия (Georgia)"
       - "🇵🇱 PREMIUM Польша (Poland)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (1)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (2)"
@@ -1090,26 +937,17 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
-      - "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
-      - "🇨🇭 PREMIUM Швейцария (Switzerland) (2)"
-      - "🇫🇷 PREMIUM Франция (France) (1)"
-      - "🇫🇷 PREMIUM Франция (France) (2)"
-      - "🇦🇹 PREMIUM Австрия (Austria) (1)"
-      - "🇦🇹 PREMIUM Австрия (Austria) (2)"
+      - "🇨🇭 PREMIUM Швейцария (Switzerland)"
+      - "🇫🇷 PREMIUM Франция (France)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇩🇪 PREMIUM Германия (Germany) (5)"
       - "🇩🇪 PREMIUM Германия (Germany) (6)"
-      - "🇩🇪 PREMIUM Германия (Germany) (7)"
-      - "🇩🇪 PREMIUM Германия (Germany) (8)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-      - "🇪🇸 PREMIUM Испания (Spain)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
