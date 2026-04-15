@@ -288,21 +288,6 @@ proxies:
       public-key: mk-fkkWvUHz2ubIOkr8kfDeglXowdCI3Z4OssjWIIwg
       short-id: 2b145d99dc39e2cc
 
-  - name: "🌎 PREMIUM Случайная (Random)"
-    type: vless
-    server: 93.183.90.145
-    port: 8443
-    uuid: 15fa9be19c6c48cda6e35eff0ab204aa
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fastnodegate.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: baD2SZJzhG4Tm2KXwpJ4UMvn-qA9vGe5Ik7EymojhxA
-      short-id: 87
-
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
     type: vless
     server: 85.208.208.196
@@ -911,7 +896,6 @@ proxy-groups:
       - "☁️ WARP 🇫🇮"
       - "☁️ WARP ➡️ 🇺🇸"
       - "🇫🇲 PREMIUM Обход белого списка"
-      - "🌎 PREMIUM Случайная (Random)"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
