@@ -304,38 +304,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
     type: vless
-    server: 85.208.208.196
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: vNLkPJu2oVaP6xfzTrEN3Xu9jFF2TVOO6zTyqT1yOlk
-      short-id: 37588b10
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
-    type: vless
-    server: russia.ultimabots.network
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: vNLkPJu2oVaP6xfzTrEN3Xu9jFF2TVOO6zTyqT1yOlk
-      short-id: 37588b10
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
     server: 166.1.131.6
     port: 20445
     uuid: 776e8267-345d-4673-c3a7-53790540f082
@@ -349,7 +317,7 @@ proxies:
     reality-opts:
       public-key: oS6X1GK-gYtOfvMbwhhxpRfXBJlgy2sO6MbblxYNsA4
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
     server: 166.1.131.9
     port: 20449
@@ -364,7 +332,7 @@ proxies:
     reality-opts:
       public-key: Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
     server: 77.110.105.16
     port: 443
@@ -395,23 +363,7 @@ proxies:
     reality-opts:
       public-key: yom9KP2ytaVYsKof-Wp5-M78ykcF4RV8YmWYpiGKamI
 
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
-    type: vless
-    server: kz.ultimabots.network
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: gHi_ddcj_iho2NPmuHyXDzQEiLa-DyENfhjK0RNSRRI
-      short-id: e8749711
-
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
     type: vless
     server: 166.1.131.9
     port: 20454
@@ -425,22 +377,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
-
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
-    type: vless
-    server: 91.207.74.141
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: gHi_ddcj_iho2NPmuHyXDzQEiLa-DyENfhjK0RNSRRI
-      short-id: e8749711
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
@@ -553,7 +489,7 @@ proxies:
       public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
       short-id: fe2e437f64f2da7a
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (1)"
+  - name: "🇸🇪 PREMIUM Швеция (Sweden)"
     type: vless
     server: 2.27.23.127
     port: 443
@@ -568,22 +504,6 @@ proxies:
     reality-opts:
       public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
       short-id: fe2e437f64f2da7a
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-    type: vless
-    server: 45.80.228.223
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: g_VquUJ5cr62peCSGQHrfW1W-aJCU3tM_ZjuvG3GtzI
-      short-id: 10e963e9
 
   - name: "🇳🇴 PREMIUM Норвегия (Norway)"
     type: vless
@@ -712,22 +632,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
-    server: 31.56.39.4
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: P1QYDpQF1wCb8T3R6p0s3a_xXQsGVyxVUHRBAofvEGI
-      short-id: 5fdd9343
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
-    type: vless
     server: 89.23.108.28
     port: 443
     uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
@@ -742,23 +646,7 @@ proxies:
       public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
       short-id: fe2e437f64f2da7a
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
-    type: vless
-    server: 31.56.39.4
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: P1QYDpQF1wCb8T3R6p0s3a_xXQsGVyxVUHRBAofvEGI
-      short-id: 5fdd9343
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -774,7 +662,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: vless
     server: 166.1.131.9
     port: 20452
@@ -961,38 +849,6 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
-    server: 150.241.230.214
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: Z6LMi6S8vzV2vuui-aQtCdETDC5qqLqla5acbUtW2kU
-      short-id: 11bc4438
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
-    type: vless
-    server: 150.241.230.214
-    port: 443
-    uuid: 59b3c78b-2952-49d4-b5bc-a1f8a9dfd2e8
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: Z6LMi6S8vzV2vuui-aQtCdETDC5qqLqla5acbUtW2kU
-      short-id: 11bc4438
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
-    type: vless
     server: 103.175.79.2
     port: 20450
     uuid: 776e8267-345d-4673-c3a7-53790540f082
@@ -1137,12 +993,8 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
-      - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇷🇺 PREMIUM Россия (Russian) (5)"
       - "🇺🇦 PREMIUM Украина (Ukraine)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-      - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
+      - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria)"
@@ -1150,8 +1002,7 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
+      - "🇸🇪 PREMIUM Швеция (Sweden)"
       - "🇳🇴 PREMIUM Норвегия (Norway)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
       - "🇱🇺 PREMIUM Люксембург (Luxembourg)"
@@ -1163,8 +1014,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
       - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇩🇪 PREMIUM Германия (Germany) (5)"
-      - "🇩🇪 PREMIUM Германия (Germany) (6)"
-      - "🇩🇪 PREMIUM Германия (Germany) (7)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -1177,8 +1026,6 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
-      - "🇺🇸 PREMIUM Америка (USA) (4)"
-      - "🇺🇸 PREMIUM Америка (USA) (5)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
