@@ -316,22 +316,6 @@ proxies:
     reality-opts:
       public-key: Ot7NIMwy588LBegSSLxqxzXh9MszA0CxFPHbSAj7PR0
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
-    server: 77.110.105.16
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
   - name: "🇺🇦 PREMIUM Украина (Ukraine)"
     type: vless
     server: 166.1.131.9
@@ -362,7 +346,7 @@ proxies:
     reality-opts:
       public-key: UvQ2HZFkQXrBiaprbcmks-aFo1dvnfPlHXcUKcl-i04
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+  - name: "🇵🇱 PREMIUM Польша (Poland)"
     type: vless
     server: 166.1.131.9
     port: 20451
@@ -376,118 +360,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: LthJBtl69pQPsGvMQNNe100a9YyqaTXdaIY8gzOF2HU
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
-    type: vless
-    server: 45.15.153.234
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇧🇬 PREMIUM Болгария (Bulgaria)"
-    type: vless
-    server: 185.237.223.30
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-    type: vless
-    server: 62.238.5.205
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
-    type: vless
-    server: 62.60.249.240
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-    type: vless
-    server: 109.172.54.198
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden)"
-    type: vless
-    server: 2.27.23.127
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇳🇴 PREMIUM Норвегия (Norway)"
-    type: vless
-    server: 46.29.238.60
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
 
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
@@ -503,22 +375,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: E1iFYUiUC2G4W70mwPyfa9oV3EVt26SfZoLcqd2yaUI
-
-  - name: "🇱🇺 PREMIUM Люксембург (Luxembourg)"
-    type: vless
-    server: 45.12.144.120
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
 
   - name: "🇫🇷 PREMIUM Франция (France) (1)"
     type: vless
@@ -552,38 +408,6 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
-    server: 193.233.75.4
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
-    type: vless
-    server: 89.23.108.28
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
-    type: vless
     server: 212.113.109.63
     port: 443
     uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
@@ -598,7 +422,7 @@ proxies:
       public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
       short-id: fc74fe7479dfd8f2
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: 166.1.131.9
     port: 20452
@@ -630,22 +454,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
-    server: 138.124.79.141
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-    type: vless
     server: 166.1.131.9
     port: 20445
     uuid: 776e8267-345d-4673-c3a7-53790540f082
@@ -658,22 +466,6 @@ proxies:
     packet-encoding: xudp
     reality-opts:
       public-key: 0xVsi6JYS-gJFUILwuePsB32jvWtxRT_okJSmcWEQEc
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-    type: vless
-    server: 145.249.115.198
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
 
   - name: "🇪🇸 PREMIUM Испания (Spain)"
     type: vless
@@ -736,22 +528,6 @@ proxies:
       public-key: wl7R7v8MbaC_Nh-_FNf1DoFXHDquVRtfX2Z20oXL6Q8
 
   - name: "🇺🇸 PREMIUM Америка (USA) (2)"
-    type: vless
-    server: 92.118.112.149
-    port: 443
-    uuid: b1ed8a36-9752-453c-b705-ca11f26c4c20
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ign.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
-      short-id: fe2e437f64f2da7a
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: 103.175.79.2
     port: 20450
@@ -895,35 +671,21 @@ proxy-groups:
       - "☁️ WARP ➡️ 🇺🇸"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
-      - "🇷🇺 PREMIUM Россия (Russian) (3)"
       - "🇺🇦 PREMIUM Украина (Ukraine)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
-      - "🇵🇱 PREMIUM Польша (Poland) (1)"
-      - "🇵🇱 PREMIUM Польша (Poland) (2)"
-      - "🇧🇬 PREMIUM Болгария (Bulgaria)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
-      - "🇸🇪 PREMIUM Швеция (Sweden)"
-      - "🇳🇴 PREMIUM Норвегия (Norway)"
+      - "🇵🇱 PREMIUM Польша (Poland)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
-      - "🇱🇺 PREMIUM Люксембург (Luxembourg)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
-      - "🇩🇪 PREMIUM Германия (Germany) (3)"
-      - "🇩🇪 PREMIUM Германия (Germany) (4)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
       - "🇪🇸 PREMIUM Испания (Spain)"
       - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
-      - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇮🇳 PREMIUM Индия (India) (1)"
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
