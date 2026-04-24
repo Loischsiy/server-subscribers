@@ -635,22 +635,6 @@ proxies:
     password: tg_8795516389_56ad8e6f
     skip-cert-verify: true
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (4)"
-    type: vless
-    server: 144.31.107.73
-    port: 4249
-    uuid: 7f082b58-c3d2-446e-928e-62c6b897b84a
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: swe.serverstats.ru
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-      short-id: a20d3ed244c76426
-
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
     type: vless
     server: ru.connectservice.top
@@ -1061,23 +1045,7 @@ proxies:
     reality-opts:
       public-key: _KiM4lu8Em0mJFmY8t2XRYGL-H2jbCtfKaFB0Io6JCE
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
-    type: vless
-    server: tc.api-yandex.net
-    port: 443
-    uuid: 1072e248-4b56-47c6-b770-5f6aeab00527
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: tc.api-yandex.net
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: RFUsS4_6sMKBUBLIvMKhimFFf6f1vkldZy-nnU7ZJQw
-      short-id: 0f4dacf62200e75f
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey)"
     type: vless
     server: 166.1.131.9
     port: 20453
@@ -1092,39 +1060,7 @@ proxies:
     reality-opts:
       public-key: 6h7z2IG6_BopO2tGTRAytfMOWbcXxRWghb2c9IILJkA
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
-    type: vless
-    server: 144.31.130.104
-    port: 8443
-    uuid: 0eb97fe6-fb3f-4a7d-85fa-046560ed2417
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: tur.fastload.site
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-      short-id: a20d3ed244c76426
-
-  - name: "🇦🇪 PREMIUM ОАЭ (UAE) (1)"
-    type: vless
-    server: 144.31.130.138
-    port: 8443
-    uuid: 8864622f-0f26-4256-ada9-a13fa1ba17dd
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: dub.speedload.online
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs
-      short-id: a20d3ed244c76426
-
-  - name: "🇦🇪 PREMIUM ОАЭ (UAE) (2)"
+  - name: "🇦🇪 PREMIUM ОАЭ (UAE)"
     type: vless
     server: 166.1.131.6
     port: 20443
@@ -1250,22 +1186,6 @@ proxies:
     reality-opts:
       public-key: 4e-unF1RO2v--E7-X3aqxnCSPaK9QaTfJ7LawAr2bRI
 
-  - name: "🇯🇵 PREMIUM Япония (Japan)"
-    type: vless
-    server: jp.api-yandex.net
-    port: 443
-    uuid: d4a14462-4b9d-471d-a584-f112c0ade348
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: jp.api-yandex.net
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: IOO3P6BDqBjUA0gB4tgpvxrXL6Fit88QgpJ1y6GYyz0
-      short-id: 0f4dacf88202e05f
-
   - name: "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
     type: vless
     server: 146.19.90.2
@@ -1359,7 +1279,6 @@ proxy-groups:
       - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (4)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
       - "🇨🇭 PREMIUM Швейцария (Switzerland) (1)"
@@ -1390,11 +1309,8 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
       - "🇪🇸 PREMIUM Испания (Spain)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (3)"
-      - "🇦🇪 PREMIUM ОАЭ (UAE) (1)"
-      - "🇦🇪 PREMIUM ОАЭ (UAE) (2)"
+      - "🇹🇷 PREMIUM Турция (Turkey)"
+      - "🇦🇪 PREMIUM ОАЭ (UAE)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
@@ -1404,7 +1320,6 @@ proxy-groups:
       - "🇮🇳 PREMIUM Индия (India) (2)"
       - "🇮🇳 PREMIUM Индия (India) (3)"
       - "🇵🇰 PREMIUM Пакистан (Pakistan)"
-      - "🇯🇵 PREMIUM Япония (Japan)"
       - "🇸🇨 PREMIUM Сейшельские Острова (Seychelles)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
