@@ -1,35 +1,17 @@
-mixed-port: 7890
-socks-port: 7891
-redir-port: 7892
-allow-lan: true
+mixed-port: 1488
+allow-lan: false
 mode: rule    
 log-level: error
-external-controller: 127.0.0.1:9090
+authentication:
+  - "dimon22384:d2ab658d975a8f1c6d7b9ea4cb4919f2"
+external-controller: 127.0.0.1:14888
+secret: "dimon22384_admin_panel_secret_i_not_pidor_hehe"
 geodata-mode: false
 profile:
   store-selected: true
   store-fake-ip: true
-sniffer:
-  enable: true
-  force-dns-mapping: true
-  parse-pure-ip: true
-  override-destination: true
-  sniff:
-    HTTP:
-      ports:
-        - 80
-        - 8080-8880
-      override-destination: true
-    TLS:
-      ports:
-        - 443
-        - 8443
-      override-destination: true
-    QUIC:
-      ports:
-        - 443
-        - 8443
-      override-destination: true
+sniffer: 
+  enable: false
 dns:
   enable: true
   nameserver-policy:
@@ -38,11 +20,11 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   default-nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
+    - tls://1.1.1.1
+    - tls://8.8.8.8
   nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
+    - https://1.1.1.1/dns-query
+    - https://dns.google/dns-query
   fake-ip-filter:
     - "*.lan"
     - stun.*.*.*
@@ -286,7 +268,7 @@ proxies:
   #   dialer-proxy: "🇵🇱 PREMIUM Польша (Poland) (1)"
 
 
-  - name: "🌎 PREMIUM Случайная (Random) (1)"
+  - name: "🌎 PREMIUM Случайная (Random)"
     type: vless
     server: balancer.balancer.neuro.com
     port: 1234
@@ -295,14 +277,6 @@ proxies:
     tls: false
     udp: true
     packet-encoding: xudp
-
-  - name: "🌎 PREMIUM Случайная (Random) (2)"
-    type: ss
-    server: web.max.ru
-    port: 1234
-    cipher: chacha20-ietf-poly1305
-    password: BnUGTz8qKt-z_JV-h37svSJtUfe97CEB
-    udp: true
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
     type: vless
@@ -332,22 +306,6 @@ proxies:
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
     type: vless
-    server: ru-node.islandvpn.bond
-    port: 443
-    uuid: 06860a1d-c54b-4645-baf0-68dfc6923503
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ru-node.islandvpn.bond
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mOe_k-L9cPdSJH3aWwiVMTMdGgTDriaO3nrHxnyC92w
-      short-id: 1d8c5b30cd5fc55e
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
     server: 45.151.62.14
     port: 8443
     uuid: d9a548d0-0fb3-502e-b605-7f00ab379d98
@@ -363,7 +321,7 @@ proxies:
       public-key: VGVy373Kbp6TGvJxvOFJt3UjxMZZ7oX7ZuqqFjipbEA
       short-id: 8a06900d
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
     type: vless
     server: 82.97.249.254
     port: 8443
@@ -997,22 +955,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (7)"
     type: vless
-    server: fi-node.islandvpn.bond
-    port: 443
-    uuid: 06860a1d-c54b-4645-baf0-68dfc6923503
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: fi-node.islandvpn.bond
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 1UUwNRt9are48dcfDKXslWZV2K6N-uDaai3VeSd3mnQ
-      short-id: 4d0794bee6069e06
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
-    type: vless
     server: 62.238.5.205
     port: 443
     uuid: ef8567b0-7bfc-49c0-b113-5472a4c26cfb
@@ -1061,21 +1003,6 @@ proxies:
 
   - name: "🇸🇪 PREMIUM Швеция (Sweden) (3)"
     type: vless
-    server: 62.60.159.181
-    port: 443
-    uuid: 999bdc58-d9ce-4ac2-8626-9835563a3144
-    network: tcp
-    tls: true
-    udp: true
-    servername: www.microsoft.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: XLmOf8vhfxUZOC48afzxW2lWxbuGYWsNERB-aTniZlA
-      short-id: 8d1742c6
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (4)"
-    type: vless
     server: 5.180.21.50
     port: 8443
     uuid: d9a548d0-0fb3-502e-b605-7f00ab379d98
@@ -1091,7 +1018,7 @@ proxies:
       public-key: 5vh_PU3GGLHAJwwpybUikQVKmjr1fUsxjAzvp-FGzG8
       short-id: d169535d
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (5)"
+  - name: "🇸🇪 PREMIUM Швеция (Sweden) (4)"
     type: vless
     server: 193.42.39.149
     port: 8443
@@ -1175,7 +1102,7 @@ proxies:
       public-key: nA8e4SPH0kva90LNwEN_i2TkOAlx2tl6OSaFP0o_CmQ
       short-id: efba67c4
 
-  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
+  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom)"
     type: vless
     server: 45.140.167.51
     port: 8443
@@ -1192,41 +1119,7 @@ proxies:
       public-key: nWmKoLc8OADaOQB9EP-IFFwCpdOFELk77QpWXJI12gY
       short-id: 4048a284
 
-  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
-    type: vless
-    server: uk-node.islandvpn.bond
-    port: 443
-    uuid: 06860a1d-c54b-4645-baf0-68dfc6923503
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: uk-node.islandvpn.bond
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 3wFVKSEkhCbbuCeLMihZj6zI4N_CAOdjh60qLtp4pAQ
-      short-id: 8903bb8968f45bef
-
-  - name: "🇮🇪 PREMIUM Ирландия (Ireland) (1)"
-    type: vless
-    server: 185.231.207.235
-    port: 443
-    uuid: 999bdc58-d9ce-4ac2-8626-9835563a3144
-    network: xhttp
-    tls: true
-    udp: true
-    servername: www.intel.com
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: www.intel.com
-      path: /content/dam/www/central-libraries/js/
-      mode: auto
-    reality-opts:
-      public-key: JN--H57QK1xslzO8Za7Plx-0Kzwz6llo9DQGAJrIphQ
-      short-id: a73f28d0
-
-  - name: "🇮🇪 PREMIUM Ирландия (Ireland) (2)"
+  - name: "🇮🇪 PREMIUM Ирландия (Ireland)"
     type: vless
     server: 193.57.138.146
     port: 8443
@@ -1388,7 +1281,7 @@ proxies:
       public-key: 9KPigEAkta9U1huKQQ33i0Dfo4NNtFBQefzlxDkBIz8
       short-id: f378fbf8
 
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (1)"
+  - name: "🇦🇹 PREMIUM Австрия (Austria)"
     type: vless
     server: balancer.austria.com
     port: 1234
@@ -1398,41 +1291,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (2)"
-    type: vless
-    server: 138.124.90.46
-    port: 443
-    uuid: 999bdc58-d9ce-4ac2-8626-9835563a3144
-    network: xhttp
-    tls: true
-    udp: true
-    servername: swdist.apple.com
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: swdist.apple.com
-      path: /v1
-      mode: packet-up
-    reality-opts:
-      public-key: GD94ld0rpH3aNd9eikT8kzl3E0-caO_54xsT-mUIsHU
-      short-id: d2c8f107
-
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
-    type: vless
-    server: de-node.islandvpn.bond
-    port: 443
-    uuid: 06860a1d-c54b-4645-baf0-68dfc6923503
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de-node.islandvpn.bond
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -0RYV8CbJ8Dm6NQ-r3XXGFt81GHERZpKife6WJZM8D4
-      short-id: 4e8cb5397e6cb740
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: balancer.germany.com
     port: 1234
@@ -1442,24 +1301,7 @@ proxies:
     udp: true
     packet-encoding: xudp
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
-    type: vless
-    server: m1.dj-chatbox.pro
-    port: 8443
-    uuid: 9af3426a-c454-42a3-9b38-fb50c206f41d
-    network: grpc
-    tls: true
-    udp: true
-    servername: m1.dj-chatbox.pro
-    client-fingerprint: chrome
-    alpn:
-      - h2
-      - http/1.1
-    grpc-opts:
-      grpc-service-name: chatservice
-    packet-encoding: xudp
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
     server: gertestg.nekosocks.com
     port: 4443
@@ -1475,7 +1317,7 @@ proxies:
       public-key: h4CeL8iPgeLP69M7OM15QCz9PbEmvaJKF8fUchLQ3Qk
       short-id: a5b25fb49c93252a
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
     server: 89.23.108.28
     port: 443
@@ -1491,7 +1333,7 @@ proxies:
       public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
       short-id: fe2e437f64f2da7a
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
     type: vless
     server: 2.26.21.129
     port: 443
@@ -1507,7 +1349,7 @@ proxies:
       public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
       short-id: c6118398
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
     type: vless
     server: 51.195.49.194
     port: 8443
@@ -1524,7 +1366,7 @@ proxies:
       public-key: traFG1iKpclDefk0_Fgos_2Ahlegy1FnWlTp-Oy-0kk
       short-id: 806a837d
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
     type: vless
     server: 185.235.241.38
     port: 8443
@@ -1541,7 +1383,7 @@ proxies:
       public-key: eHlYBwmTFG_RcjVKERmwv86vrmeNzXf4mtjSSKO0AxA
       short-id: acd82edf
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
     type: vless
     server: de.farkil.shop
     port: 8443
@@ -1558,7 +1400,7 @@ proxies:
       public-key: _lZginSKes-akVMyp5tFJEARAvbjkVf3PuAfkCuI92U
       short-id: 80dfa2b1
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
     type: vless
     server: 212.113.109.63
     port: 443
@@ -1576,22 +1418,6 @@ proxies:
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: vless
-    server: nl-node.islandvpn.bond
-    port: 443
-    uuid: 06860a1d-c54b-4645-baf0-68dfc6923503
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl-node.islandvpn.bond
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ZzPAfP-nbKUh32cnUeevtILt2DFBB99aFKmYpM1sFi8
-      short-id: 67df3a8f2518fbb0
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
-    type: vless
     server: 74.119.195.5
     port: 8443
     uuid: d9a548d0-0fb3-502e-b605-7f00ab379d98
@@ -1607,25 +1433,7 @@ proxies:
       public-key: XqWK62Oo0VP6APzao9rqMIbGudlNOOd_tJ3KCyRG30U
       short-id: e929537b
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
-    type: vless
-    server: 5.35.71.88
-    port: 443
-    uuid: 999bdc58-d9ce-4ac2-8626-9835563a3144
-    network: xhttp
-    tls: true
-    udp: true
-    servername: swdist.apple.com
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: swdist.apple.com
-      path: /update
-      mode: auto
-    reality-opts:
-      public-key: rw3bbkK22vbTqRU-ZAKN6mmHXbf2VPl4zI0dvEf0jUw
-      short-id: 2c7d8e40
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
     type: vless
     server: 94.131.105.145
     port: 8443
@@ -1642,7 +1450,7 @@ proxies:
       public-key: H8zE3kOmHJswkEc6MfFTnXxZjQEZbw7zuCpx3uzbsQE
       short-id: dfedf85f
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: 144.31.127.55
     port: 443
@@ -1658,7 +1466,7 @@ proxies:
       public-key: -ZIDWF9CykNoZYNpO6Vi7BdDyZl_hJUYxuIRmPnuxBk
       short-id: c6118398
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
     type: vless
     server: 145.249.115.198
     port: 443
@@ -1674,7 +1482,7 @@ proxies:
       public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
       short-id: fe2e437f64f2da7a
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
     server: 138.124.79.141
     port: 443
@@ -1690,25 +1498,7 @@ proxies:
       public-key: w-dYZr1LgXZrZSJnc7kjXJC3jmC138M_IIp1NsApvlk
       short-id: fe2e437f64f2da7a
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
-    type: vless
-    server: 91.242.229.247
-    port: 443
-    uuid: 999bdc58-d9ce-4ac2-8626-9835563a3144
-    network: xhttp
-    tls: true
-    udp: true
-    servername: www.intel.com
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: www.intel.com
-      path: /content/dam/www/central-libraries/js/
-      mode: auto
-    reality-opts:
-      public-key: 9zvoXlq7L3leLcSAZTvgV2fR8oqnyImdF12U0OuFxTY
-      short-id: b9e73a5f
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
     type: vless
     server: nl.farkil.shop
     port: 8443
@@ -2298,13 +2088,11 @@ proxy-groups:
       - "☁️ WARP 🇪🇪"
       - "☁️ WARP 🇫🇮"
       - "☁️ WARP ➡️ 🇺🇸"
-      - "🌎 PREMIUM Случайная (Random) (1)"
-      - "🌎 PREMIUM Случайная (Random) (2)"
+      - "🌎 PREMIUM Случайная (Random)"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
       - "🇷🇺 PREMIUM Россия (Russian) (4)"
-      - "🇷🇺 PREMIUM Россия (Russian) (5)"
       - "🇺🇦 PREMIUM Украина (Ukraine)"
       - "🇲🇩 PREMIUM Молдова (Moldova)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
@@ -2343,20 +2131,16 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (5)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (6)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (7)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (8)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (4)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (5)"
       - "🇳🇴 PREMIUM Норвегия (Norway) (1)"
       - "🇳🇴 PREMIUM Норвегия (Norway) (2)"
       - "🇮🇸 PREMIUM Исландия (Iceland)"
       - "🇩🇰 PREMIUM Дания (Denmark)"
-      - "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
-      - "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
-      - "🇮🇪 PREMIUM Ирландия (Ireland) (1)"
-      - "🇮🇪 PREMIUM Ирландия (Ireland) (2)"
+      - "🇬🇧 PREMIUM Великобритания (United Kingdom)"
+      - "🇮🇪 PREMIUM Ирландия (Ireland)"
       - "🇧🇪 PREMIUM Бельгия (Belgium)"
       - "🇱🇺 PREMIUM Люксембург (Luxembourg)"
       - "🇱🇮 PREMIUM Лихтенштейн (Liechtenstein) (1)"
@@ -2366,8 +2150,7 @@ proxy-groups:
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇫🇷 PREMIUM Франция (France) (3)"
-      - "🇦🇹 PREMIUM Австрия (Austria) (1)"
-      - "🇦🇹 PREMIUM Австрия (Austria) (2)"
+      - "🇦🇹 PREMIUM Австрия (Austria)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
@@ -2376,17 +2159,12 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (6)"
       - "🇩🇪 PREMIUM Германия (Germany) (7)"
       - "🇩🇪 PREMIUM Германия (Germany) (8)"
-      - "🇩🇪 PREMIUM Германия (Germany) (9)"
-      - "🇩🇪 PREMIUM Германия (Germany) (10)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
       - "🇬🇷 PREMIUM Греция (Greece) (1)"
       - "🇬🇷 PREMIUM Греция (Greece) (2)"
       - "🇮🇹 PREMIUM Italy (Италия) (1)"
@@ -2428,7 +2206,7 @@ rule-providers:
   torrent-clients:
     type: http
     url: 'https://raw.githubusercontent.com/legiz-ru/mihomo-rule-sets/refs/heads/main/other/torrent-clients.yaml'
-    interval: 86400
+    interval: 43200
     proxy: DIRECT
     behavior: classical
     format: yaml
@@ -2438,42 +2216,42 @@ rule-providers:
     format: mrs
     url: https://github.com/legiz-ru/mihomo-rule-sets/raw/main/other/torrent-trackers.mrs
     path: ./rule-sets/torrent-trackers.mrs
-    interval: 86400
+    interval: 43200
   geoip-ru:
     type: http
     behavior: ipcidr
     format: mrs
     url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geoip/ru.mrs
     path: ./geoip-ru.mrs
-    interval: 86400
+    interval: 43200
   geosite-ru:
     type: http
     behavior: domain
     format: mrs
     url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/category-ru.mrs
     path: ./geosite-ru.mrs
-    interval: 86400
+    interval: 43200
   geosite-private:
     type: http
     behavior: domain
     format: mrs
     url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geosite/private.mrs
     path: ./geosite-private.mrs
-    interval: 86400
+    interval: 43200
   geoip-private:
     type: http
     behavior: ipcidr
     format: mrs
     url: https://github.com/MetaCubeX/meta-rules-dat/raw/meta/geo/geoip/private.mrs
     path: ./geoip-private.mrs
-    interval: 86400
+    interval: 43200
   HageziProPlus:
     type: http
     format: mrs
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/MiHomoer/MiHomo-Hagezi@release/HageziProPlus.mrs"
     path: ./HageziProPlus.mrs
-    interval: 86400
+    interval: 43200
 
 rules:
   # Для частных сетей
@@ -2513,4 +2291,5 @@ rules:
   - DOMAIN-SUFFIX,ru.net,DIRECT
   # Блокировка рекламы
   - RULE-SET,HageziProPlus,REJECT,no-resolve
+  # Все остальное
   - MATCH,Dimon-subscribers
