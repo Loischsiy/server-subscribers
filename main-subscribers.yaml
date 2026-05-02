@@ -268,6 +268,242 @@ proxies:
   #   dialer-proxy: "🇵🇱 PREMIUM Польша (Poland) (1)"
 
 
+  - name: "🇫🇲 PREMIUM Обход белого списка (1)"
+    type: vless
+    server: 51.250.115.147
+    port: 443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+
+  - name: "🇫🇲 PREMIUM Обход белого списка (2)"
+    type: vless
+    server: 51.250.115.147
+    port: 443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.kinopoisk.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+      short-id: 789aa329bb26cc35
+
+  - name: "🇫🇲 PREMIUM Обход белого списка (3)"
+    type: vless
+    server: 51.250.115.147
+    port: 443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: sun6-21.userapi.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+
+  - name: "🌎 PREMIUM Случайная (Random) (1)"
+    type: vless
+    server: 958fbe5d.site
+    port: 443
+    uuid: 991a99a2-681a-4e13-9bd1-80faac262770
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: 5post-gate.x5.ru
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: lkM6TUAgqgOYUcsnl6rycqfaL-GNYZyyEI3Zfu9-21s
+      short-id: f2a54777ec76a14c
+
+  - name: "🌎 PREMIUM Случайная (Random) (2)"
+    type: vless
+    server: 138.124.113.32
+    port: 8443
+    uuid: d9783db4-9d0a-4a2d-99e7-4976da8229cc
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.apple.com
+    client-fingerprint: chrome
+    reality-opts:
+      public-key: qEKfJ-K3XOhM-_Nt7VrDw-0B9_2Zn3eHkSIYGKHRJXc
+      short-id: ae12434101
+
+  - name: "🌎 PREMIUM Случайная (Random) (3)"
+    type: vless
+    server: shk-techblog.icu
+    port: 10443
+    uuid: 847873bf-d59e-4dac-9d13-c373feaa6668
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: shk-techblog.icu
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: z5JMFCLME8hFnqkYqks6SIYeRFTctfcc57tT8GkERlM
+      short-id: 9899721f
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
+    type: vless
+    server: ru.nonru.tech
+    port: 445
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: ws
+    tls: false
+    udp: true
+    packet-encoding: xudp
+    ws-opts:
+      path: "/ws"
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
+    type: vless
+    server: ru.nonru.tech
+    port: 445
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: xhttp
+    tls: true
+    udp: true
+    servername: stats.vk-portal.net
+    client-fingerprint: chrome
+    xhttp-opts:
+      mode: auto
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
+    type: vless
+    server: ru.nonru.tech
+    port: 8443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: st.ozone.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
+    type: vless
+    server: rurus-cdn.krotmonstr.online
+    port: 443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: xhttp
+    tls: true
+    udp: true
+    servername: rurus-cdn.krotmonstr.online
+    client-fingerprint: chrome
+    xhttp-opts:
+      host: platform-api.max.ru
+      path: /worktopRF
+      mode: stream-one
+    reality-opts:
+      public-key: GteRfi3LIbMXglc9X5iT9NgpnwS-IeZY_O3uZKkPjRA
+      short-id: b12a18451a68da5b
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
+    type: vless
+    server: rurus-cdn.krotmonstr.online
+    port: 8443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: rurus-cdn.krotmonstr.online
+    client-fingerprint: firefox
+    packet-encoding: xudp
+    reality-opts:
+      public-key: GteRfi3LIbMXglc9X5iT9NgpnwS-IeZY_O3uZKkPjRA
+      short-id: 8cb1424eafff897f
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
+    type: trojan
+    server: 94.103.89.223
+    port: 9443
+    password: 8de6c87bf4d1441db7564b9c0ec7ca3c
+    client-fingerprint: random
+    udp: true
+    sni: ya.ru
+    reality-opts:
+      public-key: 9XS6MeMlQBh4qCT1dhavAwGPKsWQGSyrSH_xHwotw0k
+      short-id: aabbccdd
+
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
+    type: vless
+    server: kz.nonruvpn.tech
+    port: 8443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: st.ozone.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+      short-id: 789aa329bb26cc35
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+    type: vless
+    server: pl.unit-digital.com
+    port: 443
+    uuid: f110bde3-fdfd-41b0-af70-260cb92b1000
+    network: xhttp
+    tls: true
+    udp: true
+    servername: www.amd.com
+    client-fingerprint: chrome
+    xhttp-opts:
+      path: /api/v1/pol9f3kLm2Q
+      mode: auto
+    reality-opts:
+      public-key: TKLQj3p4Tv5aE_F6U7z0IumLaYBbuTAjJXhJCDTQcQ8
+      short-id: 3639
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
+    type: trojan
+    server: 185.40.86.162
+    port: 9443
+    password: 61d3a96509e74223810f2f8d40bd327e
+    client-fingerprint: random
+    udp: true
+    sni: poland.pl
+    reality-opts:
+      public-key: Ap8MRireOMJiYIafX7V04ZCPHOGYoAnXhLU68rZemXo
+      short-id: aabbccdd
+
+  - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
+    type: trojan
+    server: 45.12.109.209
+    port: 9443
+    password: 29313d82e9bb43089e58555aa2419820
+    client-fingerprint: random
+    udp: true
+    sni: czechia.eu
+    reality-opts:
+      public-key: lq1YaYgHMwyS_0-2bd94RLJX__7GRO7xEN95OT7y2yo
+      short-id: aabbccdd
+
   - name: "🇦🇱 PREMIUM Албания (Albania)"
     type: vless
     server: 147.45.221.53
@@ -283,7 +519,230 @@ proxies:
       public-key: etS9cfPoCNqP_wWgPAtXR0axDYjyEgBlcNXKADxbl0Y
       short-id: 20de4032f03f92ff
 
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+    type: vless
+    server: fin-cdn.krotmonstr.online
+    port: 443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: xhttp
+    tls: true
+    udp: true
+    servername: fin-cdn.krotmonstr.online
+    client-fingerprint: chrome
+    xhttp-opts:
+      host: platform-api.max.ru
+      path: /worktop
+      mode: stream-one
+    reality-opts:
+      public-key: DIHc9IM7Yk7U6-Jp1hnxHAUtJQ7CJnnr-i4FdnA99Cw
+      short-id: a551fd07d2ba7f2f
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+    type: vless
+    server: fi.unit-digital.com
+    port: 10108
+    uuid: a76aa4fe-4d92-43cb-9d26-f6ea26849c5f
+    network: grpc
+    tls: true
+    udp: true
+    servername: www.icloud.com
+    client-fingerprint: qq
+    grpc-opts:
+      grpc-service-name: api
+    reality-opts:
+      public-key: sIyOGkF1P5vOD51IeEb9aKzPhBAhXrH2w3XCnFKbchI
+      short-id: b828bffc5f
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
+    type: vless
+    server: fi01.nocto.online
+    port: 443
+    uuid: 87064b49-6d71-49ea-893c-75c4f78aedb8
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: nl04.nocto.online
+    client-fingerprint: randomized
+    packet-encoding: xudp
+    reality-opts:
+      public-key: FZGOwvNZ6SMtIp9M1u4z55FLxEMnnGt-5dWCwpRp0Eg
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (4)"
+    type: vless
+    server: fin-exit.krotmonstr.online
+    port: 8443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: fin-exit.krotmonstr.online
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: DIHc9IM7Yk7U6-Jp1hnxHAUtJQ7CJnnr-i4FdnA99Cw
+      short-id: 889219f5dfeb38f2
+
+  - name: "🇸🇪 PREMIUM Швеция (Sweden) (1)"
+    type: ss
+    server: shwec-cdn.krotmonstr.online
+    port: 1080
+    cipher: chacha20-ietf-poly1305
+    password: GFsJ6bAZ_snEv0H6PzuMvPvy2RK-r88K
+    udp: true
+
+  - name: "🇸🇪 PREMIUM Швеция (Sweden) (2)"
+    type: trojan
+    server: 176.125.241.191
+    port: 9443
+    password: 2e50c6c2b5e448a19bc67b4aebbc6a08
+    client-fingerprint: random
+    udp: true
+    sni: apple.com
+    reality-opts:
+      public-key: 1e2KV15UxsjUd2fYsWEd45ygwMT1dpr8LEpkF6GnHBM
+      short-id: aabbccdd
+
+  - name: "🇸🇪 PREMIUM Швеция (Sweden) (3)"
+    type: vless
+    server: shwec-exit.krotmonstr.online
+    port: 8443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: shwec-exit.krotmonstr.online
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: DIqIZO_u7V95iUT-t29gQj0F8HF9UOgVWhj3oWpH4DM
+      short-id: 39fb7d1ae2544f9a
+
+  - name: "🇸🇪 PREMIUM Швеция (Sweden) (4)"
+    type: vless
+    server: shwec-cdn.krotmonstr.online
+    port: 443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: xhttp
+    tls: true
+    udp: true
+    servername: shwec-cdn.krotmonstr.online
+    client-fingerprint: chrome
+    xhttp-opts:
+      host: platform-api.max.ru
+      path: /worktop
+      mode: stream-one
+    reality-opts:
+      public-key: DIqIZO_u7V95iUT-t29gQj0F8HF9UOgVWhj3oWpH4DM
+      short-id: 6eedbf365d74d1ca
+
+  - name: "🇫🇷 PREMIUM Франция (France)"
+    type: vless
+    server: fr01.nocto.online
+    port: 443
+    uuid: 87064b49-6d71-49ea-893c-75c4f78aedb8
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: nl04.nocto.online
+    client-fingerprint: randomized
+    packet-encoding: xudp
+    reality-opts:
+      public-key: FZGOwvNZ6SMtIp9M1u4z55FLxEMnnGt-5dWCwpRp0Eg
+
   - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
+    type: ss
+    server: dege-exit.krotmonstr.online
+    port: 1080
+    cipher: chacha20-ietf-poly1305
+    password: GFsJ6bAZ_snEv0H6PzuMvPvy2RK-r88K
+    udp: true
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
+    type: vless
+    server: dege-gate.krotmonstr.online
+    port: 8443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: dege-gate.krotmonstr.online
+    client-fingerprint: firefox
+    packet-encoding: xudp
+    reality-opts:
+      public-key: ZlHGuFEAxNghAM9OUdcYwaokVRVAsPt2MtM2Klf05WI
+      short-id: f9446e05ecb5c7a1
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
+    type: vless
+    server: dege-gate.krotmonstr.online
+    port: 443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: xhttp
+    tls: true
+    udp: true
+    servername: dege-gate.krotmonstr.online
+    client-fingerprint: chrome
+    xhttp-opts:
+      host: platform-api.max.ru
+      path: /worktopGER
+      mode: stream-one
+    reality-opts:
+      public-key: ZlHGuFEAxNghAM9OUdcYwaokVRVAsPt2MtM2Klf05WI
+      short-id: aeb02d730f9f9aa5
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+    type: vless
+    server: de01.nocto.online
+    port: 443
+    uuid: 87064b49-6d71-49ea-893c-75c4f78aedb8
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: nl04.nocto.online
+    client-fingerprint: randomized
+    packet-encoding: xudp
+    reality-opts:
+      public-key: FZGOwvNZ6SMtIp9M1u4z55FLxEMnnGt-5dWCwpRp0Eg
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+    type: vless
+    server: de.nitroo-tech.ru
+    port: 443
+    uuid: 014530db-484e-44ae-863a-82fbdf7fad3e
+    network: grpc
+    tls: true
+    udp: true
+    servername: www.apple.com
+    client-fingerprint: qq
+    grpc-opts:
+      grpc-service-name: api
+    reality-opts:
+      public-key: SX_aqLgBQrF5DuxlktBophtmPhSA4bzKBg9fp91z3jE
+      short-id: 52b93989ad2c9a
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+    type: vless
+    server: 212.113.109.63
+    port: 443
+    uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: yahoo.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
+      short-id: fc74fe7479dfd8f2
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
     type: vless
     server: gertestg.nekosocks.com
     port: 4443
@@ -299,21 +758,253 @@ proxies:
       public-key: h4CeL8iPgeLP69M7OM15QCz9PbEmvaJKF8fUchLQ3Qk
       short-id: a5b25fb49c93252a
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
     type: vless
-    server: 212.113.109.63
+    server: nl01.nocto.online
     port: 443
-    uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
+    uuid: 87064b49-6d71-49ea-893c-75c4f78aedb8
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: yahoo.com
+    servername: nl01.nocto.online
+    client-fingerprint: randomized
+    packet-encoding: xudp
+    reality-opts:
+      public-key: FZGOwvNZ6SMtIp9M1u4z55FLxEMnnGt-5dWCwpRp0Eg
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+    type: vless
+    server: nidl-exit.krotmonstr.online
+    port: 8443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: nidl-exit.krotmonstr.online
+    client-fingerprint: random
+    packet-encoding: xudp
+    reality-opts:
+      public-key: EtVRV1Dh4j1xrFM441RBEi62gWNtKB42lw55r680mWc
+      short-id: d8ca73e8f52b1301
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+    type: vless
+    server: nd.nitroo-tech.ru
+    port: 23355
+    uuid: 82dc73af-f51e-4861-ae7b-ac30895464c7
+    network: grpc
+    tls: true
+    udp: true
+    servername: www.apple.com
+    client-fingerprint: edge
+    grpc-opts:
+      grpc-service-name: api
+    reality-opts:
+      public-key: ZaiARE0PFYXN6XQhxjFSGzpthEGHmytMX8LCq9gSek8
+      short-id: 41b06f
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+    type: trojan
+    server: 79.141.164.145
+    port: 9443
+    password: 5941c015048b4f489cbd03e5c2baa281
+    client-fingerprint: random
+    udp: true
+    sni: dutchnews.nl
+    reality-opts:
+      public-key: OCna3MeG4UjbOoWoEjckg23r1-Kl0Zct4bKGrmDoew4
+      short-id: aabbccdd
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+    type: vless
+    server: nl.nonru.tech
+    port: 445
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: xhttp
+    tls: true
+    udp: true
+    servername: stats.vk-portal.net
+    client-fingerprint: chrome
+    xhttp-opts:
+      mode: auto
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+    type: vless
+    server: nl.nonru.tech
+    port: 445
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: ws
+    tls: false
+    udp: true
+    packet-encoding: xudp
+    ws-opts:
+      path: "/ws"
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+    type: vless
+    server: nidl-gate.krotmonstr.online
+    port: 443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: xhttp
+    tls: true
+    udp: true
+    servername: nidl-gate.krotmonstr.online
+    client-fingerprint: chrome
+    xhttp-opts:
+      host: platform-api.max.ru
+      path: /worktopRF
+      mode: stream-one
+    reality-opts:
+      public-key: EtVRV1Dh4j1xrFM441RBEi62gWNtKB42lw55r680mWc
+      short-id: ce049f58ff435763
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+    type: vless
+    server: nl.nonru.tech
+    port: 8443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: st.ozone.ru
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
-      short-id: fc74fe7479dfd8f2
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+
+  - name: "🇪🇸 PREMIUM Испания (Spain)"
+    type: trojan
+    server: 45.12.150.220
+    port: 9443
+    password: 813706e4d0f943dfae0a846acd3163b8
+    client-fingerprint: random
+    udp: true
+    sni: marca.com
+    reality-opts:
+      public-key: jfqOhC5toLTSByoyfxaEOehizjZujOHCHvzfyX2D-B4
+      short-id: aabbccdd
+
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
+    type: trojan
+    server: 62.133.63.232
+    port: 9443
+    password: cc51ca7ce9e9447ea1f41ccdc037a2f3
+    client-fingerprint: random
+    udp: true
+    sni: apple.com
+    reality-opts:
+      public-key: Gn5B-kDUFfIM5jvQ17Braem7nlJyG4QaPA1OVUCwyx0
+      short-id: aabbccdd
+
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
+    type: vless
+    server: gr.nonruvpn.tech
+    port: 8443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: st.ozone.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+      short-id: 789aa329bb26cc35
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (1)"
+    type: vless
+    server: usus-gate.krotmonstr.online
+    port: 443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: xhttp
+    tls: true
+    udp: true
+    servername: usus-gate.krotmonstr.online
+    client-fingerprint: chrome
+    xhttp-opts:
+      host: platform-api.max.ru
+      path: /worktopUS
+      mode: stream-one
+    reality-opts:
+      public-key: BFMEZa86t6wVXU-u6oU4jw5XbJGdOPSjtuSPL9CCqXw
+      short-id: f2dfca825208e5b4
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (2)"
+    type: trojan
+    server: 194.213.18.55
+    port: 9443
+    password: 744d35cff4954d7285479cbc31ba66f0
+    client-fingerprint: random
+    udp: true
+    sni: apple.com
+    reality-opts:
+      public-key: _8dg8TxwWzIijV1ZwWMxUf_X3S9F00YIvak9dP2Xihg
+      short-id: aabbccdd
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
+    type: vless
+    server: usus-exit.krotmonstr.online
+    port: 8443
+    uuid: e65ce54f-0c8a-4d90-aa2a-4f94b7e5c30e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: usus-exit.krotmonstr.online
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: BFMEZa86t6wVXU-u6oU4jw5XbJGdOPSjtuSPL9CCqXw
+      short-id: cf74777ec616381f
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+    type: vless
+    server: us01.nocto.online
+    port: 443
+    uuid: 87064b49-6d71-49ea-893c-75c4f78aedb8
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: nl04.nocto.online
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: FZGOwvNZ6SMtIp9M1u4z55FLxEMnnGt-5dWCwpRp0Eg
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+    type: vless
+    server: 205.172.58.148
+    port: 8443
+    uuid: cd48acb8-b356-4f89-8d07-c7561c632ad4
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: st.ozone.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
+      short-id: 789aa329bb26cc35
+
+  - name: "🇭🇰 PREMIUM Гонконг (Hong Kong)"
+    type: trojan
+    server: 194.246.114.75
+    port: 9443
+    password: 6c6eee9315794dd18c4d104a201b7aab
+    client-fingerprint: random
+    udp: true
+    sni: hk01.com
+    reality-opts:
+      public-key: s-H-9stJKc8FUXqvnx2V2luRMMLwJ76PJttRF7hyGHY
+      short-id: aabbccdd
 
   - name: "🇩🇪 Германия (Germany)"
     type: vless
@@ -366,9 +1057,56 @@ proxy-groups:
       - "☁️ WARP 🇵🇱"
       - "☁️ WARP 🇪🇪"
       - "☁️ WARP 🇫🇮"
+      - "🇫🇲 PREMIUM Обход белого списка (1)"
+      - "🇫🇲 PREMIUM Обход белого списка (2)"
+      - "🇫🇲 PREMIUM Обход белого списка (3)"
+      - "🌎 PREMIUM Случайная (Random) (1)"
+      - "🌎 PREMIUM Случайная (Random) (2)"
+      - "🌎 PREMIUM Случайная (Random) (3)"
+      - "🇷🇺 PREMIUM Россия (Russian) (1)"
+      - "🇷🇺 PREMIUM Россия (Russian) (2)"
+      - "🇷🇺 PREMIUM Россия (Russian) (3)"
+      - "🇷🇺 PREMIUM Россия (Russian) (4)"
+      - "🇷🇺 PREMIUM Россия (Russian) (5)"
+      - "🇷🇺 PREMIUM Россия (Russian) (6)"
+      - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
+      - "🇵🇱 PREMIUM Польша (Poland) (1)"
+      - "🇵🇱 PREMIUM Польша (Poland) (2)"
+      - "🇨🇿 PREMIUM Чехия (Czech Republic)"
       - "🇦🇱 PREMIUM Албания (Albania)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
+      - "🇫🇮 PREMIUM Финляндия (Finland) (4)"
+      - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
+      - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
+      - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
+      - "🇸🇪 PREMIUM Швеция (Sweden) (4)"
+      - "🇫🇷 PREMIUM Франция (France)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
+      - "🇩🇪 PREMIUM Германия (Germany) (3)"
+      - "🇩🇪 PREMIUM Германия (Germany) (4)"
+      - "🇩🇪 PREMIUM Германия (Germany) (5)"
+      - "🇩🇪 PREMIUM Германия (Germany) (6)"
+      - "🇩🇪 PREMIUM Германия (Germany) (7)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+      - "🇪🇸 PREMIUM Испания (Spain)"
+      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
+      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
+      - "🇺🇸 PREMIUM Америка (USA) (1)"
+      - "🇺🇸 PREMIUM Америка (USA) (2)"
+      - "🇺🇸 PREMIUM Америка (USA) (3)"
+      - "🇺🇸 PREMIUM Америка (USA) (4)"
+      - "🇺🇸 PREMIUM Америка (USA) (5)"
+      - "🇭🇰 PREMIUM Гонконг (Hong Kong)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
       # - "☁️ WARP ➡️ 🇺🇸"
