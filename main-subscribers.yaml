@@ -331,20 +331,6 @@ proxies:
 
   - name: "🌎 PREMIUM Случайная (Random) (2)"
     type: vless
-    server: 138.124.113.32
-    port: 8443
-    uuid: d9783db4-9d0a-4a2d-99e7-4976da8229cc
-    network: tcp
-    tls: true
-    udp: true
-    servername: www.apple.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: qEKfJ-K3XOhM-_Nt7VrDw-0B9_2Zn3eHkSIYGKHRJXc
-      short-id: ae12434101
-
-  - name: "🌎 PREMIUM Случайная (Random) (3)"
-    type: vless
     server: shk-techblog.icu
     port: 10443
     uuid: 847873bf-d59e-4dac-9d13-c373feaa6668
@@ -503,21 +489,6 @@ proxies:
     reality-opts:
       public-key: lq1YaYgHMwyS_0-2bd94RLJX__7GRO7xEN95OT7y2yo
       short-id: aabbccdd
-
-  - name: "🇦🇱 PREMIUM Албания (Albania)"
-    type: vless
-    server: 147.45.221.53
-    port: 8443
-    uuid: 2a315058-d452-4c9a-9316-c7245e796e0d
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    reality-opts:
-      public-key: etS9cfPoCNqP_wWgPAtXR0axDYjyEgBlcNXKADxbl0Y
-      short-id: 20de4032f03f92ff
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
     type: vless
@@ -1062,7 +1033,6 @@ proxy-groups:
       - "🇫🇲 PREMIUM Обход белого списка (3)"
       - "🌎 PREMIUM Случайная (Random) (1)"
       - "🌎 PREMIUM Случайная (Random) (2)"
-      - "🌎 PREMIUM Случайная (Random) (3)"
       - "🇷🇺 PREMIUM Россия (Russian) (1)"
       - "🇷🇺 PREMIUM Россия (Russian) (2)"
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
@@ -1073,7 +1043,6 @@ proxy-groups:
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇨🇿 PREMIUM Чехия (Czech Republic)"
-      - "🇦🇱 PREMIUM Албания (Albania)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
