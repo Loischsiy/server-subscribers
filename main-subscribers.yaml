@@ -421,18 +421,6 @@ proxies:
       public-key: GteRfi3LIbMXglc9X5iT9NgpnwS-IeZY_O3uZKkPjRA
       short-id: 8cb1424eafff897f
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
-    type: trojan
-    server: 94.103.89.223
-    port: 9443
-    password: 8de6c87bf4d1441db7564b9c0ec7ca3c
-    client-fingerprint: random
-    udp: true
-    sni: ya.ru
-    reality-opts:
-      public-key: 9XS6MeMlQBh4qCT1dhavAwGPKsWQGSyrSH_xHwotw0k
-      short-id: aabbccdd
-
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
     type: vless
     server: kz.nonruvpn.tech
@@ -449,7 +437,7 @@ proxies:
       public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
       short-id: 789aa329bb26cc35
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
+  - name: "🇵🇱 PREMIUM Польша (Poland)"
     type: vless
     server: pl.unit-digital.com
     port: 443
@@ -465,30 +453,6 @@ proxies:
     reality-opts:
       public-key: TKLQj3p4Tv5aE_F6U7z0IumLaYBbuTAjJXhJCDTQcQ8
       short-id: 3639
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
-    type: trojan
-    server: 185.40.86.162
-    port: 9443
-    password: 61d3a96509e74223810f2f8d40bd327e
-    client-fingerprint: random
-    udp: true
-    sni: poland.pl
-    reality-opts:
-      public-key: Ap8MRireOMJiYIafX7V04ZCPHOGYoAnXhLU68rZemXo
-      short-id: aabbccdd
-
-  - name: "🇨🇿 PREMIUM Чехия (Czech Republic)"
-    type: trojan
-    server: 45.12.109.209
-    port: 9443
-    password: 29313d82e9bb43089e58555aa2419820
-    client-fingerprint: random
-    udp: true
-    sni: czechia.eu
-    reality-opts:
-      public-key: lq1YaYgHMwyS_0-2bd94RLJX__7GRO7xEN95OT7y2yo
-      short-id: aabbccdd
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
     type: vless
@@ -564,18 +528,6 @@ proxies:
     udp: true
 
   - name: "🇸🇪 PREMIUM Швеция (Sweden) (2)"
-    type: trojan
-    server: 176.125.241.191
-    port: 9443
-    password: 2e50c6c2b5e448a19bc67b4aebbc6a08
-    client-fingerprint: random
-    udp: true
-    sni: apple.com
-    reality-opts:
-      public-key: 1e2KV15UxsjUd2fYsWEd45ygwMT1dpr8LEpkF6GnHBM
-      short-id: aabbccdd
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (3)"
     type: vless
     server: shwec-exit.krotmonstr.online
     port: 8443
@@ -591,7 +543,7 @@ proxies:
       public-key: DIqIZO_u7V95iUT-t29gQj0F8HF9UOgVWhj3oWpH4DM
       short-id: 39fb7d1ae2544f9a
 
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (4)"
+  - name: "🇸🇪 PREMIUM Швеция (Sweden) (3)"
     type: vless
     server: shwec-cdn.krotmonstr.online
     port: 443
@@ -777,18 +729,6 @@ proxies:
       short-id: 41b06f
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-    type: trojan
-    server: 79.141.164.145
-    port: 9443
-    password: 5941c015048b4f489cbd03e5c2baa281
-    client-fingerprint: random
-    udp: true
-    sni: dutchnews.nl
-    reality-opts:
-      public-key: OCna3MeG4UjbOoWoEjckg23r1-Kl0Zct4bKGrmDoew4
-      short-id: aabbccdd
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
     server: nl.nonru.tech
     port: 445
@@ -803,7 +743,7 @@ proxies:
     reality-opts:
       public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
     server: nl.nonru.tech
     port: 445
@@ -815,7 +755,7 @@ proxies:
     ws-opts:
       path: "/ws"
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
     type: vless
     server: nidl-gate.krotmonstr.online
     port: 443
@@ -833,7 +773,7 @@ proxies:
       public-key: EtVRV1Dh4j1xrFM441RBEi62gWNtKB42lw55r680mWc
       short-id: ce049f58ff435763
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
     type: vless
     server: nl.nonru.tech
     port: 8443
@@ -848,31 +788,7 @@ proxies:
     reality-opts:
       public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
 
-  - name: "🇪🇸 PREMIUM Испания (Spain)"
-    type: trojan
-    server: 45.12.150.220
-    port: 9443
-    password: 813706e4d0f943dfae0a846acd3163b8
-    client-fingerprint: random
-    udp: true
-    sni: marca.com
-    reality-opts:
-      public-key: jfqOhC5toLTSByoyfxaEOehizjZujOHCHvzfyX2D-B4
-      short-id: aabbccdd
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
-    type: trojan
-    server: 62.133.63.232
-    port: 9443
-    password: cc51ca7ce9e9447ea1f41ccdc037a2f3
-    client-fingerprint: random
-    udp: true
-    sni: apple.com
-    reality-opts:
-      public-key: Gn5B-kDUFfIM5jvQ17Braem7nlJyG4QaPA1OVUCwyx0
-      short-id: aabbccdd
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
+  - name: "🇹🇷 PREMIUM Турция (Turkey)"
     type: vless
     server: gr.nonruvpn.tech
     port: 8443
@@ -907,18 +823,6 @@ proxies:
       short-id: f2dfca825208e5b4
 
   - name: "🇺🇸 PREMIUM Америка (USA) (2)"
-    type: trojan
-    server: 194.213.18.55
-    port: 9443
-    password: 744d35cff4954d7285479cbc31ba66f0
-    client-fingerprint: random
-    udp: true
-    sni: apple.com
-    reality-opts:
-      public-key: _8dg8TxwWzIijV1ZwWMxUf_X3S9F00YIvak9dP2Xihg
-      short-id: aabbccdd
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: usus-exit.krotmonstr.online
     port: 8443
@@ -934,7 +838,7 @@ proxies:
       public-key: BFMEZa86t6wVXU-u6oU4jw5XbJGdOPSjtuSPL9CCqXw
       short-id: cf74777ec616381f
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: us01.nocto.online
     port: 443
@@ -949,7 +853,7 @@ proxies:
     reality-opts:
       public-key: FZGOwvNZ6SMtIp9M1u4z55FLxEMnnGt-5dWCwpRp0Eg
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: 205.172.58.148
     port: 8443
@@ -964,18 +868,6 @@ proxies:
     reality-opts:
       public-key: 6nyRV9gAtX_kJZ00NfPyR4O0QbvvzhlV5o7LFYw-iXI
       short-id: 789aa329bb26cc35
-
-  - name: "🇭🇰 PREMIUM Гонконг (Hong Kong)"
-    type: trojan
-    server: 194.246.114.75
-    port: 9443
-    password: 6c6eee9315794dd18c4d104a201b7aab
-    client-fingerprint: random
-    udp: true
-    sni: hk01.com
-    reality-opts:
-      public-key: s-H-9stJKc8FUXqvnx2V2luRMMLwJ76PJttRF7hyGHY
-      short-id: aabbccdd
 
   - name: "🇩🇪 Германия (Germany)"
     type: vless
@@ -1038,11 +930,8 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (3)"
       - "🇷🇺 PREMIUM Россия (Russian) (4)"
       - "🇷🇺 PREMIUM Россия (Russian) (5)"
-      - "🇷🇺 PREMIUM Россия (Russian) (6)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan)"
-      - "🇵🇱 PREMIUM Польша (Poland) (1)"
-      - "🇵🇱 PREMIUM Польша (Poland) (2)"
-      - "🇨🇿 PREMIUM Чехия (Czech Republic)"
+      - "🇵🇱 PREMIUM Польша (Poland)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
@@ -1050,7 +939,6 @@ proxy-groups:
       - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (4)"
       - "🇫🇷 PREMIUM Франция (France)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
@@ -1066,16 +954,11 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
-      - "🇪🇸 PREMIUM Испания (Spain)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (1)"
-      - "🇹🇷 PREMIUM Турция (Turkey) (2)"
+      - "🇹🇷 PREMIUM Турция (Turkey)"
       - "🇺🇸 PREMIUM Америка (USA) (1)"
       - "🇺🇸 PREMIUM Америка (USA) (2)"
       - "🇺🇸 PREMIUM Америка (USA) (3)"
       - "🇺🇸 PREMIUM Америка (USA) (4)"
-      - "🇺🇸 PREMIUM Америка (USA) (5)"
-      - "🇭🇰 PREMIUM Гонконг (Hong Kong)"
       - "🇩🇪 Германия (Germany)"
       - "🇳🇱 Нидерланды (Netherlands)"
       # - "☁️ WARP ➡️ 🇺🇸"
