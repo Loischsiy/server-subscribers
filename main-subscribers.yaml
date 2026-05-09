@@ -3,9 +3,9 @@ allow-lan: false
 mode: rule    
 log-level: error
 authentication:
-  - "dimon:f5InNfxFpqzEgmRTXOpocxGRC"
+  - "dimon:oiUbDP67FD3aJbf5XA95"
 external-controller: 127.0.0.1:14888
-secret: "MMnOOESgj40cagq4KHgXrFd5f8E4yr0fNf"
+secret: "v5TznXF21sVb5ar5wlNlg1f501lM"
 geodata-mode: false
 profile:
   store-selected: true
@@ -271,6 +271,36 @@ proxies:
 
   - name: "🌎 PREMIUM Случайная (Random) (1)"
     type: vless
+    server: yu.openhub.su
+    port: 443
+    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
+    network: tcp
+    tls: true
+    udp: true
+    servername: tradingview.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
+      short-id: 'b386f9a0efb1cec3'
+
+  - name: "🌎 PREMIUM Случайная (Random) (2)"
+    type: vless
+    server: 45.150.9.191
+    port: 443
+    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
+    network: tcp
+    tls: true
+    udp: true
+    servername: tradingview.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
+      short-id: 'b386f9a0efb1cec3'
+
+  - name: "🌎 PREMIUM Случайная (Random) (3)"
+    type: vless
     server: telegram.looks-free.rutube.info
     port: 443
     uuid: c61ec320-29f1-4e00-9272-8b676e6957b4
@@ -285,7 +315,7 @@ proxies:
       public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU
       short-id: '28a059440d3d5ba1'
 
-  - name: "🌎 PREMIUM Случайная (Random) (2)"
+  - name: "🌎 PREMIUM Случайная (Random) (4)"
     type: vless
     server: gw.itg.top
     port: 443
@@ -301,7 +331,7 @@ proxies:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: '4f8a2c6e1b'
 
-  - name: "🌎 PREMIUM Случайная (Random) (3)"
+  - name: "🌎 PREMIUM Случайная (Random) (5)"
     type: ss
     server: 77.110.103.249
     port: 1080
@@ -309,37 +339,23 @@ proxies:
     password: comDLUiPzaPVUaHXuRRWlg
     udp: true
 
-  - name: "🌎 PREMIUM Случайная (Random) (4)"
-    type: vless
-    server: yu.openhub.su
-    port: 443
-    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
-    network: tcp
-    tls: true
-    udp: true
-    servername: tradingview.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
-      short-id: 'b386f9a0efb1cec3'
-
-  - name: "🌎 PREMIUM Случайная (Random) (5)"
-    type: vless
-    server: 45.150.9.191
-    port: 443
-    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
-    network: tcp
-    tls: true
-    udp: true
-    servername: tradingview.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
-      short-id: 'b386f9a0efb1cec3'
-
   - name: "🇷🇺 PREMIUM Россия (Russian) (1)"
+    type: vless
+    server: 72.56.248.224
+    port: 443
+    uuid: eaf8a1c1-c057-422c-b6a9-86c0e3c1ebb0
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cd.mediastreamer.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: dMatsMX7mGzgHQ8JoHtSdrhHVImyh2wkSbHqs9KLvG0
+      short-id: 'daf710245d'
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
     type: vless
     server: ru.ytshield.online
     port: 443
@@ -355,7 +371,51 @@ proxies:
       public-key: G5Ml--4jq-TH-z-yHmBzVo9OgJDHkJm67PWHHzZsB0w
       short-id: '706685dd41d4c369'
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (2)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
+    type: vless
+    server: msk.breachvpn.org
+    port: 443
+    uuid: 10859419-0aa7-4957-bff9-c0a248759058
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: msk.breachvpn.org
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: gFZL4wShP080jUCH40FFzCuTQmUAYoKra0tpOXn_JCY
+      short-id: '6ee901fbfd1c3518'
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
+    type: vless
+    server: 194.87.161.198
+    port: 443
+    uuid: 3e1a6609-4acb-11f1-90ed-525400a7149e
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: ads.x5.ru
+    client-fingerprint: randomized
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 2IAFC23dkBm2ZRPTcxSWZ5YkpVxJufIIZn3-aSPRH10
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
+    type: vless
+    server: led-ru.furkbalancer.net
+    port: 443
+    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: led-ru.furkbalancer.net
+    client-fingerprint: chrome
+    packet-encoding: xudp
+
+  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
     type: vless
     server: 212.113.98.232
     port: 443
@@ -373,36 +433,7 @@ proxies:
       public-key: wceUB4AAxfhwbXco9Acb3CQOxvBPO7oDEPOMyZAaGxM
       short-id: '63'
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (3)"
-    type: vless
-    server: led-ru.furkbalancer.net
-    port: 443
-    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: led-ru.furkbalancer.net
-    client-fingerprint: chrome
-    packet-encoding: xudp
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (4)"
-    type: vless
-    server: msk.breachvpn.org
-    port: 443
-    uuid: 10859419-0aa7-4957-bff9-c0a248759058
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: msk.breachvpn.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: gFZL4wShP080jUCH40FFzCuTQmUAYoKra0tpOXn_JCY
-      short-id: '6ee901fbfd1c3518'
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (5)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
     type: vless
     server: 194.87.104.251
     port: 443
@@ -418,88 +449,20 @@ proxies:
       public-key: M462IdgnftzbjSuNVPReQtKVBehda__nLw6iAquHlws
       short-id: '90'
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (6)"
-    type: vless
-    server: 72.56.248.224
-    port: 443
-    uuid: eaf8a1c1-c057-422c-b6a9-86c0e3c1ebb0
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cd.mediastreamer.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: dMatsMX7mGzgHQ8JoHtSdrhHVImyh2wkSbHqs9KLvG0
-      short-id: 'daf710245d'
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (7)"
-    type: vless
-    server: ru2.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ru2.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ko6P5-JBkYPSTLqhIl93kwlRaUPiJrYtn3eDs-Qq8X0
-      short-id: 'e443e4d91307ffca'
-
   - name: "🇷🇺 PREMIUM Россия (Russian) (8)"
     type: vless
-    server: 45.89.190.179
+    server: svo-ru.furkbalancer.net
     port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
+    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: kinopoisk.ru
+    servername: svo-ru.furkbalancer.net
     client-fingerprint: chrome
     packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
 
   - name: "🇷🇺 PREMIUM Россия (Russian) (9)"
-    type: vless
-    server: ru.maxonelove.com
-    port: 443
-    uuid: 80f43b0f-2d1b-41f2-898e-a14b546de76f
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ru.maxonelove.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: bqoZnQgCG5B4vLKc-mgL-CHRI06Q0H1bv9zBcpo9zjE
-      short-id: '825867'
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (10)"
-    type: vless
-    server: 45.89.190.179
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (11)"
     type: vless
     server: gw.itg.top
     port: 443
@@ -515,51 +478,21 @@ proxies:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: 'f8b4d2a6c1e9'
 
-  - name: "🇷🇺 PREMIUM Россия (Russian) (12)"
+  - name: "🇷🇺 PREMIUM Россия (Russian) (10)"
     type: vless
-    server: 45.89.190.179
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (13)"
-    type: vless
-    server: 194.87.161.198
+    server: ru.maxonelove.com
     port: 443
-    uuid: 3e1a6609-4acb-11f1-90ed-525400a7149e
+    uuid: 80f43b0f-2d1b-41f2-898e-a14b546de76f
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: ads.x5.ru
-    client-fingerprint: randomized
+    servername: ru.maxonelove.com
+    client-fingerprint: qq
     packet-encoding: xudp
     reality-opts:
-      public-key: 2IAFC23dkBm2ZRPTcxSWZ5YkpVxJufIIZn3-aSPRH10
-
-  - name: "🇷🇺 PREMIUM Россия (Russian) (14)"
-    type: vless
-    server: svo-ru.furkbalancer.net
-    port: 443
-    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: svo-ru.furkbalancer.net
-    client-fingerprint: chrome
-    packet-encoding: xudp
+      public-key: bqoZnQgCG5B4vLKc-mgL-CHRI06Q0H1bv9zBcpo9zjE
+      short-id: '825867'
 
   - name: "🇧🇾 PREMIUM Беларусь (Belarus)"
     type: vless
@@ -579,21 +512,6 @@ proxies:
 
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
     type: vless
-    server: 212.192.220.35
-    port: 443
-    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
-    network: tcp
-    tls: true
-    udp: true
-    servername: tradingview.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
-      short-id: 'b386f9a0efb1cec3'
-
-  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
-    type: vless
     server: gw.itg.top
     port: 443
     uuid: 97c04f74-3b0e-001d-90af-9fb36b8701d9
@@ -607,6 +525,21 @@ proxies:
     reality-opts:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: '4f8a2c6e1b'
+
+  - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
+    type: vless
+    server: 212.192.220.35
+    port: 443
+    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
+    network: tcp
+    tls: true
+    udp: true
+    servername: tradingview.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
+      short-id: 'b386f9a0efb1cec3'
 
   - name: "🇰🇿 PREMIUM Казахстан (Kazakhstan) (3)"
     type: vless
@@ -639,22 +572,6 @@ proxies:
 
   - name: "🇱🇹 PREMIUM Литва (LITVA) (1)"
     type: vless
-    server: lt2.darknet.cv
-    port: 443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: FD54P_Z94pgzlb8KEk0WWy68R4S7kq5ejNjlff6Cn2s
-      short-id: 'a1b223d4'
-
-  - name: "🇱🇹 PREMIUM Литва (LITVA) (2)"
-    type: vless
     server: gw.itg.top
     port: 443
     uuid: 97c04f74-3b0e-0012-90af-9fb36b8701d9
@@ -669,61 +586,10 @@ proxies:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: '4f8a2c6e1b'
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (1)"
+  - name: "🇱🇹 PREMIUM Литва (LITVA) (2)"
     type: vless
-    server: 31.56.27.131
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (2)"
-    type: vless
-    server: gw.itg.top
+    server: lt2.darknet.cv
     port: 443
-    uuid: 97c04f74-3b0e-001f-90af-9fb36b8701d9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: hub.itg.top
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
-      short-id: '2e6a8c4f1b'
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (3)"
-    type: vless
-    server: 31.56.27.131
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (4)"
-    type: vless
-    server: lv.darknet.cv
-    port: 8443
     uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
     network: tcp
     tls: true
@@ -733,26 +599,10 @@ proxies:
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: YEbxb0iES-xdHS7XeIssHkqoIFLPQ-vDoNZAVZPm8BM
-      short-id: 'a1b323d4'
+      public-key: FD54P_Z94pgzlb8KEk0WWy68R4S7kq5ejNjlff6Cn2s
+      short-id: 'a1b223d4'
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (5)"
-    type: vless
-    server: 62.192.174.127
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.adobe.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: LZF-TiSpXlhdqgb3dK0F-ehtnAZE3OG2u0xddChRHj8
-      short-id: '2b1902cea5750492'
-
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (6)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia) (1)"
     type: vless
     server: ewr.dataconflux.org
     port: 443
@@ -768,7 +618,7 @@ proxies:
       public-key: uZF71SOy5cGvHfTq5M_TlVOM-2EP68nEe4rAiOHOjB8
       short-id: '6ee901fbfd1c3518'
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (7)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia) (2)"
     type: vless
     server: 72.56.8.229
     port: 2087
@@ -784,7 +634,7 @@ proxies:
       public-key: 2_v1gQD7Jt4nTAeTOGQgN14rLXW3UefybJbSFmJ70io
       short-id: '0ebbf068942e8748'
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (8)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia) (3)"
     type: vless
     server: api.works-fine.rutube.info
     port: 443
@@ -800,7 +650,7 @@ proxies:
       public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
       short-id: '6a608eaf9117'
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (9)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia) (4)"
     type: vless
     server: lv2.darknet.cv
     port: 8443
@@ -816,21 +666,37 @@ proxies:
       public-key: 98yDH2Gmotkvs5wG7BpzVuv4ddvPtJdOoGDg-d_XsEo
       short-id: 'a2b223d4'
 
-  - name: "🇱🇻 PREMIUM Латвия (Latvia) (10)"
+  - name: "🇱🇻 PREMIUM Латвия (Latvia) (5)"
     type: vless
-    server: 31.56.27.131
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
+    server: lv.darknet.cv
+    port: 8443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: kinopoisk.ru
+    servername: cloudflare.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
+      public-key: YEbxb0iES-xdHS7XeIssHkqoIFLPQ-vDoNZAVZPm8BM
+      short-id: 'a1b323d4'
+
+  - name: "🇱🇻 PREMIUM Латвия (Latvia) (6)"
+    type: vless
+    server: gw.itg.top
+    port: 443
+    uuid: 97c04f74-3b0e-001f-90af-9fb36b8701d9
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: hub.itg.top
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
+      short-id: '2e6a8c4f1b'
 
   - name: "🇪🇪 PREMIUM Эстония (Estonia) (1)"
     type: vless
@@ -866,22 +732,6 @@ proxies:
 
   - name: "🇪🇪 PREMIUM Эстония (Estonia) (3)"
     type: vless
-    server: 5.180.40.18
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.adobe.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: VjJIoA9rNEFJtktvYdxRNp6gXhbECVSmpaWASVIZ5x0
-      short-id: 'bdd51952e908a331'
-
-  - name: "🇪🇪 PREMIUM Эстония (Estonia) (4)"
-    type: vless
     server: 72.56.7.134
     port: 443
     uuid: ddced6a2-2056-4234-a721-4a589cbdeb21
@@ -898,22 +748,6 @@ proxies:
 
   - name: "🇵🇱 PREMIUM Польша (Poland) (1)"
     type: vless
-    server: 193.111.117.85
-    port: 443
-    uuid: 51f897ca-7a23-447e-88bb-ebc36344f968
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ehwmHE6YZerBvwMkotJIWhZDjTpUfAmOSXQcziKPHm8
-      short-id: 'ff49e86626a89639'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
-    type: vless
     server: gg5.darknet.cv
     port: 8443
     uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
@@ -928,192 +762,7 @@ proxies:
       public-key: nUcryIUKu9HDDAhC3_zaW7-yf-ODuowt3GS4AqOg_k4
       short-id: 'a2b223d4'
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
-    type: vless
-    server: gw.itg.top
-    port: 443
-    uuid: 97c04f74-3b0e-0004-90af-9fb36b8701d9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: hub.itg.top
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
-      short-id: 'c5f1e8'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
-    type: vless
-    server: pla.silent.mom
-    port: 443
-    uuid: 885cb42c-50dc-47fc-915b-6a35c80addc9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: pla.silent.mom
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: f1AvxkOEqb1LSXuH7gq4dtGFt5Ss5JETyB2fPHaAfFs
-      short-id: 'b3b9a91925d56cdc'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
-    type: vless
-    server: 144.31.1.139
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
-    type: vless
-    server: 144.31.1.139
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (7)"
-    type: vless
-    server: 95.163.183.11
-    port: 2087
-    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: OMQ1V_lJL1tgssEepG7BkCjBdt6sleZivAHiBPALlGc
-      short-id: 'ce59797defddc5e7'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (8)"
-    type: vless
-    server: 144.31.1.139
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (9)"
-    type: trojan
-    server: chocolatemango.my.to
-    port: 440
-    password: q-56C-rz3tTWeZkFUF7Zx5efUHRUcPa3
-    client-fingerprint: chrome
-    udp: true
-    sni: chocolatemango.my.to
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (10)"
-    type: vless
-    server: api1.maxonelove.com
-    port: 443
-    uuid: 80f43b0f-2d1b-41f2-898e-a14b546de76f
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: pl.maxonelove.com
-    client-fingerprint: qq
-    packet-encoding: xudp
-    reality-opts:
-      public-key: o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8
-      short-id: '28a059440d3d5ba1'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (11)"
-    type: vless
-    server: ovh.furkbalancer.net
-    port: 2087
-    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: pl.learnyouthinspire.co.uk
-    client-fingerprint: chrome
-    packet-encoding: xudp
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (12)"
-    type: vless
-    server: free-pl.moscow-neversleep.digital
-    port: 753
-    uuid: 864e0acb-84fc-0064-938e-a73dbb9dc53d
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.nvidia.com
-    client-fingerprint: firefox
-    packet-encoding: xudp
-    reality-opts:
-      public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-      short-id: '1ed136481e0ede74'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (13)"
-    type: vless
-    server: pao.dataconflux.org
-    port: 443
-    uuid: 10859419-0aa7-4957-bff9-c0a248759058
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: pao.dataconflux.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: s8d05qpWVswxuvebM1yVdcSDT3pmfedJGigHWLIIa3c
-      short-id: '6ee901fbfd1c3518'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (14)"
-    type: vless
-    server: 72.56.250.50
-    port: 443
-    uuid: cada2745-a511-432d-8cc5-2367e7532948
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: xx.mediastreamer.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: vwZ2XPAEgaH4MsSgn8eHmAq6yZLfxnsAhZI3ROJTExQ
-      short-id: 'c7dace18ae59'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (15)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (2)"
     type: vless
     server: pl2.darknet.cv
     port: 8443
@@ -1129,7 +778,132 @@ proxies:
       public-key: jqmGG2Fmqiojk5eHkOI2G1ggfzXUfqFPW2giaFO9m0M
       short-id: 'a2b223d4'
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (16)"
+  - name: "🇵🇱 PREMIUM Польша (Poland) (3)"
+    type: vless
+    server: 193.111.117.85
+    port: 443
+    uuid: 51f897ca-7a23-447e-88bb-ebc36344f968
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: ehwmHE6YZerBvwMkotJIWhZDjTpUfAmOSXQcziKPHm8
+      short-id: 'ff49e86626a89639'
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (4)"
+    type: vless
+    server: gw.itg.top
+    port: 443
+    uuid: 97c04f74-3b0e-0004-90af-9fb36b8701d9
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: hub.itg.top
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
+      short-id: 'c5f1e8'
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (5)"
+    type: vless
+    server: 95.163.183.11
+    port: 2087
+    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: vk.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: OMQ1V_lJL1tgssEepG7BkCjBdt6sleZivAHiBPALlGc
+      short-id: 'ce59797defddc5e7'
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (6)"
+    type: vless
+    server: api1.maxonelove.com
+    port: 443
+    uuid: 80f43b0f-2d1b-41f2-898e-a14b546de76f
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: pl.maxonelove.com
+    client-fingerprint: qq
+    packet-encoding: xudp
+    reality-opts:
+      public-key: o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8
+      short-id: '28a059440d3d5ba1'
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (7)"
+    type: vless
+    server: ovh.furkbalancer.net
+    port: 2087
+    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: pl.learnyouthinspire.co.uk
+    client-fingerprint: chrome
+    packet-encoding: xudp
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (8)"
+    type: vless
+    server: free-pl.moscow-neversleep.digital
+    port: 753
+    uuid: 864e0acb-84fc-0064-938e-a73dbb9dc53d
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: www.nvidia.com
+    client-fingerprint: firefox
+    packet-encoding: xudp
+    reality-opts:
+      public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
+      short-id: '1ed136481e0ede74'
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (9)"
+    type: vless
+    server: pao.dataconflux.org
+    port: 443
+    uuid: 10859419-0aa7-4957-bff9-c0a248759058
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: pao.dataconflux.org
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: s8d05qpWVswxuvebM1yVdcSDT3pmfedJGigHWLIIa3c
+      short-id: '6ee901fbfd1c3518'
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (10)"
+    type: vless
+    server: 72.56.250.50
+    port: 443
+    uuid: cada2745-a511-432d-8cc5-2367e7532948
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: xx.mediastreamer.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: vwZ2XPAEgaH4MsSgn8eHmAq6yZLfxnsAhZI3ROJTExQ
+      short-id: 'c7dace18ae59'
+
+  - name: "🇵🇱 PREMIUM Польша (Poland) (11)"
     type: vless
     server: pl3.darknet.cv
     port: 8443
@@ -1145,53 +919,18 @@ proxies:
       public-key: vJABT4rKHRGAhWJttwS3gnOuA3Poe-RyDyM43uW3NnI
       short-id: 'a2b223d4'
 
-  - name: "🇵🇱 PREMIUM Польша (Poland) (17)"
-    type: vless
-    server: 153.76.122.251
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.adobe.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: CcWDGFSZp4gJIb-GHfDL8m5X3wDdDQ1f7oPO-bqphkw
-      short-id: '292ef85fce89ac83'
-
-  - name: "🇵🇱 PREMIUM Польша (Poland) (18)"
-    type: vless
-    server: pl.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: pl.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: sQZYeH0wRdxsrfUiWJtk2tGZDthPc9hsl6wkkIKa4WU
-      short-id: 'e7eb8917bc937fb4'
-
   - name: "🇭🇺 PREMIUM Венгрия (Hungary) (1)"
     type: vless
-    server: hu2.darknet.cv
-    port: 8443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    server: hu.chocolatemango.live
+    port: 443
+    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: cloudflare.com
+    servername: hu.chocolatemango.live
     client-fingerprint: chrome
     packet-encoding: xudp
-    reality-opts:
-      public-key: L47-bjUDrOWNBQOSCW4eWxehLY38sK8Hxzc2iP0MEVU
-      short-id: 'a2b223d4'
 
   - name: "🇭🇺 PREMIUM Венгрия (Hungary) (2)"
     type: vless
@@ -1211,16 +950,19 @@ proxies:
 
   - name: "🇭🇺 PREMIUM Венгрия (Hungary) (3)"
     type: vless
-    server: hu.chocolatemango.live
-    port: 443
-    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
+    server: hu2.darknet.cv
+    port: 8443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: hu.chocolatemango.live
+    servername: cloudflare.com
     client-fingerprint: chrome
     packet-encoding: xudp
+    reality-opts:
+      public-key: L47-bjUDrOWNBQOSCW4eWxehLY38sK8Hxzc2iP0MEVU
+      short-id: 'a2b223d4'
 
   - name: "🇨🇿 PREMIUM Чехия (Czech Republic) (1)"
     type: vless
@@ -1239,22 +981,6 @@ proxies:
       short-id: 'a2b223d4'
 
   - name: "🇨🇿 PREMIUM Чехия (Czech Republic) (2)"
-    type: vless
-    server: cz.silent.mom
-    port: 443
-    uuid: 885cb42c-50dc-47fc-915b-6a35c80addc9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cz.silent.mom
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: n9XAutF7R0wsgSiCH-K8eyX6PEqSr2D7NvUm2HUkamE
-      short-id: '108154cd0bf68afb'
-
-  - name: "🇨🇿 PREMIUM Чехия (Czech Republic) (3)"
     type: vless
     server: xml.dataconflux.org
     port: 443
@@ -1367,55 +1093,7 @@ proxies:
       public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
       short-id: 'b386f9a0efb1cec3'
 
-  - name: "🇸🇰 PREMIUM Словакия (Slovakia)"
-    type: vless
-    server: 45.151.70.235
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: sk.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: bXxHv3jD2un82gXPxmrW0CDvfOWHVND6fj4NnuhZ_jI
-      short-id: '4531147009a4149b'
-
   - name: "🇧🇬 PREMIUM Болгария (Bulgaria) (1)"
-    type: vless
-    server: knv.dataconflux.org
-    port: 443
-    uuid: 10859419-0aa7-4957-bff9-c0a248759058
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: knv.dataconflux.org
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: b-5WAQodgSSmHaLIjx00qsN6Qw0MzhHyCq33Fa7fbzg
-      short-id: '6ee901fbfd1c3518'
-
-  - name: "🇧🇬 PREMIUM Болгария (Bulgaria) (2)"
-    type: vless
-    server: bg1.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: bg1.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 7x7Y7URWNS6Jd63EqD-pBwAdf-blKmEqZaY8qeqvjnc
-      short-id: '109afa99d4ebe7a0'
-
-  - name: "🇧🇬 PREMIUM Болгария (Bulgaria) (3)"
     type: vless
     server: bg.darknet.cv
     port: 8443
@@ -1431,34 +1109,54 @@ proxies:
       public-key: aqZF36emHljNUw6NaqHucpcqJqTLfSGEUTcC8Yk6ykI
       short-id: 'a2b223d4'
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
-    type: trojan
-    server: 212.113.98.232
+  - name: "🇧🇬 PREMIUM Болгария (Bulgaria) (2)"
+    type: vless
+    server: knv.dataconflux.org
     port: 443
-    password: 7_H7hdVnD9pFDMphxsvmK0V2DTceRLMb
-    client-fingerprint: chrome
+    uuid: 10859419-0aa7-4957-bff9-c0a248759058
+    network: tcp
+    tls: true
     udp: true
-    sni: invest.ozon.ru
+    flow: xtls-rprx-vision
+    servername: knv.dataconflux.org
+    client-fingerprint: chrome
+    packet-encoding: xudp
     reality-opts:
-      public-key: gPOjHbEx-Mx5vg7qkld1qqoxv_tWsPJ-x2vl9e9nUxQ
-      short-id: 'a1b2c3d4'
+      public-key: b-5WAQodgSSmHaLIjx00qsN6Qw0MzhHyCq33Fa7fbzg
+      short-id: '6ee901fbfd1c3518'
+
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (1)"
+    type: vless
+    server: 138.124.8.125
+    port: 8443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: j0MItJ7UW1fw2Hl_7w0UsHTsdKsWpBbDPe0G3RnBUAQ
+      short-id: 'a1b243d4'
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (2)"
     type: vless
-    server: 152.89.244.172
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
+    server: server-dqlvg-fi.kvncococ.org
+    port: 9443
+    uuid: 7e9b0709-6f8d-43f0-a96f-79b298a0d9c1
     network: grpc
     tls: true
     udp: true
-    servername: api-maps.yandex.ru
+    servername: www.apple.com
     client-fingerprint: chrome
     grpc-opts:
-      grpc-service-name: ApiMapsYandex
+      grpc-service-name: GunService
     packet-encoding: xudp
     reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
+      public-key: Wbeploj4O8LhJoEvkVxmxgX8GakYGupNCOatWH9eryg
+      short-id: '51f830f7cda28c13'
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (3)"
     type: vless
@@ -1526,24 +1224,6 @@ proxies:
 
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (7)"
     type: vless
-    server: 152.89.244.172
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
-    type: vless
     server: 65.109.190.143
     port: 443
     uuid: 018ed54b-5238-4e8e-a4f8-83e204e1a534
@@ -1560,7 +1240,7 @@ proxies:
       public-key: wceUB4AAxfhwbXco9Acb3CQOxvBPO7oDEPOMyZAaGxM
       short-id: '63'
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (9)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (8)"
     type: vless
     server: pfv.dataconflux.org
     port: 443
@@ -1576,55 +1256,21 @@ proxies:
       public-key: UnpmjQP0o8j6OnyNGX8gDB1_Piuj6-1DDJcCkEI2NXY
       short-id: '6ee901fbfd1c3518'
 
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (9)"
+    type: vless
+    server: server-dqlvg-fi.kvncococ.org
+    port: 2083
+    uuid: 7e9b0709-6f8d-43f0-a96f-79b298a0d9c1
+    network: tcp
+    tls: true
+    udp: true
+    servername: www.google.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: Wbeploj4O8LhJoEvkVxmxgX8GakYGupNCOatWH9eryg
+
   - name: "🇫🇮 PREMIUM Финляндия (Finland) (10)"
-    type: vless
-    server: 138.124.8.125
-    port: 8443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: j0MItJ7UW1fw2Hl_7w0UsHTsdKsWpBbDPe0G3RnBUAQ
-      short-id: 'a1b243d4'
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (11)"
-    type: vless
-    server: 152.89.244.172
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (12)"
-    type: vless
-    server: 94.183.189.206
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (13)"
     type: vless
     server: 65.21.18.62
     port: 443
@@ -1640,7 +1286,7 @@ proxies:
       public-key: ehwmHE6YZerBvwMkotJIWhZDjTpUfAmOSXQcziKPHm8
       short-id: 'ff49e86626a89639'
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (14)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (11)"
     type: vless
     server: oez.dataconflux.org
     port: 443
@@ -1657,7 +1303,7 @@ proxies:
       public-key: IusDmusegylYWAjjcjHF_zz1PGWT5AFEQQfD4WvDFw0
       short-id: '6ee901fbfd1c3518'
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (15)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (12)"
     type: vless
     server: fin.maxonelove.com
     port: 52006
@@ -1671,7 +1317,7 @@ proxies:
     ws-opts:
       path: "/pleasework"
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (16)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (13)"
     type: vless
     server: server-dqlvg-fi.kvncococ.org
     port: 8443
@@ -1686,24 +1332,19 @@ proxies:
       public-key: Wbeploj4O8LhJoEvkVxmxgX8GakYGupNCOatWH9eryg
       short-id: '811f862b1efc21cc'
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (17)"
-    type: vless
-    server: server-dqlvg-fi.kvncococ.org
-    port: 9443
-    uuid: 7e9b0709-6f8d-43f0-a96f-79b298a0d9c1
-    network: grpc
-    tls: true
-    udp: true
-    servername: www.apple.com
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (14)"
+    type: trojan
+    server: 212.113.98.232
+    port: 443
+    password: 7_H7hdVnD9pFDMphxsvmK0V2DTceRLMb
     client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: GunService
-    packet-encoding: xudp
+    udp: true
+    sni: invest.ozon.ru
     reality-opts:
-      public-key: Wbeploj4O8LhJoEvkVxmxgX8GakYGupNCOatWH9eryg
-      short-id: '51f830f7cda28c13'
+      public-key: gPOjHbEx-Mx5vg7qkld1qqoxv_tWsPJ-x2vl9e9nUxQ
+      short-id: 'a1b2c3d4'
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (18)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (15)"
     type: ss
     server: server-dqlvg-fi.kvncococ.org
     port: 8388
@@ -1711,7 +1352,7 @@ proxies:
     password: UgyCoLj4BP7nu69S
     udp: true
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (19)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (16)"
     type: trojan
     server: server-dqlvg-fi.kvncococ.org
     port: 2097
@@ -1719,7 +1360,7 @@ proxies:
     udp: true
     sni: server-dqlvg-fi.kvncococ.org
 
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (20)"
+  - name: "🇫🇮 PREMIUM Финляндия (Finland) (17)"
     type: vless
     server: fi.ytshield.online
     port: 443
@@ -1734,20 +1375,6 @@ proxies:
     reality-opts:
       public-key: DIjaI5Pj1MLBfoaIhvCLvwJBHU03cXecVBe0IU_xLQs
       short-id: '14d554ce063da262'
-
-  - name: "🇫🇮 PREMIUM Финляндия (Finland) (21)"
-    type: vless
-    server: server-dqlvg-fi.kvncococ.org
-    port: 2083
-    uuid: 7e9b0709-6f8d-43f0-a96f-79b298a0d9c1
-    network: tcp
-    tls: true
-    udp: true
-    servername: www.google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: Wbeploj4O8LhJoEvkVxmxgX8GakYGupNCOatWH9eryg
 
   - name: "🇸🇪 PREMIUM Швеция (Sweden) (1)"
     type: vless
@@ -1875,72 +1502,6 @@ proxies:
 
   - name: "🇸🇪 PREMIUM Швеция (Sweden) (9)"
     type: vless
-    server: 194.238.57.179
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.adobe.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 7dxqzgk1DoyZoRZz6jguLsNZEYgUPxVsGs741R28tEc
-      short-id: 'a1b2c3'
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (10)"
-    type: vless
-    server: 150.241.65.66
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: xhttp
-    tls: true
-    udp: true
-    servername: www.adobe.com
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: www.adobe.com
-      path: /xhttp
-      mode: packet-up
-    reality-opts:
-      public-key: IZBGm_MoXzLoUl97sE6fAmQOe0QdojPvzn_H_zy5yzc
-      short-id: 'fbf114d504078895'
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (11)"
-    type: vless
-    server: 144.31.61.110
-    port: 7443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: rbc.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: xPArhiCe0z3DMtVnJeI7Sr-YMbA8TBGJsWyAadfSSS0
-      short-id: '9f0f2e64f2344d9d'
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (12)"
-    type: vless
-    server: 194.238.57.244
-    port: 54300
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.amd.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: _bQWG7tN2TxYvbeZO6ojrQFfe29kxYDsJ7MRE9Irhmk
-      short-id: '5f9e08ca73a93b5e'
-
-  - name: "🇸🇪 PREMIUM Швеция (Sweden) (13)"
-    type: vless
     server: 93.93.205.243
     port: 443
     uuid: 018ed54b-5238-4e8e-a4f8-83e204e1a534
@@ -1959,22 +1520,6 @@ proxies:
 
   - name: "🇳🇴 PREMIUM Норвегия (Norway) (1)"
     type: vless
-    server: gw.itg.top
-    port: 443
-    uuid: 97c04f74-3b0e-0013-90af-9fb36b8701d9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: hub.itg.top
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
-      short-id: '4f8a2c6e1b'
-
-  - name: "🇳🇴 PREMIUM Норвегия (Norway) (2)"
-    type: vless
     server: no2.darknet.cv
     port: 8443
     uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
@@ -1989,23 +1534,23 @@ proxies:
       public-key: NXP75ngH1tPpO5mRpEEkDRk2fQEqmrxsnxplHT5Ir00
       short-id: 'a2b223d4'
 
-  - name: "🇩🇰 PREMIUM Дания (Denmark) (1)"
+  - name: "🇳🇴 PREMIUM Норвегия (Norway) (2)"
     type: vless
-    server: dk2.darknet.cv
-    port: 8443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    server: gw.itg.top
+    port: 443
+    uuid: 97c04f74-3b0e-0013-90af-9fb36b8701d9
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: cloudflare.com
+    servername: hub.itg.top
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: JlZeWdKBRSRG8S1wQNWnFN7hVKSWVOY_xNzXXxacwGk
-      short-id: 'a2b223d4'
+      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
+      short-id: '4f8a2c6e1b'
 
-  - name: "🇩🇰 PREMIUM Дания (Denmark) (2)"
+  - name: "🇩🇰 PREMIUM Дания (Denmark) (1)"
     type: vless
     server: 217.149.29.108
     port: 443
@@ -2021,7 +1566,7 @@ proxies:
       public-key: bN3dWWgQK1zuiuIGCeirpdO3RSWyoipkJM3u3SmqBBo
       short-id: '505c1633c3'
 
-  - name: "🇩🇰 PREMIUM Дания (Denmark) (3)"
+  - name: "🇩🇰 PREMIUM Дания (Denmark) (2)"
     type: vless
     server: gw.itg.top
     port: 443
@@ -2036,6 +1581,22 @@ proxies:
     reality-opts:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: '2e6a8c4f1b'
+
+  - name: "🇩🇰 PREMIUM Дания (Denmark) (3)"
+    type: vless
+    server: dk2.darknet.cv
+    port: 8443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: JlZeWdKBRSRG8S1wQNWnFN7hVKSWVOY_xNzXXxacwGk
+      short-id: 'a2b223d4'
 
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
     type: vless
@@ -2071,22 +1632,6 @@ proxies:
 
   - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (3)"
     type: vless
-    server: gb.silent.mom
-    port: 443
-    uuid: 885cb42c-50dc-47fc-915b-6a35c80addc9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: gb.silent.mom
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: zlRkcUsGD8tFPERz8bv6caUj0wVSL1-p5nKHL2Mu1Vg
-      short-id: '108154cd0bf68afb'
-
-  - name: "🇬🇧 PREMIUM Великобритания (United Kingdom) (4)"
-    type: vless
     server: gw.itg.top
     port: 443
     uuid: 97c04f74-3b0e-000f-90af-9fb36b8701d9
@@ -2119,22 +1664,6 @@ proxies:
 
   - name: "🇧🇪 PREMIUM Бельгия (Belgium) (1)"
     type: vless
-    server: be.darknet.cv
-    port: 443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 7r6oa-JKl3aj7i9b_AHgsitAXWJVFinBrZbqfi8XkEU
-      short-id: 'a1b323d4'
-
-  - name: "🇧🇪 PREMIUM Бельгия (Belgium) (2)"
-    type: vless
     server: gw.itg.top
     port: 443
     uuid: 97c04f74-3b0e-001a-90af-9fb36b8701d9
@@ -2148,6 +1677,22 @@ proxies:
     reality-opts:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: '4f8a2c6e1b'
+
+  - name: "🇧🇪 PREMIUM Бельгия (Belgium) (2)"
+    type: vless
+    server: be.darknet.cv
+    port: 443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: 7r6oa-JKl3aj7i9b_AHgsitAXWJVFinBrZbqfi8XkEU
+      short-id: 'a1b323d4'
 
   - name: "🇱🇺 PREMIUM Люксембург (Luxembourg)"
     type: vless
@@ -2199,22 +1744,6 @@ proxies:
 
   - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (2)"
     type: vless
-    server: ch.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: ch.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 7ZEiMI1PvIvoYO-7BxzYe6IN_SGBIQASlOhcriQtL3U
-      short-id: '294d517a014a62fd'
-
-  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (3)"
-    type: vless
     server: ch3.darknet.cv
     port: 8443
     uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
@@ -2229,7 +1758,7 @@ proxies:
       public-key: 4FWuvllWmhKuqQ5av5v46bN10WPnaB81HL2ZdmMhcX0
       short-id: 'a2b223d4'
 
-  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (4)"
+  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (3)"
     type: vless
     server: iys.dataconflux.org
     port: 443
@@ -2245,7 +1774,7 @@ proxies:
       public-key: s3_qP_Tr3jnL7ZuzGvMBLPHfCy34fb5jMn1e6oM9pVo
       short-id: '6ee901fbfd1c3518'
 
-  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (5)"
+  - name: "🇨🇭 PREMIUM Швейцария (Switzerland) (4)"
     type: vless
     server: gw.itg.top
     port: 443
@@ -2263,6 +1792,22 @@ proxies:
 
   - name: "🇫🇷 PREMIUM Франция (France) (1)"
     type: vless
+    server: fr3.darknet.cv
+    port: 443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: h7bBsluvh9tfSO0Y-Y_WDCFeTJxG21q-0MD3Y-Xyr34
+      short-id: 'a2b223d4'
+
+  - name: "🇫🇷 PREMIUM Франция (France) (2)"
+    type: vless
     server: 72.56.252.78
     port: 443
     uuid: 6fe12744-a27c-4847-96c7-b94de8b6edc1
@@ -2277,7 +1822,7 @@ proxies:
       public-key: OjsZwLvEe-3HXy_00AX_YQ1h-cE56TpUyCLpJy-RLXk
       short-id: '64491917a7da379f'
 
-  - name: "🇫🇷 PREMIUM Франция (France) (2)"
+  - name: "🇫🇷 PREMIUM Франция (France) (3)"
     type: vless
     server: 8t1y29c79r.brod-studio.ru
     port: 443
@@ -2293,7 +1838,7 @@ proxies:
       public-key: o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8
       short-id: '825867'
 
-  - name: "🇫🇷 PREMIUM Франция (France) (3)"
+  - name: "🇫🇷 PREMIUM Франция (France) (4)"
     type: vless
     server: ovh.furkbalancer.net
     port: 443
@@ -2306,40 +1851,7 @@ proxies:
     client-fingerprint: chrome
     packet-encoding: xudp
 
-  - name: "🇫🇷 PREMIUM Франция (France) (4)"
-    type: vless
-    server: 94.183.186.31
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
-
   - name: "🇫🇷 PREMIUM Франция (France) (5)"
-    type: vless
-    server: 94.183.186.31
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
-
-  - name: "🇫🇷 PREMIUM Франция (France) (6)"
     type: vless
     server: gw.itg.top
     port: 443
@@ -2355,56 +1867,21 @@ proxies:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: '3d9f7b2a'
 
-  - name: "🇫🇷 PREMIUM Франция (France) (7)"
+  - name: "🇦🇹 PREMIUM Австрия (Austria) (1)"
     type: vless
-    server: fr3.darknet.cv
+    server: gw.itg.top
     port: 443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    uuid: 97c04f74-3b0e-0014-90af-9fb36b8701d9
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: cloudflare.com
+    servername: hub.itg.top
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: h7bBsluvh9tfSO0Y-Y_WDCFeTJxG21q-0MD3Y-Xyr34
-      short-id: 'a2b223d4'
-
-  - name: "🇫🇷 PREMIUM Франция (France) (8)"
-    type: vless
-    server: 94.183.186.31
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (1)"
-    type: vless
-    server: 144.31.94.151
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
+      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
+      short-id: '7d'
 
   - name: "🇦🇹 PREMIUM Австрия (Austria) (2)"
     type: vless
@@ -2421,40 +1898,6 @@ proxies:
 
   - name: "🇦🇹 PREMIUM Австрия (Austria) (3)"
     type: vless
-    server: 144.31.94.151
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
-
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (4)"
-    type: vless
-    server: 144.31.94.151
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (5)"
-    type: vless
     server: at2.darknet.cv
     port: 8443
     uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
@@ -2469,34 +1912,21 @@ proxies:
       public-key: PC4MfP5k-BevkXIuIlWRVVX5CJqaD9I-vMA16dR3t2I
       short-id: 'a2b223d4'
 
-  - name: "🇦🇹 PREMIUM Австрия (Austria) (6)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
     type: vless
-    server: gw.itg.top
-    port: 443
-    uuid: 97c04f74-3b0e-0014-90af-9fb36b8701d9
+    server: gg4.darknet.cv
+    port: 8443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: hub.itg.top
+    servername: cloudflare.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
-      short-id: '7d'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (1)"
-    type: vless
-    server: ovh.furkbalancer.net
-    port: 2053
-    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de.chocolatemango.live
-    client-fingerprint: chrome
-    packet-encoding: xudp
+      public-key: wn8LSIMGVvDpx3tRbhXGpII-VmzaTpWWjuto7YwEn00
+      short-id: 'a2b223d4'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (2)"
     type: vless
@@ -2516,21 +1946,133 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (3)"
     type: vless
-    server: zb7crootrv.vk-maps.net
-    port: 52006
-    uuid: 80f43b0f-2d1b-41f2-898e-a14b546de76f
+    server: aer.dataconflux.org
+    port: 443
+    uuid: 10859419-0aa7-4957-bff9-c0a248759058
+    network: xhttp
+    tls: true
+    udp: true
+    servername: aer.dataconflux.org
+    client-fingerprint: chrome
+    xhttp-opts:
+      path: /v1/api
+      mode: auto
+    reality-opts:
+      public-key: IusDmusegylYWAjjcjHF_zz1PGWT5AFEQQfD4WvDFw0
+      short-id: '6ee901fbfd1c3518'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+    type: vless
+    server: 172.86.68.161
+    port: 443
+    uuid: 3e1a6609-4acb-11f1-90ed-525400a7149e
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: api.vk-maps.net
-    client-fingerprint: qq
+    servername: www.kleinanzeigen.de
+    client-fingerprint: randomized
     packet-encoding: xudp
     reality-opts:
-      public-key: o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8
-      short-id: 'c05d4c564d2bcd'
+      public-key: XFv4Qy1Pfx_Wj_oLqIqfVpBiykT2zr35X0mwEOME2Wg
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (4)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+    type: vless
+    server: gw.itg.top
+    port: 443
+    uuid: 97c04f74-3b0e-0002-90af-9fb36b8701d9
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: hub.itg.top
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
+      short-id: '2e6a8c4f1b'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
+    type: vless
+    server: de.ytshield.online
+    port: 443
+    uuid: 9a25a72e-1cda-45d3-aca8-be3fa21965fc
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: de.ytshield.online
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: MTg4jmg0HLXeAnCtXaZazSL4lLF1KF3vgtFC6S6vZzo
+      short-id: '10cd917813d31fa3'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
+    type: vless
+    server: 109.73.202.235
+    port: 2087
+    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: x5.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: tx30IDd7IsQjFv1O6sx2zo8gVYAnwcweB0PvHyOrX0o
+      short-id: '4eabd68a8bc2fda6'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
+    type: vless
+    server: 5.42.115.10
+    port: 2087
+    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: x5.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: tx30IDd7IsQjFv1O6sx2zo8gVYAnwcweB0PvHyOrX0o
+      short-id: '4eabd68a8bc2fda6'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
+    type: vless
+    server: 89.23.101.23
+    port: 443
+    uuid: 047f802d-2724-4834-8c8b-832e17ee1a76
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: bbf.mediastreamer.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: OWsAwtVhnrVba5OIts6H1eAfJjWosbiI_8S1Ry0ilgk
+      short-id: '42d97350530f'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
+    type: vless
+    server: gertestg.nekosocks.com
+    port: 4443
+    uuid: 0eaa52bd-eab5-48d2-b5b5-8213bb4879fb
+    network: grpc
+    tls: true
+    udp: true
+    servername: gertestg.nekosocks.com
+    client-fingerprint: chrome
+    grpc-opts:
+      grpc-service-name: grpc-real
+    reality-opts:
+      public-key: h4CeL8iPgeLP69M7OM15QCz9PbEmvaJKF8fUchLQ3Qk
+      short-id: 'a5b25fb49c93252a'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (11)"
     type: vless
     server: giq.dataconflux.org
     port: 443
@@ -2546,142 +2088,36 @@ proxies:
       public-key: q8iokFSMGpHgSTK7mLoQOKTzbWTVc2e0lAnocSzYPVU
       short-id: '6ee901fbfd1c3518'
 
-  - name: "🇩🇪 PREMIUM Германия (Germany) (5)"
+  - name: "🇩🇪 PREMIUM Германия (Germany) (12)"
     type: vless
-    server: 64.188.67.74
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (6)"
-    type: vless
-    server: 193.222.99.229
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.adobe.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: oh84XoUTGrRmSgsAQ8YDtYxkTP3g_tg7_zDhU8HRfk0
-      short-id: 'a1b2c3'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (7)"
-    type: vless
-    server: de-nuremberg.chocolatemango.live
-    port: 443
+    server: ovh.furkbalancer.net
+    port: 2053
     uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: de-nuremberg.chocolatemango.live
+    servername: de.chocolatemango.live
     client-fingerprint: chrome
     packet-encoding: xudp
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (8)"
-    type: vless
-    server: 209.112.89.226
-    port: 443
-    uuid: 81b8fb80-5fc1-4ce3-a57d-e68dfc33b598
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: yahoo.com
-    client-fingerprint: firefox
-    reality-opts:
-      public-key: 0chSSB8bbocj2ZTBUiu_ZcEhx_lu31_QgV-ms12sj3Q
-      short-id: 'c3f96c62'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (9)"
-    type: trojan
-    server: 212.113.98.232
-    port: 443
-    password: 7_H7hdVnD9pFDMphxsvmK0V2DTceRLMb
-    client-fingerprint: chrome
-    udp: true
-    sni: tile1.maps.2gis.com
-    reality-opts:
-      public-key: UI84RSAHTRev_F_kFb3CpQa4YCkpO4inczzG3iRv-hg
-      short-id: 'a1b2c3d4'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (10)"
-    type: vless
-    server: de2.darknet.cv
-    port: 8443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: NregbhXILJjVWyDs0vNrMbwW58UQHpE1j6sdmdaA5lY
-      short-id: 'a2b223d4'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (11)"
-    type: vless
-    server: de.darknet.cv
-    port: 443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: gmail.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: eXEiwTHOB7ruv4IJ_6EjFJ94MO9WyAsn5zfKwn3OMWg
-      short-id: 'a1b323d4'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (12)"
-    type: vless
-    server: 176.108.240.39
-    port: 443
-    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
-    network: tcp
-    tls: true
-    udp: true
-    servername: tradingview.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
-      short-id: 'b386f9a0efb1cec3'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (13)"
     type: vless
-    server: 212.113.109.63
+    server: 185.227.111.18
     port: 443
-    uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
-    network: tcp
+    uuid: 018ed54b-5238-4e8e-a4f8-83e204e1a534
+    network: xhttp
     tls: true
     udp: true
-    flow: xtls-rprx-vision
-    servername: yahoo.com
+    servername: dualizm.space
     client-fingerprint: chrome
-    packet-encoding: xudp
+    xhttp-opts:
+      host: dualizm.space
+      path: /
+      mode: auto
     reality-opts:
-      public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
-      short-id: 'fc74fe7479dfd8f2'
+      public-key: wceUB4AAxfhwbXco9Acb3CQOxvBPO7oDEPOMyZAaGxM
+      short-id: '63'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (14)"
     type: vless
@@ -2700,72 +2136,54 @@ proxies:
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (15)"
     type: vless
-    server: 89.23.101.23
+    server: 212.113.109.63
     port: 443
-    uuid: 047f802d-2724-4834-8c8b-832e17ee1a76
+    uuid: ae156edf-b5d6-467f-aedf-3de505c2a925
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: bbf.mediastreamer.ru
+    servername: yahoo.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: OWsAwtVhnrVba5OIts6H1eAfJjWosbiI_8S1Ry0ilgk
-      short-id: '42d97350530f'
+      public-key: HDMbnL_xsYBT24CWle01E8VAXiFyM6q08KYvM6Y49nw
+      short-id: 'fc74fe7479dfd8f2'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (16)"
     type: vless
-    server: aer.dataconflux.org
+    server: 176.108.240.39
     port: 443
-    uuid: 10859419-0aa7-4957-bff9-c0a248759058
-    network: xhttp
+    uuid: 50b8e3ad-4300-4d3f-a535-d259906e1a1d
+    network: tcp
     tls: true
     udp: true
-    servername: aer.dataconflux.org
+    servername: tradingview.com
     client-fingerprint: chrome
-    xhttp-opts:
-      path: /v1/api
-      mode: auto
+    packet-encoding: xudp
     reality-opts:
-      public-key: IusDmusegylYWAjjcjHF_zz1PGWT5AFEQQfD4WvDFw0
-      short-id: '6ee901fbfd1c3518'
+      public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
+      short-id: 'b386f9a0efb1cec3'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (17)"
     type: vless
-    server: de2.anoninet.online
+    server: de.darknet.cv
     port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: de2.anoninet.online
+    servername: gmail.com
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: EHZ4VThIKZigyPsUJB3y_DRb8g3wPOoAsLzNB92sGW4
-      short-id: 'cc2f8a4ba7af2d08'
+      public-key: eXEiwTHOB7ruv4IJ_6EjFJ94MO9WyAsn5zfKwn3OMWg
+      short-id: 'a1b323d4'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (18)"
     type: vless
-    server: de3.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de3.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mrpU-k47d22dt5OUzjgzFvWR99yoe3iAhujqjCPQvns
-      short-id: '7ec292be118a1cc0'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (19)"
-    type: vless
-    server: gg4.darknet.cv
+    server: de2.darknet.cv
     port: 8443
     uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
     network: tcp
@@ -2776,207 +2194,96 @@ proxies:
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: wn8LSIMGVvDpx3tRbhXGpII-VmzaTpWWjuto7YwEn00
+      public-key: NregbhXILJjVWyDs0vNrMbwW58UQHpE1j6sdmdaA5lY
       short-id: 'a2b223d4'
+
+  - name: "🇩🇪 PREMIUM Германия (Germany) (19)"
+    type: trojan
+    server: 212.113.98.232
+    port: 443
+    password: 7_H7hdVnD9pFDMphxsvmK0V2DTceRLMb
+    client-fingerprint: chrome
+    udp: true
+    sni: tile1.maps.2gis.com
+    reality-opts:
+      public-key: UI84RSAHTRev_F_kFb3CpQa4YCkpO4inczzG3iRv-hg
+      short-id: 'a1b2c3d4'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (20)"
     type: vless
-    server: gertestg.nekosocks.com
-    port: 4443
-    uuid: 0eaa52bd-eab5-48d2-b5b5-8213bb4879fb
-    network: grpc
+    server: 209.112.89.226
+    port: 443
+    uuid: 81b8fb80-5fc1-4ce3-a57d-e68dfc33b598
+    network: tcp
     tls: true
     udp: true
-    servername: gertestg.nekosocks.com
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: grpc-real
+    flow: xtls-rprx-vision
+    servername: yahoo.com
+    client-fingerprint: firefox
     reality-opts:
-      public-key: h4CeL8iPgeLP69M7OM15QCz9PbEmvaJKF8fUchLQ3Qk
-      short-id: 'a5b25fb49c93252a'
+      public-key: 0chSSB8bbocj2ZTBUiu_ZcEhx_lu31_QgV-ms12sj3Q
+      short-id: 'c3f96c62'
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (21)"
     type: vless
-    server: 185.227.111.18
+    server: de-nuremberg.chocolatemango.live
     port: 443
-    uuid: 018ed54b-5238-4e8e-a4f8-83e204e1a534
-    network: xhttp
+    uuid: ac582d12-43fb-4dc8-91e6-666cb490b956
+    network: tcp
     tls: true
     udp: true
-    servername: dualizm.space
+    flow: xtls-rprx-vision
+    servername: de-nuremberg.chocolatemango.live
     client-fingerprint: chrome
-    xhttp-opts:
-      host: dualizm.space
-      path: /
-      mode: auto
-    reality-opts:
-      public-key: wceUB4AAxfhwbXco9Acb3CQOxvBPO7oDEPOMyZAaGxM
-      short-id: '63'
+    packet-encoding: xudp
 
   - name: "🇩🇪 PREMIUM Германия (Germany) (22)"
     type: vless
-    server: de.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
+    server: zb7crootrv.vk-maps.net
+    port: 52006
+    uuid: 80f43b0f-2d1b-41f2-898e-a14b546de76f
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: de.anoninet.online
-    client-fingerprint: chrome
+    servername: api.vk-maps.net
+    client-fingerprint: qq
     packet-encoding: xudp
     reality-opts:
-      public-key: iTI4XJbDt4rwCeV9LcHa2JfbEOyxlkWBmsLMFD6OQQs
-      short-id: '4531147009a4149b'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (23)"
-    type: vless
-    server: 5.42.115.10
-    port: 2087
-    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: tx30IDd7IsQjFv1O6sx2zo8gVYAnwcweB0PvHyOrX0o
-      short-id: '4eabd68a8bc2fda6'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (24)"
-    type: vless
-    server: 109.73.202.235
-    port: 2087
-    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: x5.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: tx30IDd7IsQjFv1O6sx2zo8gVYAnwcweB0PvHyOrX0o
-      short-id: '4eabd68a8bc2fda6'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (25)"
-    type: vless
-    server: 81.90.25.209
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: grpc
-    tls: true
-    udp: true
-    servername: www.amd.com
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: apiserv
-    packet-encoding: xudp
-    reality-opts:
-      public-key: q_4BEiCDCYDhjjFppAAvesJub2a8UXiaslRdDOhGp3g
-      short-id: 'ee5e7f5f202ed3d9'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (26)"
-    type: vless
-    server: 64.188.67.74
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (27)"
-    type: vless
-    server: de.ytshield.online
-    port: 443
-    uuid: 9a25a72e-1cda-45d3-aca8-be3fa21965fc
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: de.ytshield.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: MTg4jmg0HLXeAnCtXaZazSL4lLF1KF3vgtFC6S6vZzo
-      short-id: '10cd917813d31fa3'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (28)"
-    type: vless
-    server: gw.itg.top
-    port: 443
-    uuid: 97c04f74-3b0e-0002-90af-9fb36b8701d9
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: hub.itg.top
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
-      short-id: '2e6a8c4f1b'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (29)"
-    type: vless
-    server: 172.86.68.161
-    port: 443
-    uuid: 3e1a6609-4acb-11f1-90ed-525400a7149e
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.kleinanzeigen.de
-    client-fingerprint: randomized
-    packet-encoding: xudp
-    reality-opts:
-      public-key: XFv4Qy1Pfx_Wj_oLqIqfVpBiykT2zr35X0mwEOME2Wg
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (30)"
-    type: vless
-    server: 64.188.67.74
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
-
-  - name: "🇩🇪 PREMIUM Германия (Germany) (31)"
-    type: vless
-    server: 64.188.67.74
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
+      public-key: o_ZQuEx_ealt_YkqgtYRqFhee0pzFkg9ObUhODLTAB8
+      short-id: 'c05d4c564d2bcd'
 
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
+    type: vless
+    server: vpnserver1775568265nl.kvncococ.org
+    port: 2083
+    uuid: a897c9a0-f0fd-43da-8d7e-4b58c3710c30
+    network: tcp
+    tls: true
+    udp: true
+    servername: google.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: m1WAiU3rCcjSS69fcO4MvaHNVN36NaCTmB2Amzjgclw
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+    type: vless
+    server: 5.42.100.16
+    port: 2087
+    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: vk.ru
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: ythLos6gxS1GOuPPGJ1xUYtSpOySaDM1mu2nzLqIWjc
+      short-id: 'a4077e915d0cd15a'
+
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
     type: vless
     server: nl.ytshield.online
     port: 443
@@ -2992,7 +2299,7 @@ proxies:
       public-key: Zkd6tDSOvYlMN0IGtwfvVbKTTSolTpHLQ1gBv-YFono
       short-id: '92666c96c96c642a'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
     type: vless
     server: 72.56.246.223
     port: 2087
@@ -3008,7 +2315,7 @@ proxies:
       public-key: ythLos6gxS1GOuPPGJ1xUYtSpOySaDM1mu2nzLqIWjc
       short-id: '255e64df008c2ef8'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
     type: vless
     server: fi.furkbalancer.net
     port: 443
@@ -3021,74 +2328,7 @@ proxies:
     client-fingerprint: chrome
     packet-encoding: xudp
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (4)"
-    type: vless
-    server: 2.26.2.237
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (5)"
-    type: vless
-    server: 2.26.2.237
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
-
   - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (6)"
-    type: vless
-    server: 2.26.2.237
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
-    type: vless
-    server: 144.31.54.138
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.pingless.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: biysMb5C9IXSNwX_Qa4CFt1vvEff_xVv9t4eBb87gCQ
-      short-id: 'a1b2c3'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
     type: trojan
     server: 212.113.98.232
     port: 443
@@ -3100,7 +2340,7 @@ proxies:
       public-key: 4UxRRzlaUvEwvuDeA4f3Brfxu2oOIkV7fE7GiYE6rhU
       short-id: 'a1b2c3d4'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (7)"
     type: vless
     server: nzw.dataconflux.org
     port: 443
@@ -3116,7 +2356,7 @@ proxies:
       public-key: 6JWxBcAMmKEh7FffE-XQJhi1QMNSHSpxedm0cWtgDWE
       short-id: '6ee901fbfd1c3518'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (8)"
     type: vless
     server: 144.31.13.2
     port: 443
@@ -3134,25 +2374,7 @@ proxies:
       public-key: wceUB4AAxfhwbXco9Acb3CQOxvBPO7oDEPOMyZAaGxM
       short-id: '63'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
-    type: vless
-    server: 45.131.186.97
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: xhttp
-    tls: true
-    udp: true
-    servername: max.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: max.ru
-      path: /xhttp
-      mode: packet-up
-    reality-opts:
-      public-key: -Oh5vf31ogtD0tsV3mM-cgjzyp-7Eo8_i9lINwX5N3M
-      short-id: 'a88bc6ece9d5c603'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (12)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (9)"
     type: vless
     server: api.video-upload.rutube.info
     port: 443
@@ -3168,37 +2390,7 @@ proxies:
       public-key: -AdhgMZeNHR2zAmGWa5peg7Ni0-e4IVMoSzydC9n7C4
       short-id: 'c05d4c564d2bcd'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (13)"
-    type: vless
-    server: vpnserver1775568265nl.kvncococ.org
-    port: 2083
-    uuid: a897c9a0-f0fd-43da-8d7e-4b58c3710c30
-    network: tcp
-    tls: true
-    udp: true
-    servername: google.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: m1WAiU3rCcjSS69fcO4MvaHNVN36NaCTmB2Amzjgclw
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (14)"
-    type: vless
-    server: 144.31.224.244
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: www.adobe.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ZzuHAb7PCPk1eR-B0qgaudyr0FlMaHiIFjNoZTlq9Ag
-      short-id: 'a1b2c3'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (15)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (10)"
     type: vless
     server: gw.itg.top
     port: 443
@@ -3214,25 +2406,7 @@ proxies:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: 'f8b4d2a6c1e9'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (16)"
-    type: vless
-    server: 185.23.19.88
-    port: 443
-    uuid: 1fb69be4-27c1-4a7a-a1c6-947ce37b9518
-    network: xhttp
-    tls: true
-    udp: true
-    servername: www.snapchat.com
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: www.snapchat.com
-      path: /xhttp
-      mode: packet-up
-    reality-opts:
-      public-key: j7RPmk_kbGt-D9AVdqlIYGrBuNO4lIpKb7xEeU4vkTA
-      short-id: '6634f8cb4802df2f'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (17)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (11)"
     type: vless
     server: kue.dataconflux.org
     port: 443
@@ -3249,7 +2423,7 @@ proxies:
       public-key: Z0PjtaAJ4LzAbb94UAKg9JZz0wynqqVO_-1F7PjvZVU
       short-id: '6ee901fbfd1c3518'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (18)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (12)"
     type: vless
     server: 194.61.120.214
     port: 443
@@ -3264,7 +2438,7 @@ proxies:
     reality-opts:
       public-key: tK34zUQC-KyBK3gIdH51TnOQx5pi7AbAoSZbRZlL8jw
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (19)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (13)"
     type: ss
     server: vpnserver1775568265nl.kvncococ.org
     port: 8388
@@ -3272,7 +2446,7 @@ proxies:
     password: YL8A17npzNoSslEy
     udp: true
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (20)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (14)"
     type: vless
     server: gg6.darknet.cv
     port: 8443
@@ -3288,7 +2462,7 @@ proxies:
       public-key: lvKFwMApPCKRQbrSthPjbke2gvEgHGoyBTLnlnRWXE4
       short-id: 'a2b223d4'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (21)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (15)"
     type: vless
     server: nl3.darknet.cv
     port: 8443
@@ -3304,7 +2478,7 @@ proxies:
       public-key: i41rzKyxBDMeHEXtS9gmv-5XfFwOSsy4yKddZtpC3Xw
       short-id: 'a2b223d4'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (22)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (16)"
     type: vless
     server: 194.87.151.117
     port: 2087
@@ -3320,7 +2494,7 @@ proxies:
       public-key: ythLos6gxS1GOuPPGJ1xUYtSpOySaDM1mu2nzLqIWjc
       short-id: '272206e85483a809'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (23)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (17)"
     type: vless
     server: cf-nl.h2von.com
     port: 8443
@@ -3337,7 +2511,7 @@ proxies:
       path: /xh-vless
       mode: auto
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (24)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (18)"
     type: vless
     server: nl2.darknet.cv
     port: 8443
@@ -3353,7 +2527,7 @@ proxies:
       public-key: 1USqFBRNJnzYUNxEJYWN9wZWD_PemOsF9w7UQ1U6lVE
       short-id: 'a2b223d4'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (25)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (19)"
     type: vless
     server: 151.240.151.13
     port: 443
@@ -3369,39 +2543,23 @@ proxies:
       public-key: ehwmHE6YZerBvwMkotJIWhZDjTpUfAmOSXQcziKPHm8
       short-id: 'ff49e86626a89639'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (26)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (20)"
     type: vless
-    server: 5.42.100.16
-    port: 2087
-    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ythLos6gxS1GOuPPGJ1xUYtSpOySaDM1mu2nzLqIWjc
-      short-id: 'a4077e915d0cd15a'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (27)"
-    type: vless
-    server: nl4.anoninet.online
+    server: free-ne.moscow-neversleep.digital
     port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
+    uuid: 864e0acb-84fc-4b82-938e-a73dbb9dc53d
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: nl4.anoninet.online
+    servername: free-us.moscow-neversleep.digital
     client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: Ktc_O8qhijRKDaaGaVvBGjHD6NM-ib65Ejy21CyKVUc
-      short-id: '2ca9859e38dc3334'
+      public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
+      short-id: '1ed136481e0ede74'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (28)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (21)"
     type: vless
     server: nl.chocolatemango.live
     port: 8443
@@ -3414,7 +2572,7 @@ proxies:
     client-fingerprint: chrome
     packet-encoding: xudp
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (29)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (22)"
     type: vless
     server: 45.67.136.92
     port: 443
@@ -3432,7 +2590,7 @@ proxies:
       public-key: wceUB4AAxfhwbXco9Acb3CQOxvBPO7oDEPOMyZAaGxM
       short-id: '63'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (30)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (23)"
     type: vless
     server: vpnserver1775568265nl.kvncococ.org
     port: 9443
@@ -3449,23 +2607,7 @@ proxies:
       public-key: m1WAiU3rCcjSS69fcO4MvaHNVN36NaCTmB2Amzjgclw
       short-id: '913c64b95e56c59f'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (31)"
-    type: vless
-    server: 185.169.107.234
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: 8ym5OCYNq4-sXZR2xVY1mdJvdQb9IjmRMBBPNVSVsFw
-      short-id: 'e443e4d91307ffca'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (32)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (24)"
     type: vless
     server: 72.56.96.4
     port: 443
@@ -3480,23 +2622,7 @@ proxies:
       public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
       short-id: 'b386f9a0efb1cec3'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (33)"
-    type: vless
-    server: nl2.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: nl2.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: p4pit-SvGh7w1fqen2tcXQPOJoT6wgr8PQjwLdhrnjI
-      short-id: '1c59b964704aec92'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (34)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (25)"
     type: vless
     server: vpnserver1775568265nl.kvncococ.org
     port: 8443
@@ -3511,7 +2637,7 @@ proxies:
       public-key: m1WAiU3rCcjSS69fcO4MvaHNVN36NaCTmB2Amzjgclw
       short-id: '5f5e8dbabacda5bf'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (35)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (26)"
     type: trojan
     server: vpnserver1775568265nl.kvncococ.org
     port: 2097
@@ -3519,7 +2645,7 @@ proxies:
     udp: true
     sni: vpnserver1775568265nl.kvncococ.org
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (36)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (27)"
     type: vless
     server: 144.31.30.69
     port: 443
@@ -3535,7 +2661,7 @@ proxies:
       public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc
       short-id: '6ba85179e30d4fc2'
 
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (37)"
+  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (28)"
     type: vless
     server: 90.156.226.72
     port: 443
@@ -3550,22 +2676,6 @@ proxies:
     reality-opts:
       public-key: 1W9KjC45nMKq-n1I4cOt4rpTLchP-TE7hK2X3mlt7xI
       short-id: '5413162ed2f32711'
-
-  - name: "🇳🇱 PREMIUM Нидерланды (Netherlands) (38)"
-    type: vless
-    server: free-ne.moscow-neversleep.digital
-    port: 443
-    uuid: 864e0acb-84fc-4b82-938e-a73dbb9dc53d
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: free-us.moscow-neversleep.digital
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: zYNnGVEkMFCUR_9NcYeaXfm9A_L-PP6iG2sIIST6S0M
-      short-id: '1ed136481e0ede74'
 
   - name: "🇬🇷 PREMIUM Греция (Greece) (1)"
     type: vless
@@ -3678,22 +2788,6 @@ proxies:
 
   - name: "🇪🇸 PREMIUM Испания (Spain) (1)"
     type: vless
-    server: es.darknet.cv
-    port: 8443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: e3jvco8JrhVmxoivg-XFO8q82mA7kE42FET0hQBhlns
-      short-id: 'a2b223d4'
-
-  - name: "🇪🇸 PREMIUM Испания (Spain) (2)"
-    type: vless
     server: gw.itg.top
     port: 443
     uuid: 97c04f74-3b0e-0007-90af-9fb36b8701d9
@@ -3707,6 +2801,22 @@ proxies:
     reality-opts:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: 'f8b4d2a6c1e9'
+
+  - name: "🇪🇸 PREMIUM Испания (Spain) (2)"
+    type: vless
+    server: es.darknet.cv
+    port: 8443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: e3jvco8JrhVmxoivg-XFO8q82mA7kE42FET0hQBhlns
+      short-id: 'a2b223d4'
 
   - name: "🇵🇹 PREMIUM Португалия (Portugal)"
     type: vless
@@ -3725,28 +2835,14 @@ proxies:
       short-id: 'c5f1e8'
 
   - name: "🇹🇷 PREMIUM Турция (Turkey) (1)"
-    type: vless
+    type: trojan
     server: server99-tr.kvnfreetest.uk
-    port: 8443
-    uuid: aa376d06-03f6-442e-9573-3236c987d25c
-    network: tcp
-    tls: true
+    port: 2097
+    password: qOwzoLNWX6TlrGfb
     udp: true
-    servername: discord.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: brciXJ5MurnyAIWpq5hhB583WpHM3-SWobb98IV92hI
+    sni: server99-tr.kvnfreetest.uk
 
   - name: "🇹🇷 PREMIUM Турция (Turkey) (2)"
-    type: ss
-    server: server99-tr.kvnfreetest.uk
-    port: 8388
-    cipher: chacha20-ietf-poly1305
-    password: ue9IqvQVTor7daf0
-    udp: true
-
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
     type: vless
     server: server99-tr.kvnfreetest.uk
     port: 9443
@@ -3763,13 +2859,27 @@ proxies:
       public-key: brciXJ5MurnyAIWpq5hhB583WpHM3-SWobb98IV92hI
       short-id: 'b78d049b68f8010a'
 
-  - name: "🇹🇷 PREMIUM Турция (Turkey) (4)"
-    type: trojan
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (3)"
+    type: ss
     server: server99-tr.kvnfreetest.uk
-    port: 2097
-    password: qOwzoLNWX6TlrGfb
+    port: 8388
+    cipher: chacha20-ietf-poly1305
+    password: ue9IqvQVTor7daf0
     udp: true
-    sni: server99-tr.kvnfreetest.uk
+
+  - name: "🇹🇷 PREMIUM Турция (Turkey) (4)"
+    type: vless
+    server: server99-tr.kvnfreetest.uk
+    port: 8443
+    uuid: aa376d06-03f6-442e-9573-3236c987d25c
+    network: tcp
+    tls: true
+    udp: true
+    servername: discord.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: brciXJ5MurnyAIWpq5hhB583WpHM3-SWobb98IV92hI
 
   - name: "🇹🇷 PREMIUM Турция (Turkey) (5)"
     type: vless
@@ -3868,22 +2978,6 @@ proxies:
 
   - name: "🇨🇦 PREMIUM Канада (Canada) (1)"
     type: vless
-    server: ca.darknet.cv
-    port: 443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: -_pmpMGBj_aALhO8BV_yTGZL_uXJ9VlslDlPPAWxlgE
-      short-id: 'a1b323d4'
-
-  - name: "🇨🇦 PREMIUM Канада (Canada) (2)"
-    type: vless
     server: gw.itg.top
     port: 443
     uuid: 97c04f74-3b0e-000a-90af-9fb36b8701d9
@@ -3898,22 +2992,55 @@ proxies:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: '2e6a8c4f1b'
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (1)"
+  - name: "🇨🇦 PREMIUM Канада (Canada) (2)"
     type: vless
-    server: us.unlockregion.top
+    server: ca.darknet.cv
     port: 443
-    uuid: 3e1a6609-4acb-11f1-90ed-525400a7149e
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: cloudcdn-m9-15.cdn.yandex.net
-    client-fingerprint: randomized
+    servername: cloudflare.com
+    client-fingerprint: chrome
     packet-encoding: xudp
     reality-opts:
-      public-key: _rpOMKjM0nkFCJay0V5SuvhWVHQkr51YJbSyY2Q0gA4
+      public-key: -_pmpMGBj_aALhO8BV_yTGZL_uXJ9VlslDlPPAWxlgE
+      short-id: 'a1b323d4'
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (1)"
+    type: vless
+    server: 77.233.223.79
+    port: 2087
+    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: vk.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: w-qF3J_1SCIkBaBrrc5F3WclBDoho126-am4xZZcrhI
+      short-id: '292995d5b653eded'
 
   - name: "🇺🇸 PREMIUM Америка (USA) (2)"
+    type: vless
+    server: us2.darknet.cv
+    port: 8443
+    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    network: tcp
+    tls: true
+    udp: true
+    flow: xtls-rprx-vision
+    servername: cloudflare.com
+    client-fingerprint: chrome
+    packet-encoding: xudp
+    reality-opts:
+      public-key: Aj9c1Y3ioes2icf2GKUTQSqvm_RomfnT5bQ5ZMm5x24
+      short-id: 'a2b223d4'
+
+  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
     type: vless
     server: gw.itg.top
     port: 443
@@ -3929,7 +3056,7 @@ proxies:
       public-key: sFLzMgfYfm-tvYiN_4ZIAnlZ0KOhbY_87UPiLr7dVAM
       short-id: 'e3b9'
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (3)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
     type: vless
     server: usa.ytshield.online
     port: 443
@@ -3945,7 +3072,7 @@ proxies:
       public-key: wmQ6QLoWzHE71GtLnWUAsfXOj4joFuYRk573wtjiHUA
       short-id: '0f80be645c71aa21'
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (4)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
     type: vless
     server: 109.196.98.205
     port: 443
@@ -3961,7 +3088,7 @@ proxies:
       public-key: uIqBaMLxnJiQX5gqZUMRbxm-s51m4NcGxjyYuV89RQ0
       short-id: '96de6ee5be6e5f13'
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (5)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
     type: vless
     server: premium-us.geodema.network
     port: 443
@@ -3976,7 +3103,7 @@ proxies:
     reality-opts:
       public-key: EltWI8AOqkN8lMjRycweRRoFRah5hu6xiKtgBmQOdE8
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (6)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (7)"
     type: vless
     server: air.dataconflux.org
     port: 443
@@ -3992,7 +3119,7 @@ proxies:
       public-key: qyCZhJk0BEa91LN7Blf2MCznL7qpz6wcujaswYVN82c
       short-id: '6ee901fbfd1c3518'
 
-  - name: "🇺🇸 PREMIUM Америка (USA) (7)"
+  - name: "🇺🇸 PREMIUM Америка (USA) (8)"
     type: vless
     server: us.maxonelove.com
     port: 8444
@@ -4007,22 +3134,6 @@ proxies:
     reality-opts:
       public-key: 0avHPgwKcQEgcKbhMAoO6NR8vj90Gw2NGzWqg37cMkQ
       short-id: '22fc0bf5c3da61c6'
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (8)"
-    type: vless
-    server: 45.39.230.136
-    port: 443
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: kinopoisk.ru
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: mhvT7-nUtXaWrw1Xf7JmBsB0Twj4-alH73mgsN4PZz0
-      short-id: '29f847c151f96091'
 
   - name: "🇺🇸 PREMIUM Америка (USA) (9)"
     type: vless
@@ -4042,88 +3153,20 @@ proxies:
 
   - name: "🇺🇸 PREMIUM Америка (USA) (10)"
     type: vless
-    server: us2.darknet.cv
-    port: 8443
-    uuid: ac10bfbe-c015-4903-bd7a-d2ea04b40674
+    server: us.unlockregion.top
+    port: 443
+    uuid: 3e1a6609-4acb-11f1-90ed-525400a7149e
     network: tcp
     tls: true
     udp: true
     flow: xtls-rprx-vision
-    servername: cloudflare.com
-    client-fingerprint: chrome
+    servername: cloudcdn-m9-15.cdn.yandex.net
+    client-fingerprint: randomized
     packet-encoding: xudp
     reality-opts:
-      public-key: Aj9c1Y3ioes2icf2GKUTQSqvm_RomfnT5bQ5ZMm5x24
-      short-id: 'a2b223d4'
+      public-key: _rpOMKjM0nkFCJay0V5SuvhWVHQkr51YJbSyY2Q0gA4
 
   - name: "🇺🇸 PREMIUM Америка (USA) (11)"
-    type: vless
-    server: 45.39.230.136
-    port: 2053
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: grpc
-    tls: true
-    udp: true
-    servername: api-maps.yandex.ru
-    client-fingerprint: chrome
-    grpc-opts:
-      grpc-service-name: ApiMapsYandex
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w92oaftiqLJOMFy47hUWBixZEKwWJpHF4apaFTrh71w
-      short-id: 'a1b2c3d4e5f60718'
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (12)"
-    type: vless
-    server: 45.39.230.136
-    port: 2054
-    uuid: e4ec1e7d-d5ef-46a1-8d06-21fcd664fa64
-    network: xhttp
-    tls: true
-    udp: true
-    servername: api.vk.ru
-    client-fingerprint: chrome
-    xhttp-opts:
-      host: api.vk.ru
-      path: /api/v1/feed
-      mode: auto
-    reality-opts:
-      public-key: SWs-hbcCleuO_BzRPnWBxVOiQWPpMEgAQi_kH_zgyAo
-      short-id: '29f847c151f96091'
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (13)"
-    type: vless
-    server: us.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: us.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: ZUxsQWB6pAJI6KBhYmNc6stjG8tsk30NaDSRPrI5Klg
-      short-id: '5ed44bd9031bbb8b'
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (14)"
-    type: vless
-    server: 77.233.223.79
-    port: 2087
-    uuid: 2f54a538-4acf-11f1-b908-2e43ee42d829
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: vk.com
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: w-qF3J_1SCIkBaBrrc5F3WclBDoho126-am4xZZcrhI
-      short-id: '292995d5b653eded'
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (15)"
     type: vless
     server: 45.150.9.191
     port: 8091
@@ -4137,22 +3180,6 @@ proxies:
     reality-opts:
       public-key: KOAbLvS6pGFttUJftbMDGZ2AUnNDin4vk0bd3p_sRnA
       short-id: 'b386f9a0efb1cec3'
-
-  - name: "🇺🇸 PREMIUM Америка (USA) (16)"
-    type: vless
-    server: us1.anoninet.online
-    port: 443
-    uuid: ff48b458-d9ff-402d-98ff-23b6c875a235
-    network: tcp
-    tls: true
-    udp: true
-    flow: xtls-rprx-vision
-    servername: us1.anoninet.online
-    client-fingerprint: chrome
-    packet-encoding: xudp
-    reality-opts:
-      public-key: f3OmnS-B00pNcqxuDZD5pZ_jX7nhYt5tEaZMqoIZyUs
-      short-id: 'df70f5d928fa0b9a'
 
   - name: "🇧🇷 PREMIUM Бразилия (Brazil) (1)"
     type: vless
@@ -4576,10 +3603,6 @@ proxy-groups:
       - "🇷🇺 PREMIUM Россия (Russian) (8)"
       - "🇷🇺 PREMIUM Россия (Russian) (9)"
       - "🇷🇺 PREMIUM Россия (Russian) (10)"
-      - "🇷🇺 PREMIUM Россия (Russian) (11)"
-      - "🇷🇺 PREMIUM Россия (Russian) (12)"
-      - "🇷🇺 PREMIUM Россия (Russian) (13)"
-      - "🇷🇺 PREMIUM Россия (Russian) (14)"
       - "🇧🇾 PREMIUM Беларусь (Belarus)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (1)"
       - "🇰🇿 PREMIUM Казахстан (Kazakhstan) (2)"
@@ -4593,14 +3616,9 @@ proxy-groups:
       - "🇱🇻 PREMIUM Латвия (Latvia) (4)"
       - "🇱🇻 PREMIUM Латвия (Latvia) (5)"
       - "🇱🇻 PREMIUM Латвия (Latvia) (6)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (7)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (8)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (9)"
-      - "🇱🇻 PREMIUM Латвия (Latvia) (10)"
       - "🇪🇪 PREMIUM Эстония (Estonia) (1)"
       - "🇪🇪 PREMIUM Эстония (Estonia) (2)"
       - "🇪🇪 PREMIUM Эстония (Estonia) (3)"
-      - "🇪🇪 PREMIUM Эстония (Estonia) (4)"
       - "🇵🇱 PREMIUM Польша (Poland) (1)"
       - "🇵🇱 PREMIUM Польша (Poland) (2)"
       - "🇵🇱 PREMIUM Польша (Poland) (3)"
@@ -4612,29 +3630,19 @@ proxy-groups:
       - "🇵🇱 PREMIUM Польша (Poland) (9)"
       - "🇵🇱 PREMIUM Польша (Poland) (10)"
       - "🇵🇱 PREMIUM Польша (Poland) (11)"
-      - "🇵🇱 PREMIUM Польша (Poland) (12)"
-      - "🇵🇱 PREMIUM Польша (Poland) (13)"
-      - "🇵🇱 PREMIUM Польша (Poland) (14)"
-      - "🇵🇱 PREMIUM Польша (Poland) (15)"
-      - "🇵🇱 PREMIUM Польша (Poland) (16)"
-      - "🇵🇱 PREMIUM Польша (Poland) (17)"
-      - "🇵🇱 PREMIUM Польша (Poland) (18)"
       - "🇭🇺 PREMIUM Венгрия (Hungary) (1)"
       - "🇭🇺 PREMIUM Венгрия (Hungary) (2)"
       - "🇭🇺 PREMIUM Венгрия (Hungary) (3)"
       - "🇨🇿 PREMIUM Чехия (Czech Republic) (1)"
       - "🇨🇿 PREMIUM Чехия (Czech Republic) (2)"
-      - "🇨🇿 PREMIUM Чехия (Czech Republic) (3)"
       - "🇭🇷 PREMIUM Хорватия (Croatia)"
       - "🇦🇱 PREMIUM Албания (Albania) (1)"
       - "🇦🇱 PREMIUM Албания (Albania) (2)"
       - "🇦🇱 PREMIUM Албания (Albania) (3)"
       - "🇦🇱 PREMIUM Албания (Albania) (4)"
       - "🇷🇸 PREMIUM Сербия (Serbia)"
-      - "🇸🇰 PREMIUM Словакия (Slovakia)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (1)"
       - "🇧🇬 PREMIUM Болгария (Bulgaria) (2)"
-      - "🇧🇬 PREMIUM Болгария (Bulgaria) (3)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (1)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (2)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (3)"
@@ -4652,10 +3660,6 @@ proxy-groups:
       - "🇫🇮 PREMIUM Финляндия (Finland) (15)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (16)"
       - "🇫🇮 PREMIUM Финляндия (Finland) (17)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (18)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (19)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (20)"
-      - "🇫🇮 PREMIUM Финляндия (Finland) (21)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (1)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (2)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (3)"
@@ -4665,10 +3669,6 @@ proxy-groups:
       - "🇸🇪 PREMIUM Швеция (Sweden) (7)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (8)"
       - "🇸🇪 PREMIUM Швеция (Sweden) (9)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (10)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (11)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (12)"
-      - "🇸🇪 PREMIUM Швеция (Sweden) (13)"
       - "🇳🇴 PREMIUM Норвегия (Norway) (1)"
       - "🇳🇴 PREMIUM Норвегия (Norway) (2)"
       - "🇩🇰 PREMIUM Дания (Denmark) (1)"
@@ -4677,7 +3677,6 @@ proxy-groups:
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (1)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (2)"
       - "🇬🇧 PREMIUM Великобритания (United Kingdom) (3)"
-      - "🇬🇧 PREMIUM Великобритания (United Kingdom) (4)"
       - "🇮🇪 PREMIUM Ирландия (Ireland)"
       - "🇧🇪 PREMIUM Бельгия (Belgium) (1)"
       - "🇧🇪 PREMIUM Бельгия (Belgium) (2)"
@@ -4687,21 +3686,14 @@ proxy-groups:
       - "🇨🇭 PREMIUM Швейцария (Switzerland) (2)"
       - "🇨🇭 PREMIUM Швейцария (Switzerland) (3)"
       - "🇨🇭 PREMIUM Швейцария (Switzerland) (4)"
-      - "🇨🇭 PREMIUM Швейцария (Switzerland) (5)"
       - "🇫🇷 PREMIUM Франция (France) (1)"
       - "🇫🇷 PREMIUM Франция (France) (2)"
       - "🇫🇷 PREMIUM Франция (France) (3)"
       - "🇫🇷 PREMIUM Франция (France) (4)"
       - "🇫🇷 PREMIUM Франция (France) (5)"
-      - "🇫🇷 PREMIUM Франция (France) (6)"
-      - "🇫🇷 PREMIUM Франция (France) (7)"
-      - "🇫🇷 PREMIUM Франция (France) (8)"
       - "🇦🇹 PREMIUM Австрия (Austria) (1)"
       - "🇦🇹 PREMIUM Австрия (Austria) (2)"
       - "🇦🇹 PREMIUM Австрия (Austria) (3)"
-      - "🇦🇹 PREMIUM Австрия (Austria) (4)"
-      - "🇦🇹 PREMIUM Австрия (Austria) (5)"
-      - "🇦🇹 PREMIUM Австрия (Austria) (6)"
       - "🇩🇪 PREMIUM Германия (Germany) (1)"
       - "🇩🇪 PREMIUM Германия (Germany) (2)"
       - "🇩🇪 PREMIUM Германия (Germany) (3)"
@@ -4724,15 +3716,6 @@ proxy-groups:
       - "🇩🇪 PREMIUM Германия (Germany) (20)"
       - "🇩🇪 PREMIUM Германия (Germany) (21)"
       - "🇩🇪 PREMIUM Германия (Germany) (22)"
-      - "🇩🇪 PREMIUM Германия (Germany) (23)"
-      - "🇩🇪 PREMIUM Германия (Germany) (24)"
-      - "🇩🇪 PREMIUM Германия (Germany) (25)"
-      - "🇩🇪 PREMIUM Германия (Germany) (26)"
-      - "🇩🇪 PREMIUM Германия (Germany) (27)"
-      - "🇩🇪 PREMIUM Германия (Germany) (28)"
-      - "🇩🇪 PREMIUM Германия (Germany) (29)"
-      - "🇩🇪 PREMIUM Германия (Germany) (30)"
-      - "🇩🇪 PREMIUM Германия (Germany) (31)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (1)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (2)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (3)"
@@ -4761,16 +3744,6 @@ proxy-groups:
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (26)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (27)"
       - "🇳🇱 PREMIUM Нидерланды (Netherlands) (28)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (29)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (30)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (31)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (32)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (33)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (34)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (35)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (36)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (37)"
-      - "🇳🇱 PREMIUM Нидерланды (Netherlands) (38)"
       - "🇬🇷 PREMIUM Греция (Greece) (1)"
       - "🇬🇷 PREMIUM Греция (Greece) (2)"
       - "🇲🇰 PREMIUM Северная Македония (North Macedonia)"
@@ -4804,11 +3777,6 @@ proxy-groups:
       - "🇺🇸 PREMIUM Америка (USA) (9)"
       - "🇺🇸 PREMIUM Америка (USA) (10)"
       - "🇺🇸 PREMIUM Америка (USA) (11)"
-      - "🇺🇸 PREMIUM Америка (USA) (12)"
-      - "🇺🇸 PREMIUM Америка (USA) (13)"
-      - "🇺🇸 PREMIUM Америка (USA) (14)"
-      - "🇺🇸 PREMIUM Америка (USA) (15)"
-      - "🇺🇸 PREMIUM Америка (USA) (16)"
       - "🇧🇷 PREMIUM Бразилия (Brazil) (1)"
       - "🇧🇷 PREMIUM Бразилия (Brazil) (2)"
       - "🇦🇷 PREMIUM Аргентина (Argentina)"
